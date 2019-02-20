@@ -7,4 +7,5 @@
   (lib (name SY7208)(type Legacy)(uri D:/Download/Allwinner_V3s/OpenBridge/OB/SY7208.lib)(options "")(descr ""))
   (lib (name OB-rescue)(type Legacy)(uri ${KIPRJMOD}/OB-rescue.lib)(options "")(descr ""))
   (lib (name ob)(type Legacy)(uri /home/crylog/project/SmartBridgeMicro/OB/ob.lib)(options "")(descr ""))
+  (lib (name EA3058)(type Legacy)(uri /home/crylog/project/SmartBridgeMicro/OB/EA3058.lib)(options "")(descr ""))
 )

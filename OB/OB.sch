@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -21,10 +21,12 @@ F0 "PMIC Power Battery" 50
 F1 "power.sch" 50
 $EndSheet
 $Sheet
-S 4400 1300 1500 850 
+S 3650 1300 1500 850 
 U 5BC231CE
 F0 "All V3s input output" 50
 F1 "io.sch" 50
+F2 "USB_D_N" B R 5150 1500 50 
+F3 "USB_D_P" B R 5150 1650 50 
 $EndSheet
 $Comp
 L Mechanical:MountingHole_Pad MH1
@@ -114,4 +116,10 @@ F 3 "" H 1400 5000 60  0000 C CNN
 	1    1400 5000
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 6600 1750 2100 2600
+U 5C7A02C5
+F0 "WIFI" 50
+F1 "WIFI.sch" 50
+$EndSheet
 $EndSCHEMATC
