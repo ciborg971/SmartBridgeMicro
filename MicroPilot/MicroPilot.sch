@@ -1,0 +1,93 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR?
+U 1 1 5C6ED8CD
+P 2100 1700
+F 0 "#PWR?" H 2100 1450 50  0001 C CNN
+F 1 "GND" V 2105 1572 50  0000 R CNN
+F 2 "" H 2100 1700 50  0001 C CNN
+F 3 "" H 2100 1700 50  0001 C CNN
+	1    2100 1700
+	0    1    1    0   
+$EndComp
+Text Label 2100 1800 2    50   ~ 0
+UART_SBC_RX
+Text Label 2100 1900 2    50   ~ 0
+UART_SBC_TX
+NoConn ~ 2100 2000
+NoConn ~ 2100 2100
+Text Label 2100 2200 2    50   ~ 0
+PWM_SBC_0
+Text Label 2100 2300 2    50   ~ 0
+PWM_SBC_1
+$Comp
+L Connector:Conn_01x10_Female J?
+U 1 1 5C6EDBA3
+P 2300 1800
+F 0 "J?" H 2327 1776 50  0000 L CNN
+F 1 "Header" H 2327 1685 50  0000 L CNN
+F 2 "" H 2300 1800 50  0001 C CNN
+F 3 "~" H 2300 1800 50  0001 C CNN
+	1    2300 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+BATT #PWR?
+U 1 1 5C6EDCD1
+P 2100 1600
+F 0 "#PWR?" H 2100 1450 50  0001 C CNN
+F 1 "+BATT" V 2115 1727 50  0000 L CNN
+F 2 "" H 2100 1600 50  0001 C CNN
+F 3 "" H 2100 1600 50  0001 C CNN
+	1    2100 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C6EDD25
+P 2100 1500
+F 0 "#PWR?" H 2100 1250 50  0001 C CNN
+F 1 "GND" V 2105 1372 50  0000 R CNN
+F 2 "" H 2100 1500 50  0001 C CNN
+F 3 "" H 2100 1500 50  0001 C CNN
+	1    2100 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C6EDD8A
+P 2100 1400
+F 0 "#PWR?" H 2100 1250 50  0001 C CNN
+F 1 "+3.3V" V 2115 1528 50  0000 L CNN
+F 2 "" H 2100 1400 50  0001 C CNN
+F 3 "" H 2100 1400 50  0001 C CNN
+	1    2100 1400
+	0    -1   -1   0   
+$EndComp
+$Sheet
+S 7900 800  1350 1900
+U 5C6EDE9F
+F0 "Power" 50
+F1 "Power.sch" 50
+$EndSheet
+$Sheet
+S 7900 3850 1350 1600
+U 5C6EDEFA
+F0 "FlightControler" 50
+F1 "FC.sch" 50
+$EndSheet
+$EndSCHEMATC

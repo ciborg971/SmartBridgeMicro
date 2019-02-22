@@ -911,45 +911,45 @@ Text Label 3500 4150 0    50   ~ 0
 PWM0
 Text Label 3500 4350 0    50   ~ 0
 PWM1
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5C7A3797
-P 5750 6250
-F 0 "TP?" V 5704 6437 50  0000 L CNN
-F 1 "USB_ID" V 5795 6437 50  0000 L CNN
-F 2 "" H 5950 6250 50  0001 C CNN
-F 3 "~" H 5950 6250 50  0001 C CNN
-	1    5750 6250
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5C7A38A7
-P 5750 6450
-F 0 "TP?" V 5704 6637 50  0000 L CNN
-F 1 "USB_DN" V 5795 6637 50  0000 L CNN
-F 2 "" H 5950 6450 50  0001 C CNN
-F 3 "~" H 5950 6450 50  0001 C CNN
-	1    5750 6450
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5C7A422A
-P 5750 6650
-F 0 "TP?" V 5704 6837 50  0000 L CNN
-F 1 "USB_DP" V 5795 6837 50  0000 L CNN
-F 2 "" H 5950 6650 50  0001 C CNN
-F 3 "~" H 5950 6650 50  0001 C CNN
-	1    5750 6650
-	0    1    1    0   
-$EndComp
-Text HLabel 5750 6450 0    50   BiDi ~ 0
+Text HLabel 5750 6350 0    50   BiDi ~ 0
 USB_D_N
-Text HLabel 5750 6650 0    50   BiDi ~ 0
+Text HLabel 5750 6450 0    50   BiDi ~ 0
 USB_D_P
 Text HLabel 8600 5300 0    50   BiDi ~ 0
 USB_D_N
 Text HLabel 8600 5500 0    50   BiDi ~ 0
 USB_D_P
+$Comp
+L Connector:Conn_01x05_Female J?
+U 1 1 5C6DACA7
+P 5950 6450
+F 0 "J?" H 5977 6476 50  0000 L CNN
+F 1 "PROG" H 5977 6385 50  0000 L CNN
+F 2 "" H 5950 6450 50  0001 C CNN
+F 3 "~" H 5950 6450 50  0001 C CNN
+	1    5950 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C6DD5A1
+P 5750 6650
+F 0 "#PWR?" H 5750 6400 50  0001 C CNN
+F 1 "GND" V 5755 6522 50  0000 R CNN
+F 2 "" H 5750 6650 50  0001 C CNN
+F 3 "" H 5750 6650 50  0001 C CNN
+	1    5750 6650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+BATT #PWR?
+U 1 1 5C6DD5A7
+P 5750 6550
+F 0 "#PWR?" H 5750 6400 50  0001 C CNN
+F 1 "+BATT" V 5765 6677 50  0000 L CNN
+F 2 "" H 5750 6550 50  0001 C CNN
+F 3 "" H 5750 6550 50  0001 C CNN
+	1    5750 6550
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
