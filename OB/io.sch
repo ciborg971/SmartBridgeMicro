@@ -480,9 +480,9 @@ Text Label 3550 5000 0    50   ~ 0
 UART0_RX
 Text Label 3550 5100 0    50   ~ 0
 UART0_TX
-Text Label 5800 2850 2    50   ~ 0
+Text Label 5800 3050 2    50   ~ 0
 UART0_RX
-Text Label 5800 2950 2    50   ~ 0
+Text Label 5800 3150 2    50   ~ 0
 UART0_TX
 $Comp
 L Device:Crystal_GND23 Y1
@@ -671,9 +671,9 @@ Text Label 5600 2200 2    50   ~ 0
 I2C0_CLK
 Text Label 5600 2300 2    50   ~ 0
 I2C0_SDA
-Text Label 5800 3050 2    50   ~ 0
+Text Label 5800 3250 2    50   ~ 0
 I2C0_CLK
-Text Label 5800 3150 2    50   ~ 0
+Text Label 5800 3350 2    50   ~ 0
 I2C0_SDA
 Text Label 3500 4550 0    50   ~ 0
 I2C0_CLK
@@ -882,12 +882,12 @@ $EndComp
 $Comp
 L power:+BATT #PWR?
 U 1 1 5C78E0EE
-P 5800 2650
-F 0 "#PWR?" H 5800 2500 50  0001 C CNN
-F 1 "+BATT" V 5815 2777 50  0000 L CNN
-F 2 "" H 5800 2650 50  0001 C CNN
-F 3 "" H 5800 2650 50  0001 C CNN
-	1    5800 2650
+P 5800 2850
+F 0 "#PWR?" H 5800 2700 50  0001 C CNN
+F 1 "+BATT" V 5815 2977 50  0000 L CNN
+F 2 "" H 5800 2850 50  0001 C CNN
+F 3 "" H 5800 2850 50  0001 C CNN
+	1    5800 2850
 	0    -1   -1   0   
 $EndComp
 Text Label 5750 6250 2    50   ~ 0
@@ -903,14 +903,6 @@ F 3 "~" H 6000 2950 50  0001 C CNN
 	1    6000 2950
 	1    0    0    -1  
 $EndComp
-Text Label 5800 3250 2    50   ~ 0
-PWM0
-Text Label 5800 3350 2    50   ~ 0
-PWM1
-Text Label 3500 4150 0    50   ~ 0
-PWM0
-Text Label 3500 4350 0    50   ~ 0
-PWM1
 Text HLabel 5750 6350 0    50   BiDi ~ 0
 USB_D_N
 Text HLabel 5750 6450 0    50   BiDi ~ 0
@@ -950,6 +942,30 @@ F 1 "+BATT" V 5765 6677 50  0000 L CNN
 F 2 "" H 5750 6550 50  0001 C CNN
 F 3 "" H 5750 6550 50  0001 C CNN
 	1    5750 6550
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 3500 4150
+NoConn ~ 3500 4350
+$Comp
+L power:GND #PWR?
+U 1 1 5C759BF5
+P 5800 2950
+F 0 "#PWR?" H 5800 2700 50  0001 C CNN
+F 1 "GND" V 5805 2822 50  0000 R CNN
+F 2 "" H 5800 2950 50  0001 C CNN
+F 3 "" H 5800 2950 50  0001 C CNN
+	1    5800 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C75AFA4
+P 5800 2650
+F 0 "#PWR?" H 5800 2500 50  0001 C CNN
+F 1 "+3.3V" V 5815 2778 50  0000 L CNN
+F 2 "" H 5800 2650 50  0001 C CNN
+F 3 "" H 5800 2650 50  0001 C CNN
+	1    5800 2650
 	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
