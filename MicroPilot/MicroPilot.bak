@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:MicroPilot-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -29,22 +30,6 @@ UART_SBC_RX
 Text Label 2100 1900 2    50   ~ 0
 UART_SBC_TX
 NoConn ~ 2100 2000
-NoConn ~ 2100 2100
-Text Label 2100 2200 2    50   ~ 0
-PWM_SBC_0
-Text Label 2100 2300 2    50   ~ 0
-PWM_SBC_1
-$Comp
-L Connector:Conn_01x10_Female J?
-U 1 1 5C6EDBA3
-P 2300 1800
-F 0 "J?" H 2327 1776 50  0000 L CNN
-F 1 "Header" H 2327 1685 50  0000 L CNN
-F 2 "" H 2300 1800 50  0001 C CNN
-F 3 "~" H 2300 1800 50  0001 C CNN
-	1    2300 1800
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+BATT #PWR?
 U 1 1 5C6EDCD1
@@ -90,4 +75,16 @@ U 5C6EDEFA
 F0 "FlightControler" 50
 F1 "FC.sch" 50
 $EndSheet
+$Comp
+L Connector:Conn_01x08_Female J?
+U 1 1 5C718E23
+P 2300 1700
+F 0 "J?" H 2327 1676 50  0000 L CNN
+F 1 "Header" H 2327 1585 50  0000 L CNN
+F 2 "" H 2300 1700 50  0001 C CNN
+F 3 "~" H 2300 1700 50  0001 C CNN
+	1    2300 1700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2100 2100
 $EndSCHEMATC
