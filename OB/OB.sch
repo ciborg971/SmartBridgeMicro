@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:OB-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -34,7 +34,7 @@ U 1 1 5BC1A07F
 P 1400 3500
 F 0 "MH1" H 1500 3551 50  0000 L CNN
 F 1 "MountingHole_Pad" H 1500 3460 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.5mm_Pad_Via" H 1400 3500 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 1400 3500 50  0001 C CNN
 F 3 "~" H 1400 3500 50  0001 C CNN
 	1    1400 3500
 	1    0    0    -1  
@@ -45,7 +45,7 @@ U 1 1 5BC1A0DB
 P 1400 4000
 F 0 "MH2" H 1500 4051 50  0000 L CNN
 F 1 "MountingHole_Pad" H 1500 3960 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.5mm_Pad_Via" H 1400 4000 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 1400 4000 50  0001 C CNN
 F 3 "~" H 1400 4000 50  0001 C CNN
 	1    1400 4000
 	1    0    0    -1  
@@ -56,7 +56,7 @@ U 1 1 5BC1A147
 P 1400 4450
 F 0 "MH3" H 1500 4501 50  0000 L CNN
 F 1 "MountingHole_Pad" H 1500 4410 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.5mm_Pad_Via" H 1400 4450 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 1400 4450 50  0001 C CNN
 F 3 "~" H 1400 4450 50  0001 C CNN
 	1    1400 4450
 	1    0    0    -1  
@@ -67,7 +67,7 @@ U 1 1 5BC1A198
 P 1400 4900
 F 0 "MH4" H 1500 4951 50  0000 L CNN
 F 1 "MountingHole_Pad" H 1500 4860 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.5mm_Pad_Via" H 1400 4900 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 1400 4900 50  0001 C CNN
 F 3 "~" H 1400 4900 50  0001 C CNN
 	1    1400 4900
 	1    0    0    -1  
@@ -124,8 +124,38 @@ F1 "WIFI.sch" 50
 F2 "USB_D_P" B L 6500 1650 50 
 F3 "USB_D_N" B L 6500 1500 50 
 $EndSheet
+$Comp
+L Device:R R?
+U 1 1 5CA6D3D1
+P 5850 1500
+AR Path="/5C7A02C5/5CA6D3D1" Ref="R?"  Part="1" 
+AR Path="/5CA6D3D1" Ref="R?"  Part="1" 
+F 0 "R?" V 5900 1300 50  0000 C CNN
+F 1 "0" V 5850 1450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5780 1500 50  0001 C CNN
+F 3 "~" H 5850 1500 50  0001 C CNN
+	1    5850 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CA6D3D8
+P 5850 1650
+AR Path="/5C7A02C5/5CA6D3D8" Ref="R?"  Part="1" 
+AR Path="/5CA6D3D8" Ref="R?"  Part="1" 
+F 0 "R?" V 5900 1450 50  0000 C CNN
+F 1 "0" V 5850 1600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5780 1650 50  0001 C CNN
+F 3 "~" H 5850 1650 50  0001 C CNN
+	1    5850 1650
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	5150 1500 6500 1500
+	6000 1500 6500 1500
 Wire Wire Line
-	6500 1650 5150 1650
+	6500 1650 6000 1650
+Wire Wire Line
+	5700 1650 5150 1650
+Wire Wire Line
+	5150 1500 5700 1500
 $EndSCHEMATC

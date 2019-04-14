@@ -1,0 +1,744 @@
+EESchema Schematic File Version 4
+LIBS:OB_ESP32-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L OB-rescue:V3S-v3s U1
+U 1 1 5BA77353
+P 9850 1350
+F 0 "U1" H 9900 1400 50  0001 C CNN
+F 1 "V3S" H 9850 1350 50  0001 C CNN
+F 2 "V3s:LQFP-128_14x14mm_P0.4mm" H 9850 1350 50  0001 C CNN
+F 3 "" H 9850 1350 50  0001 C CNN
+	1    9850 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L OB-rescue:V3S-v3s U1
+U 4 1 5BA773CE
+P 9450 4050
+F 0 "U1" H 9500 4100 50  0001 C CNN
+F 1 "V3S" H 9450 4050 50  0001 C CNN
+F 2 "V3s:LQFP-128_14x14mm_P0.4mm" H 9450 4050 50  0001 C CNN
+F 3 "" H 9450 4050 50  0001 C CNN
+	4    9450 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L OB-rescue:V3S-v3s U1
+U 5 1 5BA773F7
+P 9600 5700
+F 0 "U1" H 9650 5750 50  0001 C CNN
+F 1 "V3S" H 9600 5700 50  0001 C CNN
+F 2 "V3s:LQFP-128_14x14mm_P0.4mm" H 9600 5700 50  0001 C CNN
+F 3 "" H 9600 5700 50  0001 C CNN
+	5    9600 5700
+	1    0    0    -1  
+$EndComp
+Text Label 3500 3150 0    50   ~ 0
+USB_ID
+$Comp
+L Device:R R30
+U 1 1 5BA790EF
+P 10750 6100
+F 0 "R30" V 10750 6100 50  0000 C CNN
+F 1 "6K 1%" V 10634 6100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 10680 6100 50  0001 C CNN
+F 3 "~" H 10750 6100 50  0001 C CNN
+	1    10750 6100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0170
+U 1 1 5BA79192
+P 10900 6100
+F 0 "#PWR0170" H 10900 5850 50  0001 C CNN
+F 1 "GND" V 10905 5972 50  0000 R CNN
+F 2 "" H 10900 6100 50  0001 C CNN
+F 3 "" H 10900 6100 50  0001 C CNN
+	1    10900 6100
+	0    -1   -1   0   
+$EndComp
+Text Label 3500 5750 0    50   ~ 0
+SPI_CS
+Text Label 3500 5350 0    50   ~ 0
+SPI_MISO
+Text Label 3500 5550 0    50   ~ 0
+SPI_CLK
+Text Label 3500 5950 0    50   ~ 0
+SPI_MOSI
+Text Label 6850 1800 2    50   ~ 0
+SPI_CS
+Text Label 6850 2000 2    50   ~ 0
+SPI_MISO
+Text Label 6850 1900 2    50   ~ 0
+SPI_CLK
+Text Label 6850 1700 2    50   ~ 0
+SPI_MOSI
+$Comp
+L Device:R R29
+U 1 1 5BA7F496
+P 8750 3600
+F 0 "R29" H 8820 3646 50  0000 L CNN
+F 1 "2K" H 8820 3555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 8680 3600 50  0001 C CNN
+F 3 "~" H 8750 3600 50  0001 C CNN
+	1    8750 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C38
+U 1 1 5BA7F511
+P 8450 3600
+F 0 "C38" H 8565 3646 50  0000 L CNN
+F 1 "1uF" H 8565 3555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 8488 3450 50  0001 C CNN
+F 3 "~" H 8450 3600 50  0001 C CNN
+	1    8450 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0175
+U 1 1 5BA7F57F
+P 8750 3450
+F 0 "#PWR0175" H 8750 3300 50  0001 C CNN
+F 1 "+3.3V" H 8765 3623 50  0000 C CNN
+F 2 "" H 8750 3450 50  0001 C CNN
+F 3 "" H 8750 3450 50  0001 C CNN
+	1    8750 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0176
+U 1 1 5BA7F5D4
+P 8450 3450
+F 0 "#PWR0176" H 8450 3200 50  0001 C CNN
+F 1 "GND" H 8455 3277 50  0000 C CNN
+F 2 "" H 8450 3450 50  0001 C CNN
+F 3 "" H 8450 3450 50  0001 C CNN
+	1    8450 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8750 3750 8450 3750
+$Comp
+L Device:C C36
+U 1 1 5BA7FE5D
+P 7800 4050
+F 0 "C36" V 7650 4050 50  0000 C CNN
+F 1 "18pF" V 7650 4250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 7838 3900 50  0001 C CNN
+F 3 "~" H 7800 4050 50  0001 C CNN
+	1    7800 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C37
+U 1 1 5BA7FEEE
+P 8100 4500
+F 0 "C37" V 8250 4500 50  0000 C CNN
+F 1 "18pF" V 8250 4700 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 8138 4350 50  0001 C CNN
+F 3 "~" H 8100 4500 50  0001 C CNN
+	1    8100 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0177
+U 1 1 5BA8003A
+P 7750 4400
+F 0 "#PWR0177" H 7750 4150 50  0001 C CNN
+F 1 "GND" V 7755 4272 50  0000 R CNN
+F 2 "" H 7750 4400 50  0001 C CNN
+F 3 "" H 7750 4400 50  0001 C CNN
+	1    7750 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal Y2
+U 1 1 5BA811BA
+P 10250 4200
+F 0 "Y2" V 10204 4331 50  0000 L CNN
+F 1 "CC5V-T1A 32.768KHZ +-20PPM 12.5PF" V 10750 3600 50  0000 L CNN
+F 2 "CC5V-T1A:SOIC-2" H 10250 4200 50  0001 C CNN
+F 3 "~" H 10250 4200 50  0001 C CNN
+	1    10250 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C40
+U 1 1 5BA81263
+P 10750 4050
+F 0 "C40" V 10498 4050 50  0000 C CNN
+F 1 "20pF" V 10589 4050 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 10788 3900 50  0001 C CNN
+F 3 "~" H 10750 4050 50  0001 C CNN
+	1    10750 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C41
+U 1 1 5BA81503
+P 10750 4350
+F 0 "C41" V 11000 4350 50  0000 C CNN
+F 1 "20pF" V 10900 4350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0201_0603Metric" H 10788 4200 50  0001 C CNN
+F 3 "~" H 10750 4350 50  0001 C CNN
+	1    10750 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0178
+U 1 1 5BA815B1
+P 10900 4200
+F 0 "#PWR0178" H 10900 3950 50  0001 C CNN
+F 1 "GND" V 10905 4072 50  0000 R CNN
+F 2 "" H 10900 4200 50  0001 C CNN
+F 3 "" H 10900 4200 50  0001 C CNN
+	1    10900 4200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10250 4050 10600 4050
+Wire Wire Line
+	10900 4050 10900 4200
+Wire Wire Line
+	10900 4350 10900 4200
+Connection ~ 10900 4200
+Wire Wire Line
+	10600 4350 10250 4350
+Connection ~ 10250 4350
+Connection ~ 10250 4050
+Connection ~ 8750 3750
+$Comp
+L power:+3.3V #PWR0179
+U 1 1 5BA83F13
+P 10650 1250
+F 0 "#PWR0179" H 10650 1100 50  0001 C CNN
+F 1 "+3.3V" V 10665 1378 50  0000 L CNN
+F 2 "" H 10650 1250 50  0001 C CNN
+F 3 "" H 10650 1250 50  0001 C CNN
+	1    10650 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0180
+U 1 1 5BA84088
+P 10650 1450
+F 0 "#PWR0180" H 10650 1200 50  0001 C CNN
+F 1 "GND" H 10655 1277 50  0000 C CNN
+F 2 "" H 10650 1450 50  0001 C CNN
+F 3 "" H 10650 1450 50  0001 C CNN
+	1    10650 1450
+	0    -1   -1   0   
+$EndComp
+Text Label 10650 1650 0    50   ~ 0
+HPCOMFB
+Text Label 10650 1850 0    50   ~ 0
+HPCOM
+Wire Wire Line
+	8200 3750 8450 3750
+Connection ~ 8450 3750
+$Comp
+L OB-rescue:V3S-v3s U1
+U 3 1 5BA773A5
+P 9850 2750
+F 0 "U1" H 9900 2800 50  0001 C CNN
+F 1 "V3S" H 9850 2750 50  0001 C CNN
+F 2 "V3s:LQFP-128_14x14mm_P0.4mm" H 9850 2750 50  0001 C CNN
+F 3 "" H 9850 2750 50  0001 C CNN
+	3    9850 2750
+	1    0    0    -1  
+$EndComp
+Text Label 3500 4950 0    50   ~ 0
+UART0_RX
+Text Label 3500 5150 0    50   ~ 0
+UART0_TX
+Text Label 6850 2300 2    50   ~ 0
+UART0_RX
+Text Label 6850 2200 2    50   ~ 0
+UART0_TX
+$Comp
+L Device:Crystal_GND23 Y1
+U 1 1 5BBF8870
+P 8250 4200
+F 0 "Y1" V 8150 4450 50  0000 L CNN
+F 1 "X1E0000210832" V 7700 4300 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 8250 4200 50  0001 C CNN
+F 3 "~" H 8250 4200 50  0001 C CNN
+	1    8250 4200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8450 4200 8450 4050
+Wire Wire Line
+	8450 4050 8750 4050
+Wire Wire Line
+	7950 4050 7950 3950
+Wire Wire Line
+	7950 3950 8450 3950
+Wire Wire Line
+	8450 3950 8450 4050
+Connection ~ 8450 4050
+Wire Wire Line
+	8250 4350 8750 4350
+Wire Wire Line
+	8250 4500 8250 4350
+Connection ~ 8250 4350
+Wire Wire Line
+	7650 4050 7650 4400
+Wire Wire Line
+	7650 4400 7750 4400
+Wire Wire Line
+	7750 4400 7900 4400
+Wire Wire Line
+	7900 4400 7900 4500
+Wire Wire Line
+	7900 4500 7950 4500
+Connection ~ 7750 4400
+Wire Wire Line
+	8050 4200 7750 4200
+Wire Wire Line
+	7750 4200 7750 4400
+Wire Wire Line
+	8250 4050 8050 4050
+Wire Wire Line
+	8050 4050 8050 4150
+Wire Wire Line
+	8050 4150 7750 4150
+Wire Wire Line
+	7750 4150 7750 4200
+Connection ~ 7750 4200
+$Comp
+L power:GND #PWR0138
+U 1 1 5C62877C
+P 9150 1250
+F 0 "#PWR0138" H 9150 1000 50  0001 C CNN
+F 1 "GND" H 9155 1077 50  0000 C CNN
+F 2 "" H 9150 1250 50  0001 C CNN
+F 3 "" H 9150 1250 50  0001 C CNN
+	1    9150 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0139
+U 1 1 5C628F4E
+P 9150 1450
+F 0 "#PWR0139" H 9150 1200 50  0001 C CNN
+F 1 "GND" H 9155 1277 50  0000 C CNN
+F 2 "" H 9150 1450 50  0001 C CNN
+F 3 "" H 9150 1450 50  0001 C CNN
+	1    9150 1450
+	0    1    1    0   
+$EndComp
+Text Label 6850 2700 2    50   ~ 0
+I2C0_CLK
+Text Label 6850 2600 2    50   ~ 0
+I2C0_SDA
+Text Label 3500 4550 0    50   ~ 0
+I2C0_CLK
+Text Label 3500 4750 0    50   ~ 0
+I2C0_SDA
+Text Label 1000 3950 2    50   ~ 0
+CSI_Y6
+Text Label 1000 4750 2    50   ~ 0
+CSI_Y2
+Text Label 1000 4550 2    50   ~ 0
+CSI_Y3
+Text Label 1000 4150 2    50   ~ 0
+CSI_Y5
+Text Label 1000 4350 2    50   ~ 0
+CSI_Y4
+Text Label 1000 4950 2    50   ~ 0
+CSI_Y1
+Text Label 1000 5150 2    50   ~ 0
+CSI_Y0
+Text Label 1000 5750 2    50   ~ 0
+CSI_VSYNC
+Text Label 1000 3350 2    50   ~ 0
+CSI_Y9
+Text Label 1000 3550 2    50   ~ 0
+CSI_Y8
+Text Label 1000 3750 2    50   ~ 0
+CSI_Y7
+Text Label 1000 5350 2    50   ~ 0
+~CSI_RST
+Text Label 1000 5550 2    50   ~ 0
+CSI_PWDN
+$Comp
+L OB-rescue:V3S-v3s U1
+U 2 1 5BA7737C
+P 2200 3550
+F 0 "U1" H 2250 3600 50  0001 C CNN
+F 1 "V3S" H 2200 3550 50  0001 C CNN
+F 2 "V3s:LQFP-128_14x14mm_P0.4mm" H 2200 3550 50  0001 C CNN
+F 3 "" H 2200 3550 50  0001 C CNN
+	2    2200 3550
+	1    0    0    -1  
+$EndComp
+Text Label 1000 2150 2    50   ~ 0
+CSI_I2C_SCL
+Text Label 1000 1950 2    50   ~ 0
+CSI_I2C_SDA
+Text Label 1000 6150 2    50   ~ 0
+CSI_MCLK
+Text Label 1000 6350 2    50   ~ 0
+CSI_PCLK
+Text Label 5500 7450 2    50   ~ 0
+CSI_I2C_SCL
+Text Label 5500 7100 2    50   ~ 0
+CSI_I2C_SDA
+$Comp
+L Device:R R10
+U 1 1 5C69A5AF
+P 5650 7100
+F 0 "R10" V 5443 7100 50  0000 C CNN
+F 1 "2K" V 5534 7100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 5580 7100 50  0001 C CNN
+F 3 "~" H 5650 7100 50  0001 C CNN
+	1    5650 7100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 5C69A64E
+P 5650 7450
+F 0 "R11" V 5443 7450 50  0000 C CNN
+F 1 "2K" V 5534 7450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 5580 7450 50  0001 C CNN
+F 3 "~" H 5650 7450 50  0001 C CNN
+	1    5650 7450
+	0    1    1    0   
+$EndComp
+Text Label 1000 5950 2    50   ~ 0
+CSI_HSYNC
+$Comp
+L power:+1V8 #PWR0145
+U 1 1 5C78827D
+P 5800 7100
+F 0 "#PWR0145" H 5800 6950 50  0001 C CNN
+F 1 "+1V8" V 5815 7228 50  0000 L CNN
+F 2 "" H 5800 7100 50  0001 C CNN
+F 3 "" H 5800 7100 50  0001 C CNN
+	1    5800 7100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+1V8 #PWR0146
+U 1 1 5C7882F4
+P 5800 7450
+F 0 "#PWR0146" H 5800 7300 50  0001 C CNN
+F 1 "+1V8" V 5815 7578 50  0000 L CNN
+F 2 "" H 5800 7450 50  0001 C CNN
+F 3 "" H 5800 7450 50  0001 C CNN
+	1    5800 7450
+	0    1    1    0   
+$EndComp
+Text Label 7850 2850 2    50   ~ 0
+USB_ID
+Text Label 3500 1950 0    50   ~ 0
+PF0
+Text Label 3500 2150 0    50   ~ 0
+PF1
+Text Label 3500 2350 0    50   ~ 0
+PF2
+Text Label 3500 2550 0    50   ~ 0
+PF3
+Text Label 3500 2750 0    50   ~ 0
+PF4
+Text Label 3500 2950 0    50   ~ 0
+PF5
+Text Label 7850 2250 2    50   ~ 0
+PF0
+Text Label 7850 2350 2    50   ~ 0
+PF1
+Text Label 7850 2450 2    50   ~ 0
+PF2
+Text Label 7850 2550 2    50   ~ 0
+PF3
+Text Label 7850 2650 2    50   ~ 0
+PF4
+Text Label 1000 750  2    50   ~ 0
+LRDAC0
+Text Label 7850 1950 2    50   ~ 0
+LRDAC0
+Text Label 10650 850  0    50   ~ 0
+HPOUTR
+Text Label 10650 1050 0    50   ~ 0
+HPOUTL
+Text Label 9150 1050 2    50   ~ 0
+HBIAS
+Text Label 9150 1650 2    50   ~ 0
+MICIN1N
+Text Label 9150 1850 2    50   ~ 0
+MICIN1P
+Text Label 7850 1750 2    50   ~ 0
+MICIN1N
+Text Label 7850 1850 2    50   ~ 0
+MICIN1P
+Text Label 8600 5800 2    50   ~ 0
+EPHY_LINK_LED
+Text Label 8600 6100 2    50   ~ 0
+EPHY_SPD_LED
+Text Label 6850 2400 2    50   ~ 0
+EPHY_LINK_LED
+Text Label 6850 2500 2    50   ~ 0
+EPHY_SPD_LED
+Text Label 8600 5300 2    50   ~ 0
+USB_D_N
+Text Label 8600 5500 2    50   ~ 0
+USB_D_P
+Text HLabel 3500 750  2    50   BiDi ~ 0
+SDIO1_CLK
+Text HLabel 3500 950  2    50   BiDi ~ 0
+SDIO1_CMD
+Text HLabel 3500 1350 2    50   BiDi ~ 0
+SDIO1_DAT1
+Text HLabel 3500 1550 2    50   BiDi ~ 0
+SDIO1_DAT2
+Text HLabel 3500 1750 2    50   BiDi ~ 0
+SDIO1_DAT3
+Text HLabel 3500 1150 2    50   BiDi ~ 0
+SDIO1_DAT0
+Text HLabel 3500 3350 2    50   Output ~ 0
+UART2_TX
+Text HLabel 3500 3550 2    50   Input ~ 0
+UART2_RX
+Text HLabel 3500 3750 2    50   BiDi ~ 0
+PB2
+Text HLabel 3500 3950 2    50   BiDi ~ 0
+PB3
+Text HLabel 1000 3150 0    50   BiDi ~ 0
+PE16
+Text Label 8200 3750 2    50   ~ 0
+RST
+Text Label 7850 2950 2    50   ~ 0
+RST
+Wire Wire Line
+	5000 1050 4800 1050
+$Comp
+L power:+2V8 #PWR0144
+U 1 1 5C6BA8C9
+P 4800 1050
+F 0 "#PWR0144" H 4800 900 50  0001 C CNN
+F 1 "+2V8" V 4815 1178 50  0000 L CNN
+F 2 "" H 4800 1050 50  0001 C CNN
+F 3 "" H 4800 1050 50  0001 C CNN
+	1    4800 1050
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 5000 750 
+Text Label 5000 1550 2    50   ~ 0
+CSI_HSYNC
+Text Label 5000 2350 2    50   ~ 0
+CSI_PCLK
+Text Label 5000 1950 2    50   ~ 0
+CSI_MCLK
+Text Label 5000 950  2    50   ~ 0
+CSI_I2C_SDA
+Text Label 5000 1150 2    50   ~ 0
+CSI_I2C_SCL
+Wire Wire Line
+	5000 850  4800 850 
+Wire Wire Line
+	5000 2150 4900 2150
+$Comp
+L power:GND #PWR0143
+U 1 1 5C679CDB
+P 4900 2150
+F 0 "#PWR0143" H 4900 1900 50  0001 C CNN
+F 1 "GND" V 4905 2022 50  0000 R CNN
+F 2 "" H 4900 2150 50  0001 C CNN
+F 3 "" H 4900 2150 50  0001 C CNN
+	1    4900 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0142
+U 1 1 5C679BC7
+P 4800 850
+F 0 "#PWR0142" H 4800 600 50  0001 C CNN
+F 1 "GND" V 4805 722 50  0000 R CNN
+F 2 "" H 4800 850 50  0001 C CNN
+F 3 "" H 4800 850 50  0001 C CNN
+	1    4800 850 
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+1V8 #PWR?
+U 1 1 5C6779F3
+P 5000 1750
+AR Path="/5BC231CB/5C6779F3" Ref="#PWR?"  Part="1" 
+AR Path="/5BC231CE/5C6779F3" Ref="#PWR0141"  Part="1" 
+F 0 "#PWR0141" H 5000 1600 50  0001 C CNN
+F 1 "+1V8" V 5000 2000 50  0000 C CNN
+F 2 "" H 5000 1750 50  0001 C CNN
+F 3 "" H 5000 1750 50  0001 C CNN
+	1    5000 1750
+	0    -1   -1   0   
+$EndComp
+Text Label 5000 3050 2    50   ~ 0
+CSI_Y0
+Text Label 5000 2950 2    50   ~ 0
+CSI_Y1
+Text Label 5000 2850 2    50   ~ 0
+CSI_Y4
+Text Label 5000 2750 2    50   ~ 0
+CSI_Y5
+Text Label 5000 2650 2    50   ~ 0
+CSI_Y3
+Text Label 5000 2550 2    50   ~ 0
+CSI_Y2
+Text Label 5000 2450 2    50   ~ 0
+CSI_Y6
+Text Label 5000 2250 2    50   ~ 0
+CSI_Y7
+Text Label 5000 2050 2    50   ~ 0
+CSI_Y8
+Text Label 5000 1850 2    50   ~ 0
+CSI_Y9
+Text Label 5000 1650 2    50   ~ 0
+DVDD
+Text Label 5000 1450 2    50   ~ 0
+CSI_PWDN
+Text Label 5000 1350 2    50   ~ 0
+CSI_VSYNC
+Text Label 5000 1250 2    50   ~ 0
+~CSI_RST
+$Comp
+L Connector:Conn_01x24_Female J3
+U 1 1 5C673CE3
+P 5200 1850
+F 0 "J3" H 5227 1826 50  0000 L CNN
+F 1 "CAM" H 5227 1735 50  0000 L CNN
+F 2 "OB_ESP32:FPC_24_CAM" H 5200 1850 50  0001 C CNN
+F 3 "~" H 5200 1850 50  0001 C CNN
+	1    5200 1850
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10650 2450
+NoConn ~ 10650 2650
+NoConn ~ 10650 2850
+NoConn ~ 10650 3050
+NoConn ~ 9150 2650
+NoConn ~ 9150 2850
+Text Label 7850 2750 2    50   ~ 0
+PF5
+NoConn ~ 1000 2350
+NoConn ~ 1000 2550
+NoConn ~ 1000 2750
+NoConn ~ 1000 2950
+NoConn ~ 1000 1550
+NoConn ~ 1000 1750
+$Comp
+L Connector:Conn_01x18_Female J4
+U 1 1 5CB12157
+P 8050 2050
+F 0 "J4" H 8078 2026 50  0000 L CNN
+F 1 "GPIOB" H 8078 1935 50  0000 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x18_P1.00mm_Vertical" H 8050 2050 50  0001 C CNN
+F 3 "~" H 8050 2050 50  0001 C CNN
+	1    8050 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x18_Female J2
+U 1 1 5CB17779
+P 7050 2000
+F 0 "J2" H 7078 1976 50  0000 L CNN
+F 1 "GPIOA" H 7078 1885 50  0000 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x18_P1.00mm_Vertical" H 7050 2000 50  0001 C CNN
+F 3 "~" H 7050 2000 50  0001 C CNN
+	1    7050 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CB207E1
+P 6850 2100
+AR Path="/5BC231CB/5CB207E1" Ref="#PWR?"  Part="1" 
+AR Path="/5BC231CE/5CB207E1" Ref="#PWR0151"  Part="1" 
+F 0 "#PWR0151" H 6850 1850 50  0001 C CNN
+F 1 "GND" V 6855 1972 50  0000 R CNN
+F 2 "" H 6850 2100 50  0001 C CNN
+F 3 "" H 6850 2100 50  0001 C CNN
+	1    6850 2100
+	0    1    1    0   
+$EndComp
+Text Label 7850 1250 2    50   ~ 0
+HPCOM
+Text Label 7850 1350 2    50   ~ 0
+HPCOMFB
+Text Label 7850 1650 2    50   ~ 0
+HBIAS
+Text Label 7850 1450 2    50   ~ 0
+HPOUTL
+Text Label 7850 1550 2    50   ~ 0
+HPOUTR
+Text Label 7850 2050 2    50   ~ 0
+USB_D_P
+Text Label 7850 2150 2    50   ~ 0
+USB_D_N
+Text GLabel 10600 5300 2    50   BiDi ~ 0
+EPHY_RX_N
+Text GLabel 10600 5500 2    50   BiDi ~ 0
+EPHY_RX_P
+Text GLabel 10600 5700 2    50   BiDi ~ 0
+EPHY_TX_N
+Text GLabel 10600 5900 2    50   BiDi ~ 0
+EPHY_TX_P
+Text Label 5900 750  2    50   ~ 0
+DVDD
+Text GLabel 6850 1400 0    50   BiDi ~ 0
+IO32
+Text GLabel 6850 1300 0    50   BiDi ~ 0
+IO33
+Text GLabel 6850 1600 0    50   BiDi ~ 0
+IO26
+Text GLabel 6850 1500 0    50   BiDi ~ 0
+IO25
+Text GLabel 6850 1200 0    50   BiDi ~ 0
+IO35
+Text Label 3500 4150 0    50   ~ 0
+PB4
+Text Label 3500 4350 0    50   ~ 0
+PB5
+Text Label 6850 2900 2    50   ~ 0
+PB4
+Text Label 6850 2800 2    50   ~ 0
+PB5
+$Comp
+L Connector:Conn_01x24_Female J?
+U 1 1 5CBD302E
+P 8050 -150
+F 0 "J?" H 8078 -174 50  0000 L CNN
+F 1 "Conn_01x24_Female" H 8078 -265 50  0000 L CNN
+F 2 "" H 8050 -150 50  0001 C CNN
+F 3 "~" H 8050 -150 50  0001 C CNN
+	1    8050 -150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x24_Female J?
+U 1 1 5CBD8C70
+P 7100 -150
+F 0 "J?" H 7128 -174 50  0000 L CNN
+F 1 "Conn_01x24_Female" H 7128 -265 50  0000 L CNN
+F 2 "" H 7100 -150 50  0001 C CNN
+F 3 "~" H 7100 -150 50  0001 C CNN
+	1    7100 -150
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SY7208
+D The SY7208 and SY7208B are high efficiency boost
+K boost; step up
+$ENDCMP
+#
+#End Doc Library

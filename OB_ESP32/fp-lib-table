@@ -1,0 +1,9 @@
+(fp_lib_table
+  (lib (name CC5V-T1A)(type KiCad)(uri ${KIPRJMOD}/CC5V-T1A.pretty)(options "")(descr ""))
+  (lib (name OB_ESP32)(type KiCad)(uri /home/crylog/project/SmartBridgeMicro/OB_ESP32)(options "")(descr ""))
+  (lib (name PRO-OB-440)(type Legacy)(uri ${KIPRJMOD}/PRO-OB-440.mod)(options "")(descr ""))
+  (lib (name WS2812-2020)(type Legacy)(uri ${KIPRJMOD}/WS2812-2020.mod)(options "")(descr ""))
+  (lib (name FPC20-0)(type KiCad)(uri ${KIPRJMOD}/FPC20-0.pretty)(options "")(descr ""))
+  (lib (name "MX25L12835E SOP")(type KiCad)(uri "${KIPRJMOD}/MX25L12835E SOP.pretty")(options "")(descr ""))
+  (lib (name V3s)(type KiCad)(uri ${KIPRJMOD}/V3s.pretty)(options "")(descr ""))
+)
