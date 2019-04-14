@@ -79,13 +79,13 @@ Text Label 3500 5550 0    50   ~ 0
 SPI_CLK
 Text Label 3500 5950 0    50   ~ 0
 SPI_MOSI
-Text Label 6850 1800 2    50   ~ 0
+Text Label 6700 1850 2    50   ~ 0
 SPI_CS
-Text Label 6850 2000 2    50   ~ 0
+Text Label 6700 2050 2    50   ~ 0
 SPI_MISO
-Text Label 6850 1900 2    50   ~ 0
+Text Label 6700 1950 2    50   ~ 0
 SPI_CLK
-Text Label 6850 1700 2    50   ~ 0
+Text Label 6700 1750 2    50   ~ 0
 SPI_MOSI
 $Comp
 L Device:R R29
@@ -266,9 +266,9 @@ Text Label 3500 4950 0    50   ~ 0
 UART0_RX
 Text Label 3500 5150 0    50   ~ 0
 UART0_TX
-Text Label 6850 2300 2    50   ~ 0
+Text Label 6700 2350 2    50   ~ 0
 UART0_RX
-Text Label 6850 2200 2    50   ~ 0
+Text Label 6700 2250 2    50   ~ 0
 UART0_TX
 $Comp
 L Device:Crystal_GND23 Y1
@@ -343,9 +343,9 @@ F 3 "" H 9150 1450 50  0001 C CNN
 	1    9150 1450
 	0    1    1    0   
 $EndComp
-Text Label 6850 2700 2    50   ~ 0
+Text Label 6700 2750 2    50   ~ 0
 I2C0_CLK
-Text Label 6850 2600 2    50   ~ 0
+Text Label 6700 2650 2    50   ~ 0
 I2C0_SDA
 Text Label 3500 4550 0    50   ~ 0
 I2C0_CLK
@@ -446,7 +446,7 @@ F 3 "" H 5800 7450 50  0001 C CNN
 	1    5800 7450
 	0    1    1    0   
 $EndComp
-Text Label 7850 2850 2    50   ~ 0
+Text Label 7900 2850 2    50   ~ 0
 USB_ID
 Text Label 3500 1950 0    50   ~ 0
 PF0
@@ -460,19 +460,19 @@ Text Label 3500 2750 0    50   ~ 0
 PF4
 Text Label 3500 2950 0    50   ~ 0
 PF5
-Text Label 7850 2250 2    50   ~ 0
+Text Label 7900 2250 2    50   ~ 0
 PF0
-Text Label 7850 2350 2    50   ~ 0
+Text Label 7900 2350 2    50   ~ 0
 PF1
-Text Label 7850 2450 2    50   ~ 0
+Text Label 7900 2450 2    50   ~ 0
 PF2
-Text Label 7850 2550 2    50   ~ 0
+Text Label 7900 2550 2    50   ~ 0
 PF3
-Text Label 7850 2650 2    50   ~ 0
+Text Label 7900 2650 2    50   ~ 0
 PF4
 Text Label 1000 750  2    50   ~ 0
 LRDAC0
-Text Label 7850 1950 2    50   ~ 0
+Text Label 7900 1950 2    50   ~ 0
 LRDAC0
 Text Label 10650 850  0    50   ~ 0
 HPOUTR
@@ -484,17 +484,17 @@ Text Label 9150 1650 2    50   ~ 0
 MICIN1N
 Text Label 9150 1850 2    50   ~ 0
 MICIN1P
-Text Label 7850 1750 2    50   ~ 0
+Text Label 7900 1750 2    50   ~ 0
 MICIN1N
-Text Label 7850 1850 2    50   ~ 0
+Text Label 7900 1850 2    50   ~ 0
 MICIN1P
 Text Label 8600 5800 2    50   ~ 0
 EPHY_LINK_LED
 Text Label 8600 6100 2    50   ~ 0
 EPHY_SPD_LED
-Text Label 6850 2400 2    50   ~ 0
+Text Label 6700 2450 2    50   ~ 0
 EPHY_LINK_LED
-Text Label 6850 2500 2    50   ~ 0
+Text Label 6700 2550 2    50   ~ 0
 EPHY_SPD_LED
 Text Label 8600 5300 2    50   ~ 0
 USB_D_N
@@ -524,7 +524,7 @@ Text HLabel 1000 3150 0    50   BiDi ~ 0
 PE16
 Text Label 8200 3750 2    50   ~ 0
 RST
-Text Label 7850 2950 2    50   ~ 0
+Text Label 7900 2950 2    50   ~ 0
 RST
 Wire Wire Line
 	5000 1050 4800 1050
@@ -634,7 +634,7 @@ NoConn ~ 10650 2850
 NoConn ~ 10650 3050
 NoConn ~ 9150 2650
 NoConn ~ 9150 2850
-Text Label 7850 2750 2    50   ~ 0
+Text Label 7900 2750 2    50   ~ 0
 PF5
 NoConn ~ 1000 2350
 NoConn ~ 1000 2550
@@ -643,53 +643,31 @@ NoConn ~ 1000 2950
 NoConn ~ 1000 1550
 NoConn ~ 1000 1750
 $Comp
-L Connector:Conn_01x18_Female J4
-U 1 1 5CB12157
-P 8050 2050
-F 0 "J4" H 8078 2026 50  0000 L CNN
-F 1 "GPIOB" H 8078 1935 50  0000 L CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x18_P1.00mm_Vertical" H 8050 2050 50  0001 C CNN
-F 3 "~" H 8050 2050 50  0001 C CNN
-	1    8050 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x18_Female J2
-U 1 1 5CB17779
-P 7050 2000
-F 0 "J2" H 7078 1976 50  0000 L CNN
-F 1 "GPIOA" H 7078 1885 50  0000 L CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x18_P1.00mm_Vertical" H 7050 2000 50  0001 C CNN
-F 3 "~" H 7050 2000 50  0001 C CNN
-	1    7050 2000
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5CB207E1
-P 6850 2100
+P 6700 2150
 AR Path="/5BC231CB/5CB207E1" Ref="#PWR?"  Part="1" 
 AR Path="/5BC231CE/5CB207E1" Ref="#PWR0151"  Part="1" 
-F 0 "#PWR0151" H 6850 1850 50  0001 C CNN
-F 1 "GND" V 6855 1972 50  0000 R CNN
-F 2 "" H 6850 2100 50  0001 C CNN
-F 3 "" H 6850 2100 50  0001 C CNN
-	1    6850 2100
+F 0 "#PWR0151" H 6700 1900 50  0001 C CNN
+F 1 "GND" V 6705 2022 50  0000 R CNN
+F 2 "" H 6700 2150 50  0001 C CNN
+F 3 "" H 6700 2150 50  0001 C CNN
+	1    6700 2150
 	0    1    1    0   
 $EndComp
-Text Label 7850 1250 2    50   ~ 0
+Text Label 7900 1250 2    50   ~ 0
 HPCOM
-Text Label 7850 1350 2    50   ~ 0
+Text Label 7900 1350 2    50   ~ 0
 HPCOMFB
-Text Label 7850 1650 2    50   ~ 0
+Text Label 7900 1650 2    50   ~ 0
 HBIAS
-Text Label 7850 1450 2    50   ~ 0
+Text Label 7900 1450 2    50   ~ 0
 HPOUTL
-Text Label 7850 1550 2    50   ~ 0
+Text Label 7900 1550 2    50   ~ 0
 HPOUTR
-Text Label 7850 2050 2    50   ~ 0
+Text Label 7900 2050 2    50   ~ 0
 USB_D_P
-Text Label 7850 2150 2    50   ~ 0
+Text Label 7900 2150 2    50   ~ 0
 USB_D_N
 Text GLabel 10600 5300 2    50   BiDi ~ 0
 EPHY_RX_N
@@ -701,44 +679,87 @@ Text GLabel 10600 5900 2    50   BiDi ~ 0
 EPHY_TX_P
 Text Label 5900 750  2    50   ~ 0
 DVDD
-Text GLabel 6850 1400 0    50   BiDi ~ 0
-IO32
-Text GLabel 6850 1300 0    50   BiDi ~ 0
-IO33
-Text GLabel 6850 1600 0    50   BiDi ~ 0
-IO26
-Text GLabel 6850 1500 0    50   BiDi ~ 0
-IO25
-Text GLabel 6850 1200 0    50   BiDi ~ 0
-IO35
+Text GLabel 6700 1250 0    50   BiDi ~ 0
+IO19
 Text Label 3500 4150 0    50   ~ 0
 PB4
 Text Label 3500 4350 0    50   ~ 0
 PB5
-Text Label 6850 2900 2    50   ~ 0
+Text Label 6700 2950 2    50   ~ 0
 PB4
-Text Label 6850 2800 2    50   ~ 0
+Text Label 6700 2850 2    50   ~ 0
 PB5
 $Comp
-L Connector:Conn_01x24_Female J?
-U 1 1 5CBD302E
-P 8050 -150
-F 0 "J?" H 8078 -174 50  0000 L CNN
-F 1 "Conn_01x24_Female" H 8078 -265 50  0000 L CNN
-F 2 "" H 8050 -150 50  0001 C CNN
-F 3 "~" H 8050 -150 50  0001 C CNN
-	1    8050 -150
+L power:+BATT #PWR?
+U 1 1 5CB920EE
+P 7900 1050
+AR Path="/5BC231CB/5CB920EE" Ref="#PWR?"  Part="1" 
+AR Path="/5BC231CE/5CB920EE" Ref="#PWR0152"  Part="1" 
+F 0 "#PWR0152" H 7900 900 50  0001 C CNN
+F 1 "+BATT" V 7915 1178 50  0000 L CNN
+F 2 "" H 7900 1050 50  0001 C CNN
+F 3 "" H 7900 1050 50  0001 C CNN
+	1    7900 1050
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GND #PWR0162
+U 1 1 5CB99661
+P 7900 1150
+F 0 "#PWR0162" H 7900 900 50  0001 C CNN
+F 1 "GND" V 7905 1022 50  0000 R CNN
+F 2 "" H 7900 1150 50  0001 C CNN
+F 3 "" H 7900 1150 50  0001 C CNN
+	1    7900 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x20_Female J?
+U 1 1 5CBC3655
+P 6900 1950
+AR Path="/5C7A02C5/5CBC3655" Ref="J?"  Part="1" 
+AR Path="/5BC231CE/5CBC3655" Ref="J2"  Part="1" 
+F 0 "J2" H 6792 3035 50  0000 C CNN
+F 1 "GPIOA" H 6792 2944 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x20_P1.27mm_Vertical" H 6900 1950 50  0001 C CNN
+F 3 "~" H 6900 1950 50  0001 C CNN
+	1    6900 1950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x24_Female J?
-U 1 1 5CBD8C70
-P 7100 -150
-F 0 "J?" H 7128 -174 50  0000 L CNN
-F 1 "Conn_01x24_Female" H 7128 -265 50  0000 L CNN
-F 2 "" H 7100 -150 50  0001 C CNN
-F 3 "~" H 7100 -150 50  0001 C CNN
-	1    7100 -150
+L Connector:Conn_01x20_Female J?
+U 1 1 5CBC4630
+P 8100 1950
+AR Path="/5C7A02C5/5CBC4630" Ref="J?"  Part="1" 
+AR Path="/5BC231CE/5CBC4630" Ref="J4"  Part="1" 
+F 0 "J4" H 7992 3035 50  0000 C CNN
+F 1 "GPIOB" H 7992 2944 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x20_P1.27mm_Vertical" H 8100 1950 50  0001 C CNN
+F 3 "~" H 8100 1950 50  0001 C CNN
+	1    8100 1950
 	1    0    0    -1  
+$EndComp
+Text HLabel 6700 1450 0    50   Output ~ 0
+UART2_TX
+Text HLabel 6700 1550 0    50   Input ~ 0
+UART2_RX
+Text GLabel 6700 1650 0    50   BiDi ~ 0
+IO21
+Text GLabel 6700 1350 0    50   BiDi ~ 0
+IO22
+Text GLabel 6700 1150 0    50   BiDi ~ 0
+IO23
+$Comp
+L power:GND #PWR?
+U 1 1 5CC06D6B
+P 6700 1050
+AR Path="/5BC231CB/5CC06D6B" Ref="#PWR?"  Part="1" 
+AR Path="/5BC231CE/5CC06D6B" Ref="#PWR0147"  Part="1" 
+F 0 "#PWR0147" H 6700 800 50  0001 C CNN
+F 1 "GND" V 6705 922 50  0000 R CNN
+F 2 "" H 6700 1050 50  0001 C CNN
+F 3 "" H 6700 1050 50  0001 C CNN
+	1    6700 1050
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
