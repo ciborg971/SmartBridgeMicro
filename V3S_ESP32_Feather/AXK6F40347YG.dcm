@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AXK6F40347YG
+D NARROW PITCH (0.5mm) CONNECTORS P5 SERIES  P5KF  40 position, header
+K
+F https://www.mouser.fr/datasheet/2/315/AXK 5F 6F-1196581.pdf
+$ENDCMP
+#
+#End Doc Library
