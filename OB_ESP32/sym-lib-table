@@ -5,4 +5,5 @@
   (lib (name PRO-OB-440)(type Legacy)(uri ${KIPRJMOD}/PRO-OB-440.lib)(options "")(descr ""))
   (lib (name WS2812-2020)(type Legacy)(uri ${KIPRJMOD}/WS2812-2020.lib)(options "")(descr ""))
   (lib (name WS3202K)(type Legacy)(uri ${KIPRJMOD}/WS3202K.lib)(options "")(descr ""))
+  (lib (name OB_ESP32-rescue)(type Legacy)(uri ${KIPRJMOD}/OB_ESP32-rescue.lib)(options "")(descr ""))
 )
