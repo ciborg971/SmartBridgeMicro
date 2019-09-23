@@ -213,7 +213,7 @@ U 1 1 5D7F05A5
 P 4550 6400
 F 0 "J4" H 4578 6376 50  0000 L CNN
 F 1 "PWM" H 4578 6285 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 4550 6400 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x08_P1.00mm_Vertical" H 4550 6400 50  0001 C CNN
 F 3 "~" H 4550 6400 50  0001 C CNN
 	1    4550 6400
 	1    0    0    -1  
@@ -224,7 +224,7 @@ U 1 1 5D7FE5F6
 P 3450 6200
 F 0 "J2" H 3478 6176 50  0000 L CNN
 F 1 "Bat" H 3478 6085 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3450 6200 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical" H 3450 6200 50  0001 C CNN
 F 3 "~" H 3450 6200 50  0001 C CNN
 	1    3450 6200
 	1    0    0    -1  
@@ -235,7 +235,7 @@ U 1 1 5D7FFFA4
 P 5650 6100
 F 0 "J6" H 5678 6076 50  0000 L CNN
 F 1 "UART" H 5678 5985 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 5650 6100 50  0001 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical" H 5650 6100 50  0001 C CNN
 F 3 "~" H 5650 6100 50  0001 C CNN
 	1    5650 6100
 	1    0    0    -1  
@@ -330,7 +330,7 @@ U 1 1 5D82F81A
 P 5650 6750
 F 0 "J8" H 5678 6726 50  0000 L CNN
 F 1 "I2C" H 5678 6635 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 5650 6750 50  0001 C CNN
+F 2 "Connector_PinSocket_1.00mm:PinSocket_1x04_P1.00mm_Vertical" H 5650 6750 50  0001 C CNN
 F 3 "~" H 5650 6750 50  0001 C CNN
 	1    5650 6750
 	1    0    0    -1  
@@ -406,45 +406,45 @@ F 3 "" H 3250 6200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP2
 U 1 1 5D883927
 P 3500 6700
-F 0 "TP?" V 3454 6888 50  0000 L CNN
+F 0 "TP2" V 3454 6888 50  0000 L CNN
 F 1 "CPU_RX" V 3545 6888 50  0000 L CNN
-F 2 "" H 3700 6700 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3700 6700 50  0001 C CNN
 F 3 "~" H 3700 6700 50  0001 C CNN
 	1    3500 6700
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP3
 U 1 1 5D8846E9
 P 3500 6900
-F 0 "TP?" V 3454 7088 50  0000 L CNN
+F 0 "TP3" V 3454 7088 50  0000 L CNN
 F 1 "CPU_TX" V 3545 7088 50  0000 L CNN
-F 2 "" H 3700 6900 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3700 6900 50  0001 C CNN
 F 3 "~" H 3700 6900 50  0001 C CNN
 	1    3500 6900
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP4
 U 1 1 5D884C58
 P 3500 7100
-F 0 "TP?" V 3454 7288 50  0000 L CNN
+F 0 "TP4" V 3454 7288 50  0000 L CNN
 F 1 "CPU_RST" V 3545 7288 50  0000 L CNN
-F 2 "" H 3700 7100 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 3700 7100 50  0001 C CNN
 F 3 "~" H 3700 7100 50  0001 C CNN
 	1    3500 7100
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:USB_B_Micro J?
+L Connector:USB_B_Micro J1
 U 1 1 5D8C9C3C
 P 1650 5250
-F 0 "J?" H 1707 5717 50  0000 C CNN
+F 0 "J1" H 1707 5717 50  0000 C CNN
 F 1 "USB_B_Micro" H 1707 5626 50  0000 C CNN
-F 2 "" H 1800 5200 50  0001 C CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 1800 5200 50  0001 C CNN
 F 3 "~" H 1800 5200 50  0001 C CNN
 	1    1650 5250
 	1    0    0    -1  

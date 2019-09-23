@@ -8,4 +8,6 @@
   (lib (name V3s)(type KiCad)(uri ${KIPRJMOD}/V3s.pretty)(options "")(descr ""))
   (lib (name AXK6F40347YG)(type Legacy)(uri ${KIPRJMOD}/AXK6F40347YG.mod)(options "")(descr ""))
   (lib (name MAX13035EETET)(type Legacy)(uri ${KIPRJMOD}/MAX13035EETET.mod)(options "")(descr ""))
+  (lib (name MAX13030EEBET)(type Legacy)(uri ${KIPRJMOD}/MAX13030EEBET.mod)(options "")(descr ""))
+  (lib (name fpc_cam24)(type KiCad)(uri ${KIPRJMOD}/fpc_cam24.pretty)(options "")(descr ""))
 )
