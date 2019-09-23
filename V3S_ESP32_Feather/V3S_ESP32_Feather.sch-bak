@@ -133,6 +133,7 @@ F16 "USB_D_N" B L 3650 3650 50
 F17 "UART0_RX" I L 3650 3500 50 
 F18 "UART0_TX" O L 3650 3400 50 
 F19 "RST" B L 3650 3300 50 
+F20 "USB_ID" B L 3650 3850 50 
 $EndSheet
 Wire Wire Line
 	5500 2350 6500 2350
@@ -206,8 +207,6 @@ Text Label 3650 3650 2    50   ~ 0
 USB_D_N
 Text Label 3650 3750 2    50   ~ 0
 USB_D_P
-Text Notes 1500 1800 0    50   ~ 0
-TODO :\nCam power\nGeneral 3.3V and 5V\nDDR2 power
 $Comp
 L Connector:Conn_01x08_Female J4
 U 1 1 5D7F05A5
@@ -455,4 +454,8 @@ Wire Wire Line
 Connection ~ 1600 5650
 Wire Wire Line
 	1600 5650 1650 5650
+Text Label 3650 3850 2    50   ~ 0
+USB_ID
+Text Label 1950 5450 0    50   ~ 0
+USB_ID
 $EndSCHEMATC

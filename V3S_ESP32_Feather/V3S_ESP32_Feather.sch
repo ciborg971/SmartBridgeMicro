@@ -207,8 +207,6 @@ Text Label 3650 3650 2    50   ~ 0
 USB_D_N
 Text Label 3650 3750 2    50   ~ 0
 USB_D_P
-Text Notes 1500 1800 0    50   ~ 0
-TODO :\nCam power\nGeneral 3.3V and 5V\nDDR2 power
 $Comp
 L Connector:Conn_01x08_Female J4
 U 1 1 5D7F05A5

@@ -1,6 +1,35 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# BMP280-dk_Pressure-Sensors-Transducers
+#
+DEF BMP280-dk_Pressure-Sensors-Transducers U 0 30 Y Y 1 F N
+F0 "U" -250 350 60 H V C CNN
+F1 "BMP280-dk_Pressure-Sensors-Transducers" 200 -250 60 H V L CNN
+F2 "digikey-footprints:LGA-8_2x2.5mm_BMP280" 200 200 60 H I L CNN
+F3 "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001.pdf" 200 300 60 H I L CNN
+F4 "828-1064-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "BMP280" 200 500 60 H I L CNN "MPN"
+F6 "Sensors, Transducers" 200 600 60 H I L CNN "Category"
+F7 "Pressure Sensors, Transducers" 200 700 60 H I L CNN "Family"
+F8 "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/bosch-sensortec/BMP280/828-1064-1-ND/6136315" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "SENSOR PRESSURE ABS" 200 1000 60 H I L CNN "Description"
+F11 "Bosch Sensortec" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S 300 300 -300 -200 0 1 0 f
+X GND 1 0 -300 100 U 50 50 1 1 W
+X CSB 2 -400 0 100 R 50 50 1 1 I
+X SDI 3 400 0 100 L 50 50 1 1 B
+X SCK 4 -400 100 100 R 50 50 1 1 I
+X SDO 5 400 100 100 L 50 50 1 1 B
+X VDDIO 6 0 400 100 D 50 50 1 1 W
+X GND 7 100 -300 100 U 50 50 1 1 W
+X VDD 8 100 400 100 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
 # ESP32-PICO-D4-ESP32-PICO-D4
 #
 DEF ESP32-PICO-D4-ESP32-PICO-D4 U 0 40 Y Y 1 L N

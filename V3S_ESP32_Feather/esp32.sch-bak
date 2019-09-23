@@ -297,7 +297,7 @@ F 3 "http://www.invensense.com/wp-content/uploads/2016/06/DS-000189-ICM-20948-v1
 	1    0    0    -1  
 $EndComp
 $Comp
-L dk_Pressure-Sensors-Transducers:BMP280 U7
+L V3S_ESP32_Feather-rescue:BMP280-dk_Pressure-Sensors-Transducers U7
 U 1 1 5D80F3DE
 P 10000 3350
 F 0 "U7" H 10400 3900 60  0000 L CNN
