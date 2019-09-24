@@ -596,15 +596,15 @@ Wire Wire Line
 	4400 6750 4750 6750
 Connection ~ 4400 6750
 NoConn ~ 3500 5750
-Text Label 1150 7250 2    50   ~ 0
+Text Label 1150 7350 2    50   ~ 0
 PF3
-Text Label 1150 7150 2    50   ~ 0
+Text Label 1150 7450 2    50   ~ 0
 PF4
 Text Label 1200 6850 2    50   ~ 0
 PF5
-Text Label 1150 7450 2    50   ~ 0
+Text Label 1150 7150 2    50   ~ 0
 PF0
-Text Label 1150 7350 2    50   ~ 0
+Text Label 1150 7250 2    50   ~ 0
 PF1
 $Comp
 L Device:R R9
@@ -731,7 +731,7 @@ U 1 1 5D8935F1
 P 4650 4600
 F 0 "J9" H 4678 4576 50  0000 L CNN
 F 1 "I2C" H 4678 4485 50  0000 L CNN
-F 2 "Connector_PinSocket_1.00mm:PinSocket_1x04_P1.00mm_Vertical" H 4650 4600 50  0001 C CNN
+F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 4650 4600 50  0001 C CNN
 F 3 "~" H 4650 4600 50  0001 C CNN
 	1    4650 4600
 	1    0    0    -1  

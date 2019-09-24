@@ -332,8 +332,6 @@ Text Label 3000 6550 0    50   ~ 0
 CLK
 Text Label 1600 6450 2    50   ~ 0
 CS
-NoConn ~ 3450 2800
-NoConn ~ 3450 2900
 $Comp
 L Device:R R?
 U 1 1 5D8381DE
@@ -736,4 +734,8 @@ F 3 "" H 1600 6150 50  0001 C CNN
 	1    1600 6150
 	0    -1   -1   0   
 $EndComp
+Text HLabel 3450 2900 2    50   BiDi ~ 0
+SD2
+Text HLabel 3450 2800 2    50   BiDi ~ 0
+SD3
 $EndSCHEMATC
