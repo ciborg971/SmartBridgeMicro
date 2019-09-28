@@ -175,28 +175,6 @@ Text Label 3650 3650 2    50   ~ 0
 USB_D_N
 Text Label 3650 3750 2    50   ~ 0
 USB_D_P
-$Comp
-L Connector:Conn_01x08_Female J4
-U 1 1 5D7F05A5
-P 4550 6550
-F 0 "J4" H 4578 6526 50  0000 L CNN
-F 1 "PWM" H 4578 6435 50  0000 L CNN
-F 2 "Connector_JST:JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal" H 4550 6550 50  0001 C CNN
-F 3 "~" H 4550 6550 50  0001 C CNN
-	1    4550 6550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x02_Female J2
-U 1 1 5D7FE5F6
-P 3450 6200
-F 0 "J2" H 3478 6176 50  0000 L CNN
-F 1 "Bat" H 3478 6085 50  0000 L CNN
-F 2 "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal" H 3450 6200 50  0001 C CNN
-F 3 "~" H 3450 6200 50  0001 C CNN
-	1    3450 6200
-	1    0    0    -1  
-$EndComp
 Text Label 8600 2100 0    50   ~ 0
 IO33
 Text Label 8600 2200 0    50   ~ 0
@@ -207,30 +185,30 @@ Text Label 8600 2400 0    50   ~ 0
 IO26
 Text Label 8600 2500 0    50   ~ 0
 IO25
-Text Label 4350 6550 2    50   ~ 0
+Text Label 4450 6750 2    50   ~ 0
 IO33
-Text Label 4350 6450 2    50   ~ 0
+Text Label 4450 6650 2    50   ~ 0
 IO32
-Text Label 4350 6850 2    50   ~ 0
+Text Label 4450 7050 2    50   ~ 0
 IO27
-Text Label 4350 6750 2    50   ~ 0
+Text Label 4450 6950 2    50   ~ 0
 IO26
-Text Label 4350 6650 2    50   ~ 0
+Text Label 4450 6850 2    50   ~ 0
 IO25
 $Comp
 L power:GND #PWR0125
 U 1 1 5D81A9F6
-P 4350 6950
-F 0 "#PWR0125" H 4350 6700 50  0001 C CNN
-F 1 "GND" H 4355 6777 50  0000 C CNN
-F 2 "" H 4350 6950 50  0001 C CNN
-F 3 "" H 4350 6950 50  0001 C CNN
-	1    4350 6950
-	1    0    0    -1  
+P 4450 7150
+F 0 "#PWR0125" H 4450 6900 50  0001 C CNN
+F 1 "GND" V 4450 6900 50  0000 C CNN
+F 2 "" H 4450 7150 50  0001 C CNN
+F 3 "" H 4450 7150 50  0001 C CNN
+	1    4450 7150
+	0    1    1    0   
 $EndComp
 Text Label 8600 2000 0    50   ~ 0
 IO34
-Text Label 4350 6250 2    50   ~ 0
+Text Label 4450 6450 2    50   ~ 0
 IO34
 Text Label 8600 2650 0    50   ~ 0
 SDA
@@ -300,26 +278,15 @@ $EndComp
 $Comp
 L power:+BATT #PWR?
 U 1 1 5D8514B2
-P 3250 6300
+P 4450 6250
 AR Path="/5BC231CB/5D8514B2" Ref="#PWR?"  Part="1" 
 AR Path="/5D8514B2" Ref="#PWR0144"  Part="1" 
-F 0 "#PWR0144" H 3250 6150 50  0001 C CNN
-F 1 "+BATT" H 3265 6473 50  0000 C CNN
-F 2 "" H 3250 6300 50  0001 C CNN
-F 3 "" H 3250 6300 50  0001 C CNN
-	1    3250 6300
+F 0 "#PWR0144" H 4450 6100 50  0001 C CNN
+F 1 "+BATT" V 4450 6500 50  0000 C CNN
+F 2 "" H 4450 6250 50  0001 C CNN
+F 3 "" H 4450 6250 50  0001 C CNN
+	1    4450 6250
 	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0147
-U 1 1 5D8522F8
-P 3250 6200
-F 0 "#PWR0147" H 3250 5950 50  0001 C CNN
-F 1 "GND" H 3255 6027 50  0000 C CNN
-F 2 "" H 3250 6200 50  0001 C CNN
-F 3 "" H 3250 6200 50  0001 C CNN
-	1    3250 6200
-	-1   0    0    1   
 $EndComp
 $Comp
 L Connector:TestPoint TP4
@@ -382,7 +349,7 @@ F23 "SD2" B R 8600 2900 50
 F24 "SD3" B R 8600 3100 50 
 $EndSheet
 NoConn ~ 8600 3100
-Text Label 4350 6350 2    50   ~ 0
+Text Label 4450 6550 2    50   ~ 0
 IO35
 Text Label 8600 1900 0    50   ~ 0
 IO35
@@ -424,5 +391,19 @@ F 3 "" H 3250 7150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 NoConn ~ 8600 2900
-NoConn ~ 8600 3000
+$Comp
+L Connector:Conn_01x10_Female J2
+U 1 1 5D909E64
+P 4650 6650
+F 0 "J2" H 4678 6626 50  0000 L CNN
+F 1 "PWM" H 4678 6535 50  0000 L CNN
+F 2 "Connector_JST:JST_SH_SM10B-SRSS-TB_1x10-1MP_P1.00mm_Horizontal" H 4650 6650 50  0001 C CNN
+F 3 "~" H 4650 6650 50  0001 C CNN
+	1    4650 6650
+	1    0    0    -1  
+$EndComp
+Text Label 8600 3000 0    50   ~ 0
+SENSOR_VN
+Text Label 4450 6350 2    50   ~ 0
+SENSOR_VN
 $EndSCHEMATC
