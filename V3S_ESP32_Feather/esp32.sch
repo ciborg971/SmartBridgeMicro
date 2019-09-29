@@ -263,26 +263,6 @@ NoConn ~ 3450 2700
 NoConn ~ 3450 3100
 NoConn ~ 3450 3000
 NoConn ~ 1850 4100
-Text HLabel 1850 2800 0    50   BiDi ~ 0
-IO35
-Text HLabel 1850 2900 0    50   BiDi ~ 0
-IO34
-Text HLabel 1850 3100 0    50   BiDi ~ 0
-IO33
-Text HLabel 1850 3200 0    50   BiDi ~ 0
-IO32
-Text HLabel 1850 3300 0    50   BiDi ~ 0
-IO27
-Text HLabel 1850 3400 0    50   BiDi ~ 0
-IO26
-Text HLabel 1850 3500 0    50   BiDi ~ 0
-IO25
-Text HLabel 1850 3700 0    50   BiDi ~ 0
-IO22
-Text HLabel 1850 3800 0    50   BiDi ~ 0
-IO21
-Text HLabel 1850 2600 0    50   BiDi ~ 0
-SENSOR_VN
 Wire Wire Line
 	3450 2500 4000 2500
 $Comp
@@ -743,4 +723,123 @@ Wire Wire Line
 	2700 7450 2700 7500
 NoConn ~ 1300 6400
 NoConn ~ 2700 6000
+Text Label 8450 5550 2    50   ~ 0
+IO33
+Text Label 8450 5450 2    50   ~ 0
+IO32
+Text Label 8450 5850 2    50   ~ 0
+IO27
+Text Label 8450 5750 2    50   ~ 0
+IO26
+Text Label 8450 5650 2    50   ~ 0
+IO25
+$Comp
+L power:GND #PWR?
+U 1 1 5D90AFA4
+P 8450 5950
+AR Path="/5D90AFA4" Ref="#PWR?"  Part="1" 
+AR Path="/5C7A02C5/5D90AFA4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8450 5700 50  0001 C CNN
+F 1 "GND" V 8450 5700 50  0000 C CNN
+F 2 "" H 8450 5950 50  0001 C CNN
+F 3 "" H 8450 5950 50  0001 C CNN
+	1    8450 5950
+	0    1    1    0   
+$EndComp
+Text Label 8450 5250 2    50   ~ 0
+IO34
+Text Label 9450 5550 2    50   ~ 0
+SDA
+Text Label 9450 5650 2    50   ~ 0
+SCL
+$Comp
+L Connector:Conn_01x04_Female J?
+U 1 1 5D90AFAD
+P 9650 5550
+AR Path="/5D90AFAD" Ref="J?"  Part="1" 
+AR Path="/5C7A02C5/5D90AFAD" Ref="J?"  Part="1" 
+F 0 "J?" H 9678 5526 50  0000 L CNN
+F 1 "I2C" H 9678 5435 50  0000 L CNN
+F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 9650 5550 50  0001 C CNN
+F 3 "~" H 9650 5550 50  0001 C CNN
+	1    9650 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D90AFB3
+P 9450 5450
+AR Path="/5D90AFB3" Ref="#PWR?"  Part="1" 
+AR Path="/5C7A02C5/5D90AFB3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9450 5200 50  0001 C CNN
+F 1 "GND" H 9455 5277 50  0000 C CNN
+F 2 "" H 9450 5450 50  0001 C CNN
+F 3 "" H 9450 5450 50  0001 C CNN
+	1    9450 5450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5D90AFB9
+P 9450 5750
+AR Path="/5D90AFB9" Ref="#PWR?"  Part="1" 
+AR Path="/5C7A02C5/5D90AFB9" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9450 5600 50  0001 C CNN
+F 1 "+3.3V" V 9465 5878 50  0000 L CNN
+F 2 "" H 9450 5750 50  0001 C CNN
+F 3 "" H 9450 5750 50  0001 C CNN
+	1    9450 5750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+BATT #PWR?
+U 1 1 5D90AFBF
+P 8450 5050
+AR Path="/5BC231CB/5D90AFBF" Ref="#PWR?"  Part="1" 
+AR Path="/5D90AFBF" Ref="#PWR?"  Part="1" 
+AR Path="/5C7A02C5/5D90AFBF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8450 4900 50  0001 C CNN
+F 1 "+BATT" V 8450 5300 50  0000 C CNN
+F 2 "" H 8450 5050 50  0001 C CNN
+F 3 "" H 8450 5050 50  0001 C CNN
+	1    8450 5050
+	0    -1   -1   0   
+$EndComp
+Text Label 8450 5350 2    50   ~ 0
+IO35
+$Comp
+L Connector:Conn_01x10_Female J?
+U 1 1 5D90AFC6
+P 8650 5450
+AR Path="/5D90AFC6" Ref="J?"  Part="1" 
+AR Path="/5C7A02C5/5D90AFC6" Ref="J?"  Part="1" 
+F 0 "J?" H 8678 5426 50  0000 L CNN
+F 1 "PWM" H 8678 5335 50  0000 L CNN
+F 2 "Connector_JST:JST_SH_SM10B-SRSS-TB_1x10-1MP_P1.00mm_Horizontal" H 8650 5450 50  0001 C CNN
+F 3 "~" H 8650 5450 50  0001 C CNN
+	1    8650 5450
+	1    0    0    -1  
+$EndComp
+Text Label 8450 5150 2    50   ~ 0
+SENSOR_VN
+Text Label 1850 3100 2    50   ~ 0
+IO33
+Text Label 1850 3200 2    50   ~ 0
+IO32
+Text Label 1850 3300 2    50   ~ 0
+IO27
+Text Label 1850 3400 2    50   ~ 0
+IO26
+Text Label 1850 3500 2    50   ~ 0
+IO25
+Text Label 1850 2900 2    50   ~ 0
+IO34
+Text Label 1850 2800 2    50   ~ 0
+IO35
+Text Label 1850 2600 2    50   ~ 0
+SENSOR_VN
+Text Label 1850 3700 2    50   ~ 0
+SDA
+Text Label 1850 3800 2    50   ~ 0
+SCL
 $EndSCHEMATC
