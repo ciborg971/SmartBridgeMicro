@@ -750,50 +750,11 @@ X EN 9 -800 300 200 R 40 40 0 0 I
 ENDDRAW
 ENDDEF
 #
-# V3S_ESP32_Feather-rescue_U.FL-R-SMT(01)-U.FL-R-SMT_01_
+# V3S_ESP32_Feather-rescue_MPU-9250_Obsolete-dk_Motion-Sensors-IMUs-Inertial-Measurement-Units
 #
-DEF V3S_ESP32_Feather-rescue_U.FL-R-SMT(01)-U.FL-R-SMT_01_ J 0 40 Y Y 1 L N
-F0 "J" -151 161 50 H V L BNN
-F1 "V3S_ESP32_Feather-rescue_U.FL-R-SMT(01)-U.FL-R-SMT_01_" -171 -221 50 H V L BNN
-F2 "HRS_U.FL-R-SMT(01)" 0 0 50 H I L BNN
-F3 "None" 0 0 50 H I L BNN
-F4 "U.FL Series 6 Ghz 50 Ohm Ultra-small SMT Coaxial Cable Receptacle" 0 0 50 H I L BNN
-F5 "Hirose" 0 0 50 H I L BNN
-F6 "0.85 USD" 0 0 50 H I L BNN
-F7 "U.FL-R-SMT_01_" 0 0 50 H I L BNN
-F8 "Good" 0 0 50 H I L BNN
-DRAW
-C 0 -100 10 0 0 10 N
-C 0 100 40 0 0 10 N
-P 2 0 0 10 -300 -100 0 -100 N
-P 2 0 0 10 -300 100 100 100 N
-P 2 0 0 10 -40 60 0 60 N
-P 2 0 0 10 -30 -130 -50 -160 N
-P 2 0 0 10 0 -130 -30 -130 N
-P 2 0 0 10 0 -130 -20 -160 N
-P 2 0 0 10 0 -130 30 -130 N
-P 2 0 0 10 0 -100 0 -130 N
-P 2 0 0 10 0 60 0 -100 N
-P 2 0 0 10 0 60 40 60 N
-P 2 0 0 10 30 -130 10 -160 N
-P 2 0 0 10 100 -100 0 -100 N
-P 2 0 0 10 102 67 169 98 N
-P 2 0 0 10 102 134 102 67 N
-P 2 0 0 10 106 -134 173 -102 N
-P 2 0 0 10 106 -67 106 -134 N
-P 2 0 0 10 169 98 106 134 N
-P 2 0 0 10 173 -102 110 -67 N
-X GND 1 -400 -100 100 R 40 40 0 0 P
-X GND 2 -400 -100 100 R 40 40 0 0 P
-X SIG 3 -400 100 100 R 40 40 0 0 P
-ENDDRAW
-ENDDEF
-#
-# dk_Motion-Sensors-IMUs-Inertial-Measurement-Units_MPU-9250_Obsolete
-#
-DEF dk_Motion-Sensors-IMUs-Inertial-Measurement-Units_MPU-9250_Obsolete U 0 40 Y Y 1 F N
+DEF V3S_ESP32_Feather-rescue_MPU-9250_Obsolete-dk_Motion-Sensors-IMUs-Inertial-Measurement-Units U 0 40 Y Y 1 F N
 F0 "U" -704 446 60 H V L CNN
-F1 "dk_Motion-Sensors-IMUs-Inertial-Measurement-Units_MPU-9250_Obsolete" -174 -846 60 H V L CNN
+F1 "V3S_ESP32_Feather-rescue_MPU-9250_Obsolete-dk_Motion-Sensors-IMUs-Inertial-Measurement-Units" -174 -846 60 H V L CNN
 F2 "digikey-footprints:QFN-24-1EP_3x3mm" 200 200 60 H I L CNN
 F3 "https://media.digikey.com/pdf/Data%20Sheets/TDK%20PDFs/MPU-9250_Rev_1.1.pdf" 200 300 60 H I L CNN
 F4 "1428-1019-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
@@ -832,6 +793,45 @@ X VDDIO 8 -400 500 100 D 50 50 1 0 W
 X AD0/SDO 9 200 200 100 L 50 50 1 0 O
 X RESV 1 -500 500 100 D 50 50 1 1 W
 X AUX_CL 7 200 300 100 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# V3S_ESP32_Feather-rescue_U.FL-R-SMT(01)-U.FL-R-SMT_01_
+#
+DEF V3S_ESP32_Feather-rescue_U.FL-R-SMT(01)-U.FL-R-SMT_01_ J 0 40 Y Y 1 L N
+F0 "J" -151 161 50 H V L BNN
+F1 "V3S_ESP32_Feather-rescue_U.FL-R-SMT(01)-U.FL-R-SMT_01_" -171 -221 50 H V L BNN
+F2 "HRS_U.FL-R-SMT(01)" 0 0 50 H I L BNN
+F3 "None" 0 0 50 H I L BNN
+F4 "U.FL Series 6 Ghz 50 Ohm Ultra-small SMT Coaxial Cable Receptacle" 0 0 50 H I L BNN
+F5 "Hirose" 0 0 50 H I L BNN
+F6 "0.85 USD" 0 0 50 H I L BNN
+F7 "U.FL-R-SMT_01_" 0 0 50 H I L BNN
+F8 "Good" 0 0 50 H I L BNN
+DRAW
+C 0 -100 10 0 0 10 N
+C 0 100 40 0 0 10 N
+P 2 0 0 10 -300 -100 0 -100 N
+P 2 0 0 10 -300 100 100 100 N
+P 2 0 0 10 -40 60 0 60 N
+P 2 0 0 10 -30 -130 -50 -160 N
+P 2 0 0 10 0 -130 -30 -130 N
+P 2 0 0 10 0 -130 -20 -160 N
+P 2 0 0 10 0 -130 30 -130 N
+P 2 0 0 10 0 -100 0 -130 N
+P 2 0 0 10 0 60 0 -100 N
+P 2 0 0 10 0 60 40 60 N
+P 2 0 0 10 30 -130 10 -160 N
+P 2 0 0 10 100 -100 0 -100 N
+P 2 0 0 10 102 67 169 98 N
+P 2 0 0 10 102 134 102 67 N
+P 2 0 0 10 106 -134 173 -102 N
+P 2 0 0 10 106 -67 106 -134 N
+P 2 0 0 10 169 98 106 134 N
+P 2 0 0 10 173 -102 110 -67 N
+X GND 1 -400 -100 100 R 40 40 0 0 P
+X GND 2 -400 -100 100 R 40 40 0 0 P
+X SIG 3 -400 100 100 R 40 40 0 0 P
 ENDDRAW
 ENDDEF
 #

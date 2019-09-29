@@ -703,9 +703,11 @@ F 3 "~" H 1950 5400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L dk_Motion-Sensors-IMUs-Inertial-Measurement-Units:MPU-9250_Obsolete U3
+L V3S_ESP32_Feather-rescue:MPU-9250_Obsolete-dk_Motion-Sensors-IMUs-Inertial-Measurement-Units U3
 U 1 1 5D95AEEF
 P 3050 6050
+AR Path="/5D95AEEF" Ref="U3"  Part="1" 
+AR Path="/5C7A02C5/5D95AEEF" Ref="U3"  Part="1" 
 F 0 "U3" H 3600 5650 60  0000 C CNN
 F 1 "MPU-9250_Obsolete" H 3650 5550 60  0000 C CNN
 F 2 "digikey-footprints:QFN-24-1EP_3x3mm" H 3250 6250 60  0001 L CNN

@@ -595,7 +595,6 @@ Connection ~ 4100 6950
 Wire Wire Line
 	4400 6750 4750 6750
 Connection ~ 4400 6750
-NoConn ~ 3500 5750
 Text Label 1150 7350 2    50   ~ 0
 PF3
 Text Label 1150 7450 2    50   ~ 0
@@ -696,9 +695,6 @@ F 3 "" H 9150 1050 50  0001 C CNN
 	1    9150 1050
 	0    1    1    0   
 $EndComp
-NoConn ~ 3500 5350
-NoConn ~ 3500 5550
-NoConn ~ 3500 5950
 Text HLabel 3950 3150 2    50   BiDi ~ 0
 USB_ID
 $Comp
@@ -818,4 +814,8 @@ F 3 "" H 4450 4800 50  0001 C CNN
 $EndComp
 NoConn ~ 4750 7250
 NoConn ~ 4750 7350
+NoConn ~ 3500 5350
+NoConn ~ 3500 5550
+NoConn ~ 3500 5750
+NoConn ~ 3500 5950
 $EndSCHEMATC
