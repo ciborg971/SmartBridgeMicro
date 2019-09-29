@@ -10,4 +10,5 @@
   (lib (name MAX13030EEBET)(type Legacy)(uri ${KIPRJMOD}/MAX13030EEBET.mod)(options "")(descr ""))
   (lib (name fpc_cam24)(type KiCad)(uri ${KIPRJMOD}/fpc_cam24.pretty)(options "")(descr ""))
   (lib (name QFN65P400X400X80-17N)(type Legacy)(uri ${KIPRJMOD}/QFN65P400X400X80-17N.mod)(options "")(descr ""))
+  (lib (name QFN50P300X300X90-17N)(type Legacy)(uri ${KIPRJMOD}/QFN50P300X300X90-17N.mod)(options "")(descr ""))
 )
