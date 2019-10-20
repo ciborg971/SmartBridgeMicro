@@ -1,0 +1,85 @@
+
+(rules PCB V3S_ESP32_Feather
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 3831)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.6)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.6)
+    )
+  )
+  (rule
+    (width 150.0)
+    (clear 100.2)
+    (clear 75.0 (type smd_to_turn_gap))
+    (clear 25.0 (type smd_smd))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 150.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    GND +1V8 "Net-(C4-Pad2)" +1V2 +BATT +3V3 "Net-(C36-Pad1)" "Net-(C37-Pad1)"
+    "Net-(C40-Pad2)" "Net-(C41-Pad2)" "/PMIC Power Battery/SVREF" "Net-(R4-Pad1)" "Net-(R30-Pad2)" "/WIFI, BT, RT/EN" "/All V3s input output/CSI_I2C_SDA" "/All V3s input output/CSI_I2C_SCL"
+    "/All V3s input output/PF0" "/All V3s input output/PF1" "/All V3s input output/PF2" "/All V3s input output/PF3" "/All V3s input output/PF4" "/All V3s input output/PF5" "Net-(R13-Pad1)" "/WIFI, BT, RT/IO0"
+    "/WIFI, BT, RT/IO0_PULL" "/All V3s input output/SDIO1_DAT0" "/WIFI, BT, RT/IO2_PULL" "/All V3s input output/SDIO1_DAT1" "/All V3s input output/SDIO1_DAT2" "/All V3s input output/SDIO1_DAT3" "/All V3s input output/SDIO1_CMD" "/All V3s input output/SDIO1_CLK"
+    "/WIFI, BT, RT/UART0_RX" "/WIFI, BT, RT/UART0_TX" "/USB_D_P" "/USB_D_N" "/UART_TX_D0" "/UART_RX_D0" "Net-(J5-Pad3)" "Net-(J7-Pad11)"
+    "Net-(R8-Pad1)" /RST VBUS "/WIFI, BT, RT/CS" "/WIFI, BT, RT/CLK" "/WIFI, BT, RT/MOSI" "/WIFI, BT, RT/MISO" +3V0
+    "Net-(C14-Pad2)" "/USB_ID" "Net-(J9-Pad3)" "Net-(J9-Pad2)" "/WIFI, BT, RT/ICM_INT" "/All V3s input output/~CSI_RST" "/All V3s input output/CSI_VSYNC" "/All V3s input output/CSI_PWDN"
+    "/All V3s input output/CSI_HSYNC" "/All V3s input output/CSI_Y9" "/All V3s input output/CSI_MCLK" "/All V3s input output/CSI_Y8" "/All V3s input output/CSI_Y7" "/All V3s input output/CSI_PCLK" "/All V3s input output/CSI_Y6" "/All V3s input output/CSI_Y2"
+    "/All V3s input output/CSI_Y3" "/All V3s input output/CSI_Y5" "/All V3s input output/CSI_Y4" "/All V3s input output/CSI_Y1" "/All V3s input output/CSI_Y0" "/PMIC Power Battery/VIN" "/WIFI, BT, RT/IO27" "/WIFI, BT, RT/IO26"
+    "/WIFI, BT, RT/IO25" "/WIFI, BT, RT/IO33" "/WIFI, BT, RT/IO32" "/WIFI, BT, RT/IO35" "/WIFI, BT, RT/IO34" "/WIFI, BT, RT/SENSOR_VN" "/WIFI, BT, RT/SCL" "/WIFI, BT, RT/SDA"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 150.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
