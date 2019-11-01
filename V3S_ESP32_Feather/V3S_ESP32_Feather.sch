@@ -167,9 +167,9 @@ Text Label 3650 3400 2    50   ~ 0
 UART_TX_D0
 Text Label 3650 3500 2    50   ~ 0
 UART_RX_D0
-Text Label 1950 5350 0    50   ~ 0
+Text Label 2050 4450 2    50   ~ 0
 USB_D_N
-Text Label 1950 5250 0    50   ~ 0
+Text Label 2050 4350 2    50   ~ 0
 USB_D_P
 Text Label 3650 3650 2    50   ~ 0
 USB_D_N
@@ -178,26 +178,26 @@ USB_D_P
 $Comp
 L power:GND #PWR0135
 U 1 1 5D83F449
-P 1600 5650
-F 0 "#PWR0135" H 1600 5400 50  0001 C CNN
-F 1 "GND" V 1605 5522 50  0000 R CNN
-F 2 "" H 1600 5650 50  0001 C CNN
-F 3 "" H 1600 5650 50  0001 C CNN
-	1    1600 5650
-	1    0    0    -1  
+P 2050 4250
+F 0 "#PWR0135" H 2050 4000 50  0001 C CNN
+F 1 "GND" V 2055 4122 50  0000 R CNN
+F 2 "" H 2050 4250 50  0001 C CNN
+F 3 "" H 2050 4250 50  0001 C CNN
+	1    2050 4250
+	0    1    1    0   
 $EndComp
 Text Label 3650 3300 2    50   ~ 0
 RST
 $Comp
 L power:VBUS #PWR0143
 U 1 1 5D84C767
-P 1950 5050
-F 0 "#PWR0143" H 1950 4900 50  0001 C CNN
-F 1 "VBUS" V 1965 5178 50  0000 L CNN
-F 2 "" H 1950 5050 50  0001 C CNN
-F 3 "" H 1950 5050 50  0001 C CNN
-	1    1950 5050
-	0    1    1    0   
+P 2050 4550
+F 0 "#PWR0143" H 2050 4400 50  0001 C CNN
+F 1 "VBUS" V 2065 4678 50  0000 L CNN
+F 2 "" H 2050 4550 50  0001 C CNN
+F 3 "" H 2050 4550 50  0001 C CNN
+	1    2050 4550
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:TestPoint TP4
@@ -210,25 +210,9 @@ F 3 "~" H 3450 6550 50  0001 C CNN
 	1    3250 6550
 	0    1    1    0   
 $EndComp
-$Comp
-L Connector:USB_B_Micro J1
-U 1 1 5D8C9C3C
-P 1650 5250
-F 0 "J1" H 1707 5717 50  0000 C CNN
-F 1 "USB_B_Micro" H 1707 5626 50  0000 C CNN
-F 2 "Connector_JST:JST_SH_BM05B-SRSS-TB_1x05-1MP_P1.00mm_Vertical" H 1800 5200 50  0001 C CNN
-F 3 "~" H 1800 5200 50  0001 C CNN
-	1    1650 5250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1550 5650 1600 5650
-Connection ~ 1600 5650
-Wire Wire Line
-	1600 5650 1650 5650
 Text Label 3650 3850 2    50   ~ 0
 USB_ID
-Text Label 1950 5450 0    50   ~ 0
+Text Label 2050 4650 2    50   ~ 0
 USB_ID
 $Sheet
 S 6500 1300 2100 2600
@@ -288,4 +272,15 @@ F 3 "" H 3250 7150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 NoConn ~ 8600 2900
+$Comp
+L Connector:Conn_01x05_Female J1
+U 1 1 5DB4220C
+P 2250 4450
+F 0 "J1" H 2278 4476 50  0000 L CNN
+F 1 "USB_Micro" H 2278 4385 50  0000 L CNN
+F 2 "Connector_JST:JST_SH_BM05B-SRSS-TB_1x05-1MP_P1.00mm_Vertical" H 2250 4450 50  0001 C CNN
+F 3 "~" H 2250 4450 50  0001 C CNN
+	1    2250 4450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
