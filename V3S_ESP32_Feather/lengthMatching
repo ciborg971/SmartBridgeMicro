@@ -7,7 +7,7 @@ pf0 18,132 + 23,183 = 41,315
 
 sdio clk 26,653
 sdio data2 30,526
-sdio data3 9,185 + 1,401 + 15,299 = 25,885
+sdio data3 12,480 + 15,299 = 27,779
 sdio data cmd 24,310
 sdio data0 23,768
 sdio data1 21,466
