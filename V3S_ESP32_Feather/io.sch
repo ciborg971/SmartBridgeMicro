@@ -339,17 +339,6 @@ Text Label 1000 5350 2    50   ~ 0
 ~CSI_RST
 Text Label 1000 5550 2    50   ~ 0
 CSI_PWDN
-$Comp
-L OB-rescue:V3S-v3s U1
-U 2 1 5BA7737C
-P 2200 3550
-F 0 "U1" H 2250 3600 50  0001 C CNN
-F 1 "V3S" H 2200 3550 50  0001 C CNN
-F 2 "V3s:LQFP-128_14x14mm_P0.4mm" H 2200 3550 50  0001 C CNN
-F 3 "" H 2200 3550 50  0001 C CNN
-	2    2200 3550
-	1    0    0    -1  
-$EndComp
 Text Label 1000 2150 2    50   ~ 0
 CSI_I2C_SCL
 Text Label 1000 1950 2    50   ~ 0
@@ -412,7 +401,7 @@ Text Label 3500 1950 0    50   ~ 0
 PF0
 Text Label 3500 2150 0    50   ~ 0
 PF1
-Text Label 3500 2350 0    50   ~ 0
+Text Label 3950 2350 0    50   ~ 0
 PF2
 Text Label 3500 2550 0    50   ~ 0
 PF3
@@ -456,7 +445,7 @@ Text Label 7750 1500 2    50   ~ 0
 CSI_HSYNC
 Text Label 7750 2300 2    50   ~ 0
 CSI_PCLK
-Text Label 7750 1900 2    50   ~ 0
+Text Label 7000 1900 2    50   ~ 0
 CSI_MCLK
 Text Label 7750 900  2    50   ~ 0
 CSI_I2C_SDA
@@ -809,4 +798,51 @@ F 3 "~" H 1350 6850 50  0001 C CNN
 	1    1350 6850
 	0    1    1    0   
 $EndComp
+$Comp
+L OB-rescue:V3S-v3s U1
+U 2 1 5BA7737C
+P 2200 3550
+F 0 "U1" H 2250 3600 50  0001 C CNN
+F 1 "V3S" H 2200 3550 50  0001 C CNN
+F 2 "V3s:LQFP-128_14x14mm_P0.4mm" H 2200 3550 50  0001 C CNN
+F 3 "" H 2200 3550 50  0001 C CNN
+	2    2200 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R17
+U 1 1 5DC3C075
+P 7150 1900
+F 0 "R17" V 6943 1900 50  0000 C CNN
+F 1 "33R" V 7034 1900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 7080 1900 50  0001 C CNN
+F 3 "~" H 7150 1900 50  0001 C CNN
+	1    7150 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7750 1900 7300 1900
+$Comp
+L Device:R R12
+U 1 1 5DC3FE0F
+P 3800 2350
+F 0 "R12" V 3593 2350 50  0000 C CNN
+F 1 "33R" V 3684 2350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 3730 2350 50  0001 C CNN
+F 3 "~" H 3800 2350 50  0001 C CNN
+	1    3800 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3650 2350 3500 2350
+Wire Notes Line
+	4450 2850 5550 2850
+Wire Notes Line
+	5550 2850 5550 3400
+Wire Notes Line
+	5550 3400 4450 3400
+Wire Notes Line
+	4450 3400 4450 2850
+Text Notes 4550 3200 0    50   ~ 0
+Allwinner use PG4 for \nUSB-ID
 $EndSCHEMATC
