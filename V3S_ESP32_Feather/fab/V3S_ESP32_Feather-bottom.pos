@@ -1,0 +1,46 @@
+### Module positions - created on 16/11/2019 15:53:43 ###
+### Printed by Pcbnew version kicad (5.1.4)-1
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                                Package                                                PosX       PosY       Rot  Side
+C1        0.1uF                              C_0201_0603Metric                                  -48.8950   -68.9610    0.0000  bottom
+C2        1uF                                C_0201_0603Metric                                  -31.6230   -23.7490  180.0000  bottom
+C3        1uF                                C_0201_0603Metric                                  -36.3220   -21.3360    0.0000  bottom
+C4        4.7uF                              C_0201_0603Metric                                  -47.4620   -37.5920  180.0000  bottom
+C5        10uF                               C_0402_1005Metric                                  -31.3690   -26.9240   90.0000  bottom
+C6        1uF                                C_0201_0603Metric                                  -31.6230   -22.4790  180.0000  bottom
+C9        10uF                               C_0402_1005Metric                                  -25.7810   -30.8610    0.0000  bottom
+C10       1uF                                C_0201_0603Metric                                  -33.5280   -21.3360  180.0000  bottom
+C12       0.1uF                              C_0201_0603Metric                                  -37.8460   -26.6700    0.0000  bottom
+C36       18pF                               C_0201_0603Metric                                  -37.1348   -32.8168   90.0000  bottom
+C37       18pF                               C_0201_0603Metric                                  -31.9278   -32.3088  270.0000  bottom
+C38       1uF                                C_0201_0603Metric                                  -52.0700   -36.5760  180.0000  bottom
+C40       20pF                               C_0201_0603Metric                                  -43.4340   -30.7340    0.0000  bottom
+C41       20pF                               C_0201_0603Metric                                  -41.0210   -30.7340    0.0000  bottom
+C64       0.1uF                              C_0201_0603Metric                                  -30.3530   -30.4800  270.0000  bottom
+C65       0.1uF                              C_0201_0603Metric                                  -28.0670   -30.0990    0.0000  bottom
+J1        USB_Micro                          JST_SH_BM05B-SRSS-TB_1x05-1MP_P1.00mm_Vertical     -50.8000   -44.0690   90.0000  bottom
+J3        CAM                                FPC_24_CAM                                         -38.1000   -66.0400  180.0000  bottom
+J9        I2C                                JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal   -26.1620   -48.3870   90.0000  bottom
+J10       UART                               JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal   -26.1620   -40.5130   90.0000  bottom
+R3        47K                                R_0201_0603Metric                                  -48.5140   -49.2760  180.0000  bottom
+R4        240R_1%                            R_0201_0603Metric                                  -32.0040   -34.0360   90.0000  bottom
+R10       2K_1%                              R_0201_0603Metric                                  -43.1800   -63.5000  180.0000  bottom
+R11       2K_1%                              R_0201_0603Metric                                  -42.4180   -59.9440  180.0000  bottom
+R13       47K                                R_0201_0603Metric                                  -36.0680   -26.6700    0.0000  bottom
+R15       47K                                R_0201_0603Metric                                  -43.6880   -54.2290  270.0000  bottom
+R16       47K                                R_0201_0603Metric                                  -44.5770   -54.3560  270.0000  bottom
+R17       33R                                R_0201_0603Metric                                  -37.7190   -61.8490   90.0000  bottom
+R18       47K                                R_0201_0603Metric                                  -48.5140   -51.1810    0.0000  bottom
+R19       47K                                R_0201_0603Metric                                  -48.5140   -50.2920    0.0000  bottom
+R21       47K                                R_0201_0603Metric                                  -42.7990   -54.3560  270.0000  bottom
+R29       2K_1%                              R_0201_0603Metric                                  -52.0700   -35.5600  180.0000  bottom
+R30       6K_1%                              R_0201_0603Metric                                  -40.6400   -34.2900    0.0000  bottom
+R31       2K_1%                              R_0201_0603Metric                                  -29.4640   -30.4800  270.0000  bottom
+R32       2K_1%                              R_0201_0603Metric                                  -28.0670   -30.9880    0.0000  bottom
+U1        V3S                                LQFP-128_14x14mm_P0.4mm                            -38.1000   -44.4500   90.0000  bottom
+U2        ADP322ACPZ-145-R7                  QFN50P300X300X90-17N                               -34.6710   -24.1300    0.0000  bottom
+U6        LT1963AxST-3.3                     SOT-223-3_TabPin2                                  -26.9240   -25.1460   90.0000  bottom
+Y1        X1E0000210832                      Crystal_SMD_3225-4Pin_3.2x2.5mm                    -34.5948   -32.8168    0.0000  bottom
+Y2        CC5V-T1A_32.768KHZ_+-20PPM_12.5PF  SOIC-2                                             -41.9100   -32.5120  270.0000  bottom
+## End
