@@ -1,5 +1,5 @@
-Drill report for C:/Users/Yohann/repo/SmartBridgeMicro/V3S_ESP32_Feather/V3S_ESP32_Feather.kicad_pcb
-Created on 12/11/2019 09:13:38
+Drill report for C:\Users\Yohann\repo\SmartBridgeMicro\V3S_ESP32_Feather\V3S_ESP32_Feather.kicad_pcb
+Created on 17/11/2019 15:41:21
 
 Copper Layer Stackup:
     =============================================================
@@ -10,11 +10,11 @@ Copper Layer Stackup:
 Drill file 'V3S_ESP32_Feather-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  0,40mm  0,016"  (125 holes)
+    T1  0,40mm  0,016"  (124 holes)
     T2  0,50mm  0,020"  (32 holes)
     T3  2,50mm  0,098"  (4 holes)
 
-    Total plated holes count 161
+    Total plated holes count 160
 
 
 Drill file 'V3S_ESP32_Feather-NPTH.drl' contains
