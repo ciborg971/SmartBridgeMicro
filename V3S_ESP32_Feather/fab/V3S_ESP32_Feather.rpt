@@ -1,4 +1,4 @@
-## Footprint report - date 17/11/2019 15:41:53
+## Footprint report - date 25/11/2019 09:32:11
 ## Created by Pcbnew version kicad (5.1.4)-1
 ## Unit = mm, Angle = deg.
 
@@ -8,6 +8,72 @@ $BOARD
 upper_left_corner 12.547857 17.008428
 lower_right_corner 64.636335 77.376501
 $EndBOARD
+
+$MODULE "D2"
+reference "D2"
+value "D"
+footprint "Diode_SMD:D_0201_0603Metric"
+attribut smd
+position 37.592000 22.453500  orientation 270.00
+layer front
+$PAD "2"
+Shape Rectarrondi Layer front
+position  0.320000  0.000000  size  0.460000  0.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rectarrondi Layer front
+position -0.320000  0.000000  size  0.460000  0.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD ""
+Shape Rectarrondi Layer nocopper
+position  0.345000  0.000000  size  0.318000  0.360000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD ""
+Shape Rectarrondi Layer nocopper
+position -0.345000  0.000000  size  0.318000  0.360000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  D2
+
+$MODULE "D1"
+reference "D1"
+value "D"
+footprint "Diode_SMD:D_0201_0603Metric"
+attribut smd
+position 52.070000 33.020000  orientation 270.00
+layer front
+$PAD "2"
+Shape Rectarrondi Layer front
+position  0.320000  0.000000  size  0.460000  0.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rectarrondi Layer front
+position -0.320000  0.000000  size  0.460000  0.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD ""
+Shape Rectarrondi Layer nocopper
+position  0.345000  0.000000  size  0.318000  0.360000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD ""
+Shape Rectarrondi Layer nocopper
+position -0.345000  0.000000  size  0.318000  0.360000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  D1
 
 $MODULE "R17"
 reference "R17"
@@ -807,27 +873,6 @@ shape_offset  0.000000  0.000000
 $EndPAD
 $EndMODULE  J2
 
-$MODULE "D2"
-reference "D2"
-value "D"
-footprint "Resistor_SMD:R_0603_1608Metric"
-attribut smd
-position 37.592000 22.453500  orientation 270.00
-layer front
-$PAD "2"
-Shape Rectarrondi Layer front
-position  0.787500  0.000000  size  0.875000  0.950000  orientation 0.00
-drill  0.000000
-shape_offset  0.000000  0.000000
-$EndPAD
-$PAD "1"
-Shape Rectarrondi Layer front
-position -0.787500  0.000000  size  0.875000  0.950000  orientation 0.00
-drill  0.000000
-shape_offset  0.000000  0.000000
-$EndPAD
-$EndMODULE  D2
-
 $MODULE "C2"
 reference "C2"
 value "1uF"
@@ -1115,27 +1160,6 @@ drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
 $EndMODULE  J3
-
-$MODULE "D1"
-reference "D1"
-value "D"
-footprint "Resistor_SMD:R_0603_1608Metric"
-attribut smd
-position 52.070000 33.020000  orientation 270.00
-layer front
-$PAD "2"
-Shape Rectarrondi Layer front
-position  0.787500  0.000000  size  0.875000  0.950000  orientation 0.00
-drill  0.000000
-shape_offset  0.000000  0.000000
-$EndPAD
-$PAD "1"
-Shape Rectarrondi Layer front
-position -0.787500  0.000000  size  0.875000  0.950000  orientation 0.00
-drill  0.000000
-shape_offset  0.000000  0.000000
-$EndPAD
-$EndMODULE  D1
 
 $MODULE "C65"
 reference "C65"

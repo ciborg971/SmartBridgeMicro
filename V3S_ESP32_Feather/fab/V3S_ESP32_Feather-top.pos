@@ -1,4 +1,4 @@
-### Module positions - created on 17/11/2019 15:41:37 ###
+### Module positions - created on 25/11/2019 09:31:50 ###
 ### Printed by Pcbnew version kicad (5.1.4)-1
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -24,8 +24,8 @@ C56       10uF               C_0402_1005Metric                                  
 C57       1uF                C_0201_0603Metric                                   27.0510   -45.7200  180.0000  top
 C61       0.1uF              C_0201_0603Metric                                   35.4330   -36.7030  270.0000  top
 C63       0.1uF              C_0201_0603Metric                                   27.0510   -43.0530  180.0000  top
-D1        D                  R_0603_1608Metric                                   52.0700   -33.0200  270.0000  top
-D2        D                  R_0603_1608Metric                                   37.5920   -22.4535  270.0000  top
+D1        D                  D_0201_0603Metric                                   52.0700   -33.0200  270.0000  top
+D2        D                  D_0201_0603Metric                                   37.5920   -22.4535  270.0000  top
 J2        PWM                JST_SH_SM10B-SRSS-TB_1x10-1MP_P1.00mm_Horizontal    29.7180   -23.6220  180.0000  top
 J4        I2C                JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal    49.2760   -23.6220  180.0000  top
 J5        U.FL-R-SMT(01)     HRS_U.FL-R-SMT(01)                                  41.7830   -22.4790    0.0000  top
