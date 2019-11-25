@@ -1,4 +1,4 @@
-## Footprint report - date 25/11/2019 09:32:11
+## Footprint report - date 25/11/2019 10:45:36
 ## Created by Pcbnew version kicad (5.1.4)-1
 ## Unit = mm, Angle = deg.
 
@@ -8,6 +8,153 @@ $BOARD
 upper_left_corner 12.547857 17.008428
 lower_right_corner 64.636335 77.376501
 $EndBOARD
+
+$MODULE "C56"
+reference "C56"
+value "10uF"
+footprint "Capacitor_SMD:C_0805_2012Metric"
+attribut smd
+position 43.434000 48.260000  orientation 180.00
+layer front
+$PAD "2"
+Shape Rectarrondi Layer front
+position  0.937500  0.000000  size  0.975000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rectarrondi Layer front
+position -0.937500  0.000000  size  0.975000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C56
+
+$MODULE "C55"
+reference "C55"
+value "10uF"
+footprint "Capacitor_SMD:C_0805_2012Metric"
+attribut smd
+position 27.051000 44.450000  orientation 180.00
+layer front
+$PAD "2"
+Shape Rectarrondi Layer front
+position  0.937500  0.000000  size  0.975000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rectarrondi Layer front
+position -0.937500  0.000000  size  0.975000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C55
+
+$MODULE "C44"
+reference "C44"
+value "10uF"
+footprint "Capacitor_SMD:C_0805_2012Metric"
+attribut smd
+position 45.720000 42.545000  orientation 90.00
+layer front
+$PAD "2"
+Shape Rectarrondi Layer front
+position  0.937500  0.000000  size  0.975000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rectarrondi Layer front
+position -0.937500  0.000000  size  0.975000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C44
+
+$MODULE "C43"
+reference "C43"
+value "10uF"
+footprint "Capacitor_SMD:C_0805_2012Metric"
+attribut smd
+position 27.940000 39.624000  orientation 180.00
+layer front
+$PAD "2"
+Shape Rectarrondi Layer front
+position  0.937500  0.000000  size  0.975000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rectarrondi Layer front
+position -0.937500  0.000000  size  0.975000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C43
+
+$MODULE "C17"
+reference "C17"
+value "10uF"
+footprint "Capacitor_SMD:C_0805_2012Metric"
+attribut smd
+position 37.084000 37.592000  orientation 270.00
+layer front
+$PAD "2"
+Shape Rectarrondi Layer front
+position  0.937500  0.000000  size  0.975000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rectarrondi Layer front
+position -0.937500  0.000000  size  0.975000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C17
+
+$MODULE "C9"
+reference "C9"
+value "10uF"
+footprint "Capacitor_SMD:C_0805_2012Metric"
+attribut smd
+position 25.019000 30.861000  orientation -0.00
+layer back
+$PAD "2"
+Shape Rectarrondi Layer back
+position  0.937500  0.000000  size  0.975000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rectarrondi Layer back
+position -0.937500  0.000000  size  0.975000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C9
+
+$MODULE "C5"
+reference "C5"
+value "10uF"
+footprint "Capacitor_SMD:C_0805_2012Metric"
+attribut smd
+position 31.623000 27.432000  orientation 90.00
+layer back
+$PAD "2"
+Shape Rectarrondi Layer back
+position  0.937500  0.000000  size  0.975000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rectarrondi Layer back
+position -0.937500  0.000000  size  0.975000  1.400000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  C5
 
 $MODULE "D2"
 reference "D2"
@@ -272,27 +419,6 @@ drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
 $EndMODULE  C48
-
-$MODULE "C17"
-reference "C17"
-value "10uF"
-footprint "Capacitor_SMD:C_0402_1005Metric"
-attribut smd
-position 36.703000 36.830000  orientation 270.00
-layer front
-$PAD "2"
-Shape Rectarrondi Layer front
-position  0.485000  0.000000  size  0.590000  0.640000  orientation 0.00
-drill  0.000000
-shape_offset  0.000000  0.000000
-$EndPAD
-$PAD "1"
-Shape Rectarrondi Layer front
-position -0.485000  0.000000  size  0.590000  0.640000  orientation 0.00
-drill  0.000000
-shape_offset  0.000000  0.000000
-$EndPAD
-$EndMODULE  C17
 
 $MODULE "R6"
 reference "R6"
@@ -1293,90 +1419,6 @@ shape_offset  0.000000  0.000000
 $EndPAD
 $EndMODULE  C61
 
-$MODULE "C56"
-reference "C56"
-value "10uF"
-footprint "Capacitor_SMD:C_0402_1005Metric"
-attribut smd
-position 43.434000 48.260000  orientation 180.00
-layer front
-$PAD "2"
-Shape Rectarrondi Layer front
-position  0.485000  0.000000  size  0.590000  0.640000  orientation 0.00
-drill  0.000000
-shape_offset  0.000000  0.000000
-$EndPAD
-$PAD "1"
-Shape Rectarrondi Layer front
-position -0.485000  0.000000  size  0.590000  0.640000  orientation 0.00
-drill  0.000000
-shape_offset  0.000000  0.000000
-$EndPAD
-$EndMODULE  C56
-
-$MODULE "C55"
-reference "C55"
-value "10uF"
-footprint "Capacitor_SMD:C_0402_1005Metric"
-attribut smd
-position 27.051000 44.450000  orientation 180.00
-layer front
-$PAD "2"
-Shape Rectarrondi Layer front
-position  0.485000  0.000000  size  0.590000  0.640000  orientation 0.00
-drill  0.000000
-shape_offset  0.000000  0.000000
-$EndPAD
-$PAD "1"
-Shape Rectarrondi Layer front
-position -0.485000  0.000000  size  0.590000  0.640000  orientation 0.00
-drill  0.000000
-shape_offset  0.000000  0.000000
-$EndPAD
-$EndMODULE  C55
-
-$MODULE "C44"
-reference "C44"
-value "10uF"
-footprint "Capacitor_SMD:C_0402_1005Metric"
-attribut smd
-position 45.720000 42.545000  orientation 90.00
-layer front
-$PAD "2"
-Shape Rectarrondi Layer front
-position  0.485000  0.000000  size  0.590000  0.640000  orientation 0.00
-drill  0.000000
-shape_offset  0.000000  0.000000
-$EndPAD
-$PAD "1"
-Shape Rectarrondi Layer front
-position -0.485000  0.000000  size  0.590000  0.640000  orientation 0.00
-drill  0.000000
-shape_offset  0.000000  0.000000
-$EndPAD
-$EndMODULE  C44
-
-$MODULE "C43"
-reference "C43"
-value "10uF"
-footprint "Capacitor_SMD:C_0402_1005Metric"
-attribut smd
-position 27.940000 39.243000  orientation 180.00
-layer front
-$PAD "2"
-Shape Rectarrondi Layer front
-position  0.485000  0.000000  size  0.590000  0.640000  orientation 0.00
-drill  0.000000
-shape_offset  0.000000  0.000000
-$EndPAD
-$PAD "1"
-Shape Rectarrondi Layer front
-position -0.485000  0.000000  size  0.590000  0.640000  orientation 0.00
-drill  0.000000
-shape_offset  0.000000  0.000000
-$EndPAD
-$EndMODULE  C43
-
 $MODULE "C16"
 reference "C16"
 value "0.1uF"
@@ -1442,48 +1484,6 @@ drill  0.000000
 shape_offset  0.000000  0.000000
 $EndPAD
 $EndMODULE  C15
-
-$MODULE "C9"
-reference "C9"
-value "10uF"
-footprint "Capacitor_SMD:C_0402_1005Metric"
-attribut smd
-position 25.781000 30.861000  orientation 0.00
-layer back
-$PAD "2"
-Shape Rectarrondi Layer back
-position  0.485000  0.000000  size  0.590000  0.640000  orientation 0.00
-drill  0.000000
-shape_offset  0.000000  0.000000
-$EndPAD
-$PAD "1"
-Shape Rectarrondi Layer back
-position -0.485000  0.000000  size  0.590000  0.640000  orientation 0.00
-drill  0.000000
-shape_offset  0.000000  0.000000
-$EndPAD
-$EndMODULE  C9
-
-$MODULE "C5"
-reference "C5"
-value "10uF"
-footprint "Capacitor_SMD:C_0402_1005Metric"
-attribut smd
-position 31.369000 26.924000  orientation 90.00
-layer back
-$PAD "2"
-Shape Rectarrondi Layer back
-position  0.485000  0.000000  size  0.590000  0.640000  orientation 0.00
-drill  0.000000
-shape_offset  0.000000  0.000000
-$EndPAD
-$PAD "1"
-Shape Rectarrondi Layer back
-position -0.485000  0.000000  size  0.590000  0.640000  orientation 0.00
-drill  0.000000
-shape_offset  0.000000  0.000000
-$EndPAD
-$EndMODULE  C5
 
 $MODULE "C1"
 reference "C1"
@@ -2660,7 +2660,7 @@ reference "C45"
 value "1uF"
 footprint "Capacitor_SMD:C_0201_0603Metric"
 attribut smd
-position 27.940000 40.386000  orientation 180.00
+position 27.940000 41.148000  orientation 180.00
 layer front
 $PAD "2"
 Shape Rectarrondi Layer front
@@ -2726,7 +2726,7 @@ reference "C57"
 value "1uF"
 footprint "Capacitor_SMD:C_0201_0603Metric"
 attribut smd
-position 27.051000 45.720000  orientation 180.00
+position 27.051000 45.847000  orientation 180.00
 layer front
 $PAD "2"
 Shape Rectarrondi Layer front
