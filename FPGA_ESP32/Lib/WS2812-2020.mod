@@ -1,0 +1,62 @@
+PCBNEW-LibModule-V1  
+# encoding utf-8
+Units mm
+$INDEX
+LED_WS2812-2020
+$EndINDEX
+$MODULE LED_WS2812-2020
+Po 0 0 0 15 00000000 00000000 ~~
+Li LED_WS2812-2020
+Cd 
+Sc 00000000
+At SMD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 0.54179 -2.09129 1.00011 1.00011 0 0.05 N V 21 "LED_WS2812-2020"
+T1 1.0014 1.84271 1.00059 1.00059 0 0.05 N V 21 "VAL**"
+DS -1.1 -1 1.1 -1 0.127 27
+DS 1.1 -1 1.1 1 0.127 27
+DS 1.1 1 -1.1 1 0.127 27
+DS -1.1 1 -1.1 -1 0.127 27
+DS -1.515 1.25 1.515 1.25 0.05 26
+DS 1.515 1.25 1.515 -1.25 0.05 26
+DS 1.515 -1.25 -1.515 -1.25 0.05 26
+DS -1.515 -1.25 -1.515 1.25 0.05 26
+DC -1.77 -0.63 -1.66704 -0.63 0.2 27
+DS -0.3 -1 0.3 -1 0.127 21
+DS -0.3 1 0.3 1 0.127 21
+DC -1.77 -0.63 -1.66704 -0.63 0.2 21
+$PAD
+Sh "3" R 0.7 0.7 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.915 0.55
+$EndPAD
+$PAD
+Sh "4" R 0.7 0.7 0 0 1800
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.915 -0.55
+$EndPAD
+$PAD
+Sh "1" R 0.7 0.7 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.915 -0.55
+$EndPAD
+$PAD
+Sh "2" R 0.7 0.7 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.915 0.55
+$EndPAD
+$EndMODULE LED_WS2812-2020

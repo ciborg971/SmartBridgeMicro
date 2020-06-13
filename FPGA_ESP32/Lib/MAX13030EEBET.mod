@@ -1,0 +1,164 @@
+PCBNEW-LibModule-V1  
+# encoding utf-8
+Units mm
+$INDEX
+BGA16C50P4X4_202X202X67N
+$EndINDEX
+$MODULE BGA16C50P4X4_202X202X67N
+Po 0 0 0 15 00000000 00000000 ~~
+Li BGA16C50P4X4_202X202X67N
+Cd 
+Sc 00000000
+At SMD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 -0.3744 -1.9064 0.64 0.64 0 0.05 N V 21 "BGA16C50P4X4_202X202X67N"
+T1 0.032 1.8436 0.64 0.64 0 0.05 N V 21 "VAL**"
+DS -1.04 -1.04 1.04 -1.04 0.127 27
+DS 1.04 -1.04 1.04 1.04 0.127 27
+DS 1.04 1.04 -1.04 1.04 0.127 27
+DS -1.04 1.04 -1.04 -1.04 0.127 27
+DS -1.24 -0.62 -1.24 -1.24 0.127 21
+DS -1.24 -1.24 -0.62 -1.24 0.127 21
+DS 0.62 -1.24 1.24 -1.24 0.127 21
+DS 1.24 -1.24 1.24 -0.62 0.127 21
+DS 1.24 0.62 1.24 1.24 0.127 21
+DS 1.24 1.24 0.62 1.24 0.127 21
+DS -0.62 1.24 -1.24 1.24 0.127 21
+DS -1.24 1.24 -1.24 0.62 0.127 21
+DS -1.29 -1.29 1.29 -1.29 0.05 26
+DS 1.29 -1.29 1.29 1.29 0.05 26
+DS 1.29 1.29 -1.29 1.29 0.05 26
+DS -1.29 1.29 -1.29 -1.29 0.05 26
+DC -1.65 -0.75 -1.55 -0.75 0.2 27
+DC -1.65 -0.75 -1.55 -0.75 0.2 21
+$PAD
+Sh "A1" C 0.35 0.35 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.75 -0.75
+$EndPAD
+$PAD
+Sh "B1" C 0.35 0.35 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.75 -0.25
+$EndPAD
+$PAD
+Sh "C1" C 0.35 0.35 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.75 0.25
+$EndPAD
+$PAD
+Sh "D1" C 0.35 0.35 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.75 0.75
+$EndPAD
+$PAD
+Sh "A2" C 0.35 0.35 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.25 -0.75
+$EndPAD
+$PAD
+Sh "B2" C 0.35 0.35 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.25 -0.25
+$EndPAD
+$PAD
+Sh "C2" C 0.35 0.35 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.25 0.25
+$EndPAD
+$PAD
+Sh "D2" C 0.35 0.35 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -0.25 0.75
+$EndPAD
+$PAD
+Sh "A3" C 0.35 0.35 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.25 -0.75
+$EndPAD
+$PAD
+Sh "B3" C 0.35 0.35 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.25 -0.25
+$EndPAD
+$PAD
+Sh "C3" C 0.35 0.35 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.25 0.25
+$EndPAD
+$PAD
+Sh "D3" C 0.35 0.35 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.25 0.75
+$EndPAD
+$PAD
+Sh "A4" C 0.35 0.35 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.75 -0.75
+$EndPAD
+$PAD
+Sh "B4" C 0.35 0.35 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.75 -0.25
+$EndPAD
+$PAD
+Sh "C4" C 0.35 0.35 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.75 0.25
+$EndPAD
+$PAD
+Sh "D4" C 0.35 0.35 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 0.75 0.75
+$EndPAD
+$EndMODULE BGA16C50P4X4_202X202X67N

@@ -1,0 +1,27 @@
+CAMERA 140mA :
+	AVDD  2.8V			 OK
+	VDD I/O 1.8V			 OK
+V3s :
+	1.6A for 1.2V core supply	 OK
+	1.0A for 1.8V DDR supply	 OK
+	0.2A for 3.0V AVDD/PLL supply	 OK
+	1.2A for 3.3V supply		 OK
+	0.03A for always-on 3.3V supply	 OK
+	
+AXP203 :
+	DCDC2 0.7V~2.75V 1.6A 		 OK
+	DCDC3 0.7~3.5V 1.2A		 OK 
+	LDO1 30 ma always on		 OK
+	LDO2 1.8V~3.3V 200mA		 
+	LDO3 0.7~3.5V 200mA		 OK
+	LDO4 1.8V~3.3V 200mA		 OK
+	LDO5 1.8~3.3V 50mA
+
+Mapping :
+	DCDC2 0.7V~2.75V 1.6A	 -> 1.6A for 1.2V core supply
+	DCDC3 0.7~3.5V 1.2A 	 -> 1.2A for 3.3V supply
+	LDO1 30 ma always on	 -> 0.03A for always-on 3.3V supply
+	LDO2 1.8V~3.3V 200mA	 -> VDD I/O 1.8V
+	LDO3 0.7~3.5V 200mA 	 -> 1.0A for 1.8V DDR supply
+	LDO4 1.8V~3.3V 200mA 	 -> 0.2A for 3.0V AVDD/PLL supply
+	LDO5 1.8~3.3V 50mA	 -> AVDD  2.8V

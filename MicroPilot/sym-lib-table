@@ -1,2 +1,3 @@
 (sym_lib_table
+  (lib (name MicroPilot-rescue)(type Legacy)(uri ${KIPRJMOD}/MicroPilot-rescue.lib)(options "")(descr ""))
 )
