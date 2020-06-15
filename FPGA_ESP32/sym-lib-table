@@ -19,4 +19,5 @@
   (lib (name SY7208)(type Legacy)(uri ${KIPRJMOD}/Lib/SY7208.lib)(options "")(descr ""))
   (lib (name WS2812-2020)(type Legacy)(uri ${KIPRJMOD}/Lib/WS2812-2020.lib)(options "")(descr ""))
   (lib (name WS3202K)(type Legacy)(uri ${KIPRJMOD}/Lib/WS3202K.lib)(options "")(descr ""))
+  (lib (name GD25Q16CEIGR)(type Legacy)(uri ${KIPRJMOD}/Lib/GD25Q16CEIGR/GD25Q16CEIGR.lib)(options "")(descr ""))
 )
