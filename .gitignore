@@ -1,0 +1,14 @@
+
+V3S_ESP32_Feather/fp-info-cache
+
+FPGA_ESP32/Lib/footprints.pretty/
+
+*.sch-bak
+
+.DS_Store
+
+FPGA_ESP32/fp-info-cache
+
+*.kicad_pcb-bak
+
+FPGA_ESP32/FPGA_ESP32-cache.lib
