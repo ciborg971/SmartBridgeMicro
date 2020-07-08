@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 4
+Sheet 1 3
 Title "FPGA ESP32"
 Date ""
 Rev "0.1"
@@ -13,42 +13,343 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 4850 3200 1500 900 
-U 5BC231CB
-F0 "PMIC Power Battery" 50
-F1 "power.sch" 50
-$EndSheet
+Text GLabel 4600 8300 0    50   Input ~ 0
+VIO
+$Comp
+L power:+1V8 #PWR?
+U 1 1 5F1F5F39
+P 7500 8600
+AR Path="/5BC231CE/5F1F5F39" Ref="#PWR?"  Part="1" 
+AR Path="/5BC231CB/5F1F5F39" Ref="#PWR?"  Part="1" 
+AR Path="/5F1F5F39" Ref="#PWR0107"  Part="1" 
+F 0 "#PWR0107" H 7500 8450 50  0001 C CNN
+F 1 "+1V8" V 7515 8728 50  0000 L CNN
+F 2 "" H 7500 8600 50  0001 C CNN
+F 3 "" H 7500 8600 50  0001 C CNN
+	1    7500 8600
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:+2V8 #PWR?
+U 1 1 5F1F5F3F
+P 7500 8800
+AR Path="/5BC231CE/5F1F5F3F" Ref="#PWR?"  Part="1" 
+AR Path="/5BC231CB/5F1F5F3F" Ref="#PWR?"  Part="1" 
+AR Path="/5F1F5F3F" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H 7500 8650 50  0001 C CNN
+F 1 "+2V8" V 7515 8928 50  0000 L CNN
+F 2 "" H 7500 8800 50  0001 C CNN
+F 3 "" H 7500 8800 50  0001 C CNN
+	1    7500 8800
+	0    -1   1    0   
+$EndComp
+Text GLabel 4600 8500 0    50   BiDi ~ 0
+IO0
+Text GLabel 4600 8600 0    50   BiDi ~ 0
+IO1
+Text GLabel 4600 8700 0    50   BiDi ~ 0
+IO2
+Text GLabel 4600 8800 0    50   BiDi ~ 0
+IO3
+Text GLabel 4600 8900 0    50   BiDi ~ 0
+IO4
+Text GLabel 4600 9000 0    50   BiDi ~ 0
+IO5
+Text GLabel 4600 9100 0    50   BiDi ~ 0
+IO6
+Text GLabel 4600 9200 0    50   BiDi ~ 0
+IO7
+Text GLabel 4600 9300 0    50   BiDi ~ 0
+IO8
+Text GLabel 4600 9400 0    50   BiDi ~ 0
+IO9
+Text GLabel 4600 9500 0    50   BiDi ~ 0
+IO10
+Text GLabel 4600 9600 0    50   BiDi ~ 0
+IO11
+Text GLabel 4600 9700 0    50   BiDi ~ 0
+IO12
+Text GLabel 4600 9800 0    50   BiDi ~ 0
+IO13
+Text GLabel 4600 9900 0    50   BiDi ~ 0
+IO14
+Text GLabel 4600 10000 0    50   BiDi ~ 0
+IO15
+Text GLabel 6050 8500 0    50   BiDi ~ 0
+IO16
+Text GLabel 6050 8600 0    50   BiDi ~ 0
+IO17
+Text GLabel 6050 8700 0    50   BiDi ~ 0
+IO18
+Text GLabel 6050 8800 0    50   BiDi ~ 0
+IO19
+Text GLabel 6050 8900 0    50   BiDi ~ 0
+IO20
+Text GLabel 6050 9000 0    50   BiDi ~ 0
+IO21
+Text GLabel 6050 8300 0    50   Input ~ 0
+VIO
+$Comp
+L power:GND #PWR0117
+U 1 1 5F20AE71
+P 7500 9100
+F 0 "#PWR0117" H 7500 8850 50  0001 C CNN
+F 1 "GND" V 7505 8972 50  0000 R CNN
+F 2 "" H 7500 9100 50  0001 C CNN
+F 3 "" H 7500 9100 50  0001 C CNN
+	1    7500 9100
+	0    1    1    0   
+$EndComp
+Text GLabel 6050 9100 0    50   BiDi ~ 0
+IO22
+Text GLabel 6050 9200 0    50   BiDi ~ 0
+IO23
+Text GLabel 6050 9300 0    50   BiDi ~ 0
+IO24
+Text GLabel 6050 9400 0    50   BiDi ~ 0
+IO25
+Text GLabel 6050 9500 0    50   BiDi ~ 0
+IO26
+Text GLabel 6050 9600 0    50   BiDi ~ 0
+IO27
+Text GLabel 6050 9700 0    50   BiDi ~ 0
+IO28
+Text GLabel 6050 9800 0    50   BiDi ~ 0
+IO29
+Text GLabel 6050 9900 0    50   BiDi ~ 0
+IO30
+Text GLabel 6050 10000 0    50   BiDi ~ 0
+IO31
+Text GLabel 7500 9200 0    50   BiDi ~ 0
+IO32
+Text GLabel 7500 9300 0    50   BiDi ~ 0
+IO33
+Text GLabel 7500 9400 0    50   BiDi ~ 0
+IO34
+Text GLabel 7500 9500 0    50   BiDi ~ 0
+IO35
+Text GLabel 7500 9600 0    50   BiDi ~ 0
+IO36
+Text GLabel 7500 9700 0    50   BiDi ~ 0
+IO37
+Text GLabel 7500 9800 0    50   BiDi ~ 0
+IO38
+Text GLabel 7500 9900 0    50   BiDi ~ 0
+IO39
+Text GLabel 7500 10000 0    50   BiDi ~ 0
+IO40
+$Comp
+L Connector:Conn_01x18_Female J1
+U 1 1 5EFE3367
+P 4800 9100
+F 0 "J1" H 4828 9076 50  0000 L CNN
+F 1 "Conn_01x18_Female" H 4828 8985 50  0000 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x18_P1.00mm_Vertical" H 4800 9100 50  0001 C CNN
+F 3 "~" H 4800 9100 50  0001 C CNN
+	1    4800 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x18_Female J3
+U 1 1 5EFEAB75
+P 6250 9100
+F 0 "J3" H 6278 9076 50  0000 L CNN
+F 1 "Conn_01x18_Female" H 6278 8985 50  0000 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x18_P1.00mm_Vertical" H 6250 9100 50  0001 C CNN
+F 3 "~" H 6250 9100 50  0001 C CNN
+	1    6250 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5EFEC107
+P 4600 8400
+F 0 "#PWR0106" H 4600 8150 50  0001 C CNN
+F 1 "GND" V 4605 8272 50  0000 R CNN
+F 2 "" H 4600 8400 50  0001 C CNN
+F 3 "" H 4600 8400 50  0001 C CNN
+	1    4600 8400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5EFEE27D
+P 6050 8400
+F 0 "#PWR0109" H 6050 8150 50  0001 C CNN
+F 1 "GND" V 6055 8272 50  0000 R CNN
+F 2 "" H 6050 8400 50  0001 C CNN
+F 3 "" H 6050 8400 50  0001 C CNN
+	1    6050 8400
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x18_Female J4
+U 1 1 5EFF7482
+P 7700 9100
+F 0 "J4" H 7728 9076 50  0000 L CNN
+F 1 "Conn_01x18_Female" H 7728 8985 50  0000 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x18_P1.00mm_Vertical" H 7700 9100 50  0001 C CNN
+F 3 "~" H 7700 9100 50  0001 C CNN
+	1    7700 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LFE5UM-25F-7MG285C:LFE5UM-25F-7MG285C U?
+U 10 1 5F040ECD
+P 1800 9100
+AR Path="/5BC231CE/5F040ECD" Ref="U?"  Part="10" 
+AR Path="/5BC231CB/5F040ECD" Ref="U?"  Part="10" 
+AR Path="/5F040ECD" Ref="U1"  Part="10" 
+F 0 "U1" H 1908 9965 50  0000 C CNN
+F 1 "LFE5UM-25F-7MG285C" H 1908 9874 50  0000 C CNN
+F 2 "footprints:BGA285N50P18X18_1000X1000X130N" H 1800 9100 50  0001 L BNN
+F 3 "1.3" H 1800 9100 50  0001 L BNN
+F 4 "18.0" H 1800 9100 50  0001 L BNN "Field4"
+F 5 "18.0" H 1800 9100 50  0001 L BNN "Field5"
+F 6 "1.0" H 1800 9100 50  0001 L BNN "Field6"
+F 7 "" H 1800 9100 50  0001 L BNN "Field7"
+F 8 "1.3" H 1800 9100 50  0001 L BNN "Field8"
+F 9 "" H 1800 9100 50  0001 L BNN "Field9"
+F 10 "" H 1800 9100 50  0001 L BNN "Field10"
+F 11 "10.0" H 1800 9100 50  0001 L BNN "Field11"
+F 12 "" H 1800 9100 50  0001 L BNN "Field12"
+F 13 "" H 1800 9100 50  0001 L BNN "Field13"
+F 14 "" H 1800 9100 50  0001 L BNN "Field14"
+F 15 "" H 1800 9100 50  0001 L BNN "Field15"
+F 16 "Lattice Semiconductor" H 1800 9100 50  0001 L BNN "Field16"
+F 17 "IPC 7351B" H 1800 9100 50  0001 L BNN "Field17"
+F 18 "10.0" H 1800 9100 50  0001 L BNN "Field18"
+F 19 "False" H 1800 9100 50  0001 L BNN "Field19"
+F 20 "" H 1800 9100 50  0001 L BNN "Field20"
+F 21 "1.3" H 1800 9100 50  0001 L BNN "Field21"
+F 22 "" H 1800 9100 50  0001 L BNN "Field22"
+F 23 "10.0" H 1800 9100 50  0001 L BNN "Field23"
+F 24 "10.0" H 1800 9100 50  0001 L BNN "Field24"
+F 25 "10.0" H 1800 9100 50  0001 L BNN "Field25"
+F 26 "" H 1800 9100 50  0001 L BNN "Field26"
+F 27 "0.5" H 1800 9100 50  0001 L BNN "Field27"
+F 28 "0.3" H 1800 9100 50  0001 L BNN "Field28"
+F 29 "True" H 1800 9100 50  0001 L BNN "Field29"
+F 30 "" H 1800 9100 50  0001 L BNN "Field30"
+F 31 "" H 1800 9100 50  0001 L BNN "Field31"
+F 32 "0.5" H 1800 9100 50  0001 L BNN "Field32"
+F 33 "" H 1800 9100 50  0001 L BNN "Field33"
+F 34 "" H 1800 9100 50  0001 L BNN "Field34"
+F 35 "10.0" H 1800 9100 50  0001 L BNN "Field35"
+F 36 "" H 1800 9100 50  0001 L BNN "Field36"
+	10   1800 9100
+	1    0    0    -1  
+$EndComp
+Text GLabel 7500 9000 0    50   Input ~ 0
+VIO
+$Comp
+L power:+1V1 #PWR?
+U 1 1 5F040EE1
+P 2600 8550
+AR Path="/5BC231CB/5F040EE1" Ref="#PWR?"  Part="1" 
+AR Path="/5F040EE1" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 2600 8400 50  0001 C CNN
+F 1 "+1V1" V 2615 8678 50  0000 L CNN
+F 2 "" H 2600 8550 50  0001 C CNN
+F 3 "" H 2600 8550 50  0001 C CNN
+	1    2600 8550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+2V5 #PWR?
+U 1 1 5F040EE7
+P 2600 8850
+AR Path="/5BC231CB/5F040EE7" Ref="#PWR?"  Part="1" 
+AR Path="/5F040EE7" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 2600 8700 50  0001 C CNN
+F 1 "+2V5" V 2615 8978 50  0000 L CNN
+F 2 "" H 2600 8850 50  0001 C CNN
+F 3 "" H 2600 8850 50  0001 C CNN
+	1    2600 8850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+1V1 #PWR?
+U 1 1 5F040EED
+P 2600 9100
+AR Path="/5BC231CB/5F040EED" Ref="#PWR?"  Part="1" 
+AR Path="/5F040EED" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 2600 8950 50  0001 C CNN
+F 1 "+1V1" V 2615 9228 50  0000 L CNN
+F 2 "" H 2600 9100 50  0001 C CNN
+F 3 "" H 2600 9100 50  0001 C CNN
+	1    2600 9100
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	9100 4250 10100 4250
+	2600 9100 2600 9200
+Connection ~ 2600 9100
+Connection ~ 2600 9200
 Wire Wire Line
-	10100 4350 9100 4350
+	2600 9200 2600 9300
+Connection ~ 2600 9300
 Wire Wire Line
-	9100 4450 10100 4450
+	2600 9300 2600 9400
+$Comp
+L power:GND #PWR?
+U 1 1 5F040EF9
+P 2600 9700
+AR Path="/5BC231CB/5F040EF9" Ref="#PWR?"  Part="1" 
+AR Path="/5F040EF9" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 2600 9450 50  0001 C CNN
+F 1 "GND" V 2605 9572 50  0000 R CNN
+F 2 "" H 2600 9700 50  0001 C CNN
+F 3 "" H 2600 9700 50  0001 C CNN
+	1    2600 9700
+	0    -1   -1   0   
+$EndComp
 Wire Wire Line
-	10100 4550 9100 4550
+	2600 8500 2600 8550
+Connection ~ 2600 8550
 Wire Wire Line
-	9100 4650 10100 4650
+	2600 8550 2600 8600
 Wire Wire Line
-	10100 4750 9100 4750
-$Sheet
-S 10100 3200 2100 2600
-U 5C7A02C5
-F0 "WIFI, BT, RT" 50
-F1 "esp32.sch" 50
-F2 "SDIO1_CLK" B L 10100 4250 50 
-F3 "SDIO1_CMD" B L 10100 4350 50 
-F4 "SDIO1_DAT1" B L 10100 4550 50 
-F5 "SDIO1_DAT2" B L 10100 4650 50 
-F6 "SDIO1_DAT3" B L 10100 4750 50 
-F7 "SDIO1_DAT0" B L 10100 4450 50 
-F8 "FPGA_DONE" B L 10100 4950 50 
-F9 "FPGA_PROGRAMN" B L 10100 5150 50 
-F10 "INITN" B L 10100 5050 50 
-F11 "FLASH_MISO" B L 10100 4050 50 
-F12 "FLASH_MOSI" B L 10100 3950 50 
-F13 "FLASH_CLK" B L 10100 3850 50 
-$EndSheet
+	2600 8800 2600 8850
+Connection ~ 2600 8850
+Wire Wire Line
+	2600 8850 2600 8900
+Text Notes 7850 8350 0    50   ~ 0
+1V1 Reg
+$Comp
+L power:+1V1 #PWR?
+U 1 1 5F040F06
+P 7500 8400
+AR Path="/5BC231CB/5F040F06" Ref="#PWR?"  Part="1" 
+AR Path="/5F040F06" Ref="#PWR0105"  Part="1" 
+F 0 "#PWR0105" H 7500 8250 50  0001 C CNN
+F 1 "+1V1" V 7515 8528 50  0000 L CNN
+F 2 "" H 7500 8400 50  0001 C CNN
+F 3 "" H 7500 8400 50  0001 C CNN
+	1    7500 8400
+	0    -1   -1   0   
+$EndComp
+Text Notes 7850 8450 0    50   ~ 0
+1V8 Reg
+Text Notes 7850 8550 0    50   ~ 0
+2V5 Reg
+Text Notes 7850 8650 0    50   ~ 0
+3V3 Reg
+Text Notes 8250 8650 0    50   ~ 0
+2V8 Reg\nTODO : Check if 2V5 is enought for OV5640
+Wire Wire Line
+	9100 3750 10100 3750
+Wire Wire Line
+	9100 4050 10100 4050
+Wire Wire Line
+	10100 3950 9100 3950
+Wire Wire Line
+	9100 3850 10100 3850
+Wire Wire Line
+	9100 5150 10100 5150
+Wire Wire Line
+	10100 5050 9100 5050
+Wire Wire Line
+	9100 4950 10100 4950
 $Sheet
 S 7250 3200 1850 2650
 U 5BC231CE
@@ -66,203 +367,127 @@ F10 "FLASH_SCK" B R 9100 3850 50
 F11 "DONE" B R 9100 4950 50 
 F12 "INITN" B R 9100 5050 50 
 F13 "PROGRAMN" B R 9100 5150 50 
-F14 "1V8_I2C_SDA" B L 7250 5750 50 
-F15 "1V8_I2C_SCL" B L 7250 5650 50 
+F14 "FLASH_HOLD" I R 9100 3750 50 
 $EndSheet
+$Sheet
+S 10100 3200 2100 2600
+U 5C7A02C5
+F0 "WIFI, BT, RT" 50
+F1 "esp32.sch" 50
+F2 "SDIO1_CLK" B L 10100 4250 50 
+F3 "SDIO1_CMD" B L 10100 4350 50 
+F4 "SDIO1_DAT1" B L 10100 4550 50 
+F5 "SDIO1_DAT2" B L 10100 4650 50 
+F6 "SDIO1_DAT3" B L 10100 4750 50 
+F7 "SDIO1_DAT0" B L 10100 4450 50 
+F8 "FPGA_DONE" B L 10100 4950 50 
+F9 "FPGA_PROGRAMN" B L 10100 5150 50 
+F10 "INITN" B L 10100 5050 50 
+F11 "FLASH_MISO" B L 10100 4050 50 
+F12 "FLASH_MOSI" B L 10100 3950 50 
+F13 "FLASH_CLK" B L 10100 3850 50 
+F14 "FLASH_HOLD" B L 10100 3750 50 
+$EndSheet
+Wire Wire Line
+	10100 4750 9100 4750
+Wire Wire Line
+	9100 4650 10100 4650
+Wire Wire Line
+	10100 4550 9100 4550
+Wire Wire Line
+	9100 4450 10100 4450
+Wire Wire Line
+	10100 4350 9100 4350
+Wire Wire Line
+	9100 4250 10100 4250
 $Comp
-L Connector:Conn_01x24_Female J1
-U 1 1 5EF79A02
-P 7150 7900
-F 0 "J1" H 7178 7876 50  0000 L CNN
-F 1 "Conn_01x24_Female" H 7178 7785 50  0000 L CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x24_P1.00mm_Vertical" H 7150 7900 50  0001 C CNN
-F 3 "~" H 7150 7900 50  0001 C CNN
-	1    7150 7900
-	1    0    0    -1  
+L power:GND #PWR0111
+U 1 1 5F09B202
+P 7500 8900
+F 0 "#PWR0111" H 7500 8650 50  0001 C CNN
+F 1 "GND" V 7505 8772 50  0000 R CNN
+F 2 "" H 7500 8900 50  0001 C CNN
+F 3 "" H 7500 8900 50  0001 C CNN
+	1    7500 8900
+	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_01x24_Female J3
-U 1 1 5EF7DB79
-P 8650 7900
-F 0 "J3" H 8678 7876 50  0000 L CNN
-F 1 "Conn_01x24_Female" H 8678 7785 50  0000 L CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x24_P1.00mm_Vertical" H 8650 7900 50  0001 C CNN
-F 3 "~" H 8650 7900 50  0001 C CNN
-	1    8650 7900
-	1    0    0    -1  
-$EndComp
-Text GLabel 6950 6800 0    50   Input ~ 0
-VIO
-$Comp
-L power:+1V8 #PWR?
-U 1 1 5F1F5F39
-P 6950 6900
-AR Path="/5BC231CE/5F1F5F39" Ref="#PWR?"  Part="1" 
-AR Path="/5BC231CB/5F1F5F39" Ref="#PWR?"  Part="1" 
-AR Path="/5F1F5F39" Ref="#PWR0107"  Part="1" 
-F 0 "#PWR0107" H 6950 6750 50  0001 C CNN
-F 1 "+1V8" V 6965 7028 50  0000 L CNN
-F 2 "" H 6950 6900 50  0001 C CNN
-F 3 "" H 6950 6900 50  0001 C CNN
-	1    6950 6900
-	0    -1   1    0   
-$EndComp
-$Comp
-L power:+2V8 #PWR?
-U 1 1 5F1F5F3F
-P 6950 7000
-AR Path="/5BC231CE/5F1F5F3F" Ref="#PWR?"  Part="1" 
-AR Path="/5BC231CB/5F1F5F3F" Ref="#PWR?"  Part="1" 
-AR Path="/5F1F5F3F" Ref="#PWR0108"  Part="1" 
-F 0 "#PWR0108" H 6950 6850 50  0001 C CNN
-F 1 "+2V8" V 6965 7128 50  0000 L CNN
-F 2 "" H 6950 7000 50  0001 C CNN
-F 3 "" H 6950 7000 50  0001 C CNN
-	1    6950 7000
-	0    -1   1    0   
+L power:GND #PWR0112
+U 1 1 5F09BE4E
+P 7500 8700
+F 0 "#PWR0112" H 7500 8450 50  0001 C CNN
+F 1 "GND" V 7505 8572 50  0000 R CNN
+F 2 "" H 7500 8700 50  0001 C CNN
+F 3 "" H 7500 8700 50  0001 C CNN
+	1    7500 8700
+	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0114
-U 1 1 5F1F73BB
-P 6950 7100
-F 0 "#PWR0114" H 6950 6850 50  0001 C CNN
-F 1 "GND" V 6955 6972 50  0000 R CNN
-F 2 "" H 6950 7100 50  0001 C CNN
-F 3 "" H 6950 7100 50  0001 C CNN
-	1    6950 7100
+U 1 1 5F0A09B6
+P 7500 8500
+F 0 "#PWR0114" H 7500 8250 50  0001 C CNN
+F 1 "GND" V 7505 8372 50  0000 R CNN
+F 2 "" H 7500 8500 50  0001 C CNN
+F 3 "" H 7500 8500 50  0001 C CNN
+	1    7500 8500
 	0    1    1    0   
 $EndComp
-Text GLabel 6950 7300 0    50   BiDi ~ 0
-IO0
-Text GLabel 6950 7400 0    50   BiDi ~ 0
-IO1
-Text GLabel 6950 7500 0    50   BiDi ~ 0
-IO2
-Text GLabel 6950 7600 0    50   BiDi ~ 0
-IO3
-Text GLabel 6950 7700 0    50   BiDi ~ 0
-IO4
-Text GLabel 6950 7800 0    50   BiDi ~ 0
-IO5
-Text GLabel 6950 7900 0    50   BiDi ~ 0
-IO6
-Text GLabel 6950 8000 0    50   BiDi ~ 0
-IO7
-Text GLabel 6950 8100 0    50   BiDi ~ 0
-IO8
-Text GLabel 6950 8200 0    50   BiDi ~ 0
-IO9
-Text GLabel 6950 8300 0    50   BiDi ~ 0
-IO10
-Text GLabel 6950 8400 0    50   BiDi ~ 0
-IO11
-Text GLabel 6950 8500 0    50   BiDi ~ 0
-IO12
-Text GLabel 6950 8600 0    50   BiDi ~ 0
-IO13
-Text GLabel 6950 8700 0    50   BiDi ~ 0
-IO14
-Text GLabel 6950 8800 0    50   BiDi ~ 0
-IO15
-Text GLabel 6950 8900 0    50   BiDi ~ 0
-IO16
-Text GLabel 6950 9000 0    50   BiDi ~ 0
-IO17
-Text GLabel 6950 9100 0    50   BiDi ~ 0
-IO18
-Text GLabel 8450 7300 0    50   BiDi ~ 0
-IO19
-Text GLabel 8450 7400 0    50   BiDi ~ 0
-IO20
-Text GLabel 8450 7500 0    50   BiDi ~ 0
-IO21
-Text GLabel 8450 6800 0    50   Input ~ 0
-VIO
 $Comp
-L power:+1V8 #PWR?
-U 1 1 5F20AE65
-P 8450 6900
-AR Path="/5BC231CE/5F20AE65" Ref="#PWR?"  Part="1" 
-AR Path="/5BC231CB/5F20AE65" Ref="#PWR?"  Part="1" 
-AR Path="/5F20AE65" Ref="#PWR0115"  Part="1" 
-F 0 "#PWR0115" H 8450 6750 50  0001 C CNN
-F 1 "+1V8" V 8465 7028 50  0000 L CNN
-F 2 "" H 8450 6900 50  0001 C CNN
-F 3 "" H 8450 6900 50  0001 C CNN
-	1    8450 6900
-	0    -1   1    0   
-$EndComp
-$Comp
-L power:+2V8 #PWR?
-U 1 1 5F20AE6B
-P 8450 7000
-AR Path="/5BC231CE/5F20AE6B" Ref="#PWR?"  Part="1" 
-AR Path="/5BC231CB/5F20AE6B" Ref="#PWR?"  Part="1" 
-AR Path="/5F20AE6B" Ref="#PWR0116"  Part="1" 
-F 0 "#PWR0116" H 8450 6850 50  0001 C CNN
-F 1 "+2V8" V 8465 7128 50  0000 L CNN
-F 2 "" H 8450 7000 50  0001 C CNN
-F 3 "" H 8450 7000 50  0001 C CNN
-	1    8450 7000
-	0    -1   1    0   
-$EndComp
-$Comp
-L power:GND #PWR0117
-U 1 1 5F20AE71
-P 8450 7100
-F 0 "#PWR0117" H 8450 6850 50  0001 C CNN
-F 1 "GND" V 8455 6972 50  0000 R CNN
-F 2 "" H 8450 7100 50  0001 C CNN
-F 3 "" H 8450 7100 50  0001 C CNN
-	1    8450 7100
+L power:GND #PWR0115
+U 1 1 5F0A1090
+P 7500 8300
+F 0 "#PWR0115" H 7500 8050 50  0001 C CNN
+F 1 "GND" V 7505 8172 50  0000 R CNN
+F 2 "" H 7500 8300 50  0001 C CNN
+F 3 "" H 7500 8300 50  0001 C CNN
+	1    7500 8300
 	0    1    1    0   
 $EndComp
-Text GLabel 8450 7600 0    50   BiDi ~ 0
-IO22
-Text GLabel 8450 7700 0    50   BiDi ~ 0
-IO23
-Text GLabel 8450 7800 0    50   BiDi ~ 0
-IO24
-Text GLabel 8450 7900 0    50   BiDi ~ 0
-IO25
-Text GLabel 8450 8000 0    50   BiDi ~ 0
-IO26
-Text GLabel 8450 8100 0    50   BiDi ~ 0
-IO27
-Text GLabel 8450 8200 0    50   BiDi ~ 0
-IO28
-Text GLabel 8450 8300 0    50   BiDi ~ 0
-IO29
-Text GLabel 8450 8400 0    50   BiDi ~ 0
-IO30
-Text GLabel 8450 8500 0    50   BiDi ~ 0
-IO31
-Text GLabel 8450 8600 0    50   BiDi ~ 0
-IO32
-Text GLabel 8450 8700 0    50   BiDi ~ 0
-IO33
-Text GLabel 8450 8800 0    50   BiDi ~ 0
-IO34
-Text GLabel 8450 8900 0    50   BiDi ~ 0
-IO35
-Text GLabel 8450 9000 0    50   BiDi ~ 0
-IO36
-Text GLabel 8450 9100 0    50   BiDi ~ 0
-IO37
-Text GLabel 6950 7200 0    50   Output ~ 0
-VIN
-Text GLabel 8450 7200 0    50   Output ~ 0
-VIN
-Wire Wire Line
-	9100 4950 10100 4950
-Wire Wire Line
-	10100 5050 9100 5050
-Wire Wire Line
-	9100 5150 10100 5150
-Wire Wire Line
-	9100 3850 10100 3850
-Wire Wire Line
-	10100 3950 9100 3950
-Wire Wire Line
-	9100 4050 10100 4050
+Text GLabel 7150 7700 0    50   Input ~ 0
+EN
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5F067072
+P 3450 4350
+F 0 "H3" H 3550 4399 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3550 4308 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 3450 4350 50  0001 C CNN
+F 3 "~" H 3450 4350 50  0001 C CNN
+	1    3450 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5F067FD3
+P 3450 4800
+F 0 "H4" H 3550 4849 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3550 4758 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 3450 4800 50  0001 C CNN
+F 3 "~" H 3450 4800 50  0001 C CNN
+	1    3450 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5F06915B
+P 3450 3500
+F 0 "H1" H 3550 3549 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3550 3458 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 3450 3500 50  0001 C CNN
+F 3 "~" H 3450 3500 50  0001 C CNN
+	1    3450 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5F069161
+P 3450 3950
+F 0 "H2" H 3550 3999 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3550 3908 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_Via" H 3450 3950 50  0001 C CNN
+F 3 "~" H 3450 3950 50  0001 C CNN
+	1    3450 3950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
