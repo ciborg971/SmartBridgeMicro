@@ -477,23 +477,9 @@ F 3 "~" H 9600 950 50  0001 C CNN
 	1    9600 950 
 	-1   0    0    1   
 $EndComp
-$Comp
-L Device:C C5
-U 1 1 5F0D4062
-P 10600 950
-F 0 "C5" H 10850 900 50  0000 C CNN
-F 1 "2.2uF" H 10850 1000 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 10638 800 50  0001 C CNN
-F 3 "~" H 10600 950 50  0001 C CNN
-	1    10600 950 
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	10600 1100 10100 1100
 Connection ~ 9600 1100
 Wire Wire Line
 	9600 1100 9100 1100
-Connection ~ 10100 1100
 Wire Wire Line
 	10100 1100 9600 1100
 Wire Wire Line
@@ -502,9 +488,6 @@ Connection ~ 9100 800
 Connection ~ 9600 800 
 Wire Wire Line
 	9600 800  10100 800 
-Connection ~ 10100 800 
-Wire Wire Line
-	10100 800  10600 800 
 Text GLabel 9700 1350 0    50   Input ~ 0
 VIO
 Wire Wire Line
@@ -630,7 +613,7 @@ U 1 1 5F126188
 P 4050 1850
 F 0 "L2" H 4103 1896 50  0000 L CNN
 F 1 "L" H 4103 1805 50  0000 L CNN
-F 2 "" H 4050 1850 50  0001 C CNN
+F 2 "Inductor_SMD:L_0402_1005Metric" H 4050 1850 50  0001 C CNN
 F 3 "~" H 4050 1850 50  0001 C CNN
 	1    4050 1850
 	1    0    0    -1  
