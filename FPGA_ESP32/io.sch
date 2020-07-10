@@ -307,21 +307,17 @@ Text HLabel 8650 4600 2    50   BiDi ~ 0
 FLASH_MOSI
 Text HLabel 8650 4200 2    50   BiDi ~ 0
 FLASH_SCK
-Text HLabel 8650 4000 2    50   BiDi ~ 0
-DONE
-Text HLabel 8650 4100 2    50   BiDi ~ 0
-INITN
 Text HLabel 8650 3900 2    50   BiDi ~ 0
 PROGRAMN
 $Comp
 L Device:R R14
 U 1 1 5F0C7712
-P 6300 4000
-F 0 "R14" V 6200 3750 50  0000 L CNN
-F 1 "4K7" V 6300 3950 50  0000 L CNN
-F 2 "Resistor_SMD:R_0201_0603Metric" V 6230 4000 50  0001 C CNN
-F 3 "~" H 6300 4000 50  0001 C CNN
-	1    6300 4000
+P 6200 4000
+F 0 "R14" V 6100 3750 50  0000 L CNN
+F 1 "4K7" V 6200 3950 50  0000 L CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 6130 4000 50  0001 C CNN
+F 3 "~" H 6200 4000 50  0001 C CNN
+	1    6200 4000
 	0    1    1    0   
 $EndComp
 $Comp
@@ -355,14 +351,14 @@ IO30
 $Comp
 L ob:W956D6KBKX U?
 U 1 1 5EEA1F7D
-P 12250 2050
+P 12050 2050
 AR Path="/5EEA1F7D" Ref="U?"  Part="1" 
 AR Path="/5BC231CE/5EEA1F7D" Ref="U6"  Part="1" 
-F 0 "U6" H 12250 1550 50  0000 C CNN
-F 1 "W956D6KBKX" H 12250 1700 50  0000 C CNN
-F 2 "footprints:BGA-49_7x7_4.0x4.0mm" H 12250 1300 50  0001 C CNN
-F 3 "" H 12250 1300 50  0001 C CNN
-	1    12250 2050
+F 0 "U6" H 12050 1550 50  0000 C CNN
+F 1 "W956D6KBKX" H 12050 1700 50  0000 C CNN
+F 2 "footprints:BGA-49_7x7_4.0x4.0mm" H 12050 1300 50  0001 C CNN
+F 3 "" H 12050 1300 50  0001 C CNN
+	1    12050 2050
 	1    0    0    -1  
 $EndComp
 Text Label 14000 1850 2    50   ~ 0
@@ -409,51 +405,51 @@ Text Label 14000 3850 2    50   ~ 0
 RAM0_A20
 Text Label 14000 3950 2    50   ~ 0
 RAM0_A21
-Text Label 11550 1850 2    50   ~ 0
+Text Label 11350 1850 2    50   ~ 0
 RAM1_ADQ0
-Text Label 11550 1950 2    50   ~ 0
+Text Label 11350 1950 2    50   ~ 0
 RAM1_ADQ1
-Text Label 11550 2050 2    50   ~ 0
+Text Label 11350 2050 2    50   ~ 0
 RAM1_ADQ2
-Text Label 11550 2150 2    50   ~ 0
+Text Label 11350 2150 2    50   ~ 0
 RAM1_ADQ3
-Text Label 11550 2250 2    50   ~ 0
+Text Label 11350 2250 2    50   ~ 0
 RAM1_ADQ4
-Text Label 11550 2350 2    50   ~ 0
+Text Label 11350 2350 2    50   ~ 0
 RAM1_ADQ5
-Text Label 11550 2450 2    50   ~ 0
+Text Label 11350 2450 2    50   ~ 0
 RAM1_ADQ6
-Text Label 11550 2550 2    50   ~ 0
+Text Label 11350 2550 2    50   ~ 0
 RAM1_ADQ7
-Text Label 11550 2650 2    50   ~ 0
+Text Label 11350 2650 2    50   ~ 0
 RAM1_ADQ8
-Text Label 11550 2750 2    50   ~ 0
+Text Label 11350 2750 2    50   ~ 0
 RAM1_ADQ9
-Text Label 11550 2850 2    50   ~ 0
+Text Label 11350 2850 2    50   ~ 0
 RAM1_ADQ10
-Text Label 11550 2950 2    50   ~ 0
+Text Label 11350 2950 2    50   ~ 0
 RAM1_ADQ11
-Text Label 11550 3050 2    50   ~ 0
+Text Label 11350 3050 2    50   ~ 0
 RAM1_ADQ12
-Text Label 11550 3150 2    50   ~ 0
+Text Label 11350 3150 2    50   ~ 0
 RAM1_ADQ13
-Text Label 11550 3250 2    50   ~ 0
+Text Label 11350 3250 2    50   ~ 0
 RAM1_ADQ14
-Text Label 11550 3350 2    50   ~ 0
+Text Label 11350 3350 2    50   ~ 0
 RAM1_ADQ15
-Text Label 11550 3450 2    50   ~ 0
+Text Label 11350 3450 2    50   ~ 0
 RAM1_A16
-Text Label 11550 3550 2    50   ~ 0
+Text Label 11350 3550 2    50   ~ 0
 RAM1_A17
-Text Label 11550 3650 2    50   ~ 0
+Text Label 11350 3650 2    50   ~ 0
 RAM1_A18
-Text Label 11550 3750 2    50   ~ 0
+Text Label 11350 3750 2    50   ~ 0
 RAM1_A19
-Text Label 11550 3850 2    50   ~ 0
+Text Label 11350 3850 2    50   ~ 0
 RAM1_A20
-Text Label 11550 3950 2    50   ~ 0
+Text Label 11350 3950 2    50   ~ 0
 RAM1_A21
-Text Label 13000 3050 0    50   ~ 0
+Text Label 12800 3050 0    50   ~ 0
 RAM1_WAIT
 Text Label 4900 9050 2    50   ~ 0
 RAM0_ADQ0
@@ -587,8 +583,6 @@ F 36 "" H 7550 4600 50  0001 L BNN "Field36"
 	9    7550 4600
 	1    0    0    -1  
 $EndComp
-Text HLabel 8850 4850 2    50   BiDi ~ 0
-FLASH_HOLD
 $Comp
 L ob:W956D6KBKX U?
 U 1 1 5EE99FF2
@@ -817,11 +811,11 @@ Text Label 6700 6600 2    50   ~ 0
 nRESET
 Text Label 6700 7000 2    50   ~ 0
 HSYNC
-Text Label 8950 5050 0    50   ~ 0
+Text Label 8650 4900 0    50   ~ 0
 VSYNC
 Text Label 4750 6900 0    50   ~ 0
 VIN_CLK
-Text Label 8950 5150 0    50   ~ 0
+Text Label 8650 4800 0    50   ~ 0
 MPOUT
 Text GLabel 4350 3700 2    50   Input ~ 0
 VIO
@@ -973,30 +967,6 @@ Wire Wire Line
 Wire Wire Line
 	13250 6800 13350 6800
 Connection ~ 12700 6750
-$Comp
-L power:GND #PWR0110
-U 1 1 5F084D0D
-P 13000 1650
-F 0 "#PWR0110" H 13000 1400 50  0001 C CNN
-F 1 "GND" V 13005 1522 50  0000 R CNN
-F 2 "" H 13000 1650 50  0001 C CNN
-F 3 "" H 13000 1650 50  0001 C CNN
-	1    13000 1650
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C C1
-U 1 1 5F084D07
-P 13250 1650
-F 0 "C1" V 13000 1600 50  0000 C CNN
-F 1 "100nF" V 13100 1600 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 13288 1500 50  0001 C CNN
-F 3 "~" H 13250 1650 50  0001 C CNN
-	1    13250 1650
-	0    1    1    0   
-$EndComp
-Text GLabel 13600 1700 1    50   Input ~ 0
-VIO
 Text GLabel 14600 7500 2    50   Input ~ 0
 AVIN1
 Text GLabel 14600 7600 2    50   Input ~ 0
@@ -1004,16 +974,22 @@ AVIN2
 $Comp
 L power:GND #PWR0129
 U 1 1 5F47D34E
-P 12350 4150
-F 0 "#PWR0129" H 12350 3900 50  0001 C CNN
-F 1 "GND" H 12355 3977 50  0000 C CNN
-F 2 "" H 12350 4150 50  0001 C CNN
-F 3 "" H 12350 4150 50  0001 C CNN
-	1    12350 4150
+P 12150 4150
+F 0 "#PWR0129" H 12150 3900 50  0001 C CNN
+F 1 "GND" H 12155 3977 50  0000 C CNN
+F 2 "" H 12150 4150 50  0001 C CNN
+F 3 "" H 12150 4150 50  0001 C CNN
+	1    12150 4150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12750 4150 12650 4150
+	12550 4150 12450 4150
+Connection ~ 11850 4150
+Wire Wire Line
+	11850 4150 11750 4150
+Connection ~ 11950 4150
+Wire Wire Line
+	11950 4150 11850 4150
 Connection ~ 12050 4150
 Wire Wire Line
 	12050 4150 11950 4150
@@ -1029,12 +1005,6 @@ Wire Wire Line
 Connection ~ 12450 4150
 Wire Wire Line
 	12450 4150 12350 4150
-Connection ~ 12550 4150
-Wire Wire Line
-	12550 4150 12450 4150
-Connection ~ 12650 4150
-Wire Wire Line
-	12650 4150 12550 4150
 $Comp
 L power:GND #PWR0130
 U 1 1 5F480E66
@@ -1069,21 +1039,21 @@ Wire Wire Line
 Connection ~ 15100 4150
 Wire Wire Line
 	15100 4150 15000 4150
-Text Label 13000 2450 0    50   ~ 0
+Text Label 12800 2450 0    50   ~ 0
 RAM1_CE
-Text Label 13000 2550 0    50   ~ 0
+Text Label 12800 2550 0    50   ~ 0
 RAM1_LB
-Text Label 13000 2650 0    50   ~ 0
+Text Label 12800 2650 0    50   ~ 0
 RAM1_UB
-Text Label 13000 2750 0    50   ~ 0
+Text Label 12800 2750 0    50   ~ 0
 RAM1_ADV
-Text Label 13000 2850 0    50   ~ 0
+Text Label 12800 2850 0    50   ~ 0
 RAM1_WE
-Text Label 13000 2950 0    50   ~ 0
+Text Label 12800 2950 0    50   ~ 0
 RAM1_CLK
-Text Label 13000 3150 0    50   ~ 0
+Text Label 12800 3150 0    50   ~ 0
 RAM1_CRE
-Text Label 13000 3250 0    50   ~ 0
+Text Label 12800 3250 0    50   ~ 0
 RAM1_OE
 Text Label 15450 3050 0    50   ~ 0
 RAM0_WAIT
@@ -1103,7 +1073,7 @@ Text Label 15450 3150 0    50   ~ 0
 RAM0_CRE
 Text Label 15450 3250 0    50   ~ 0
 RAM0_OE
-Text Label 10200 9600 0    50   ~ 0
+Text Label 10200 9500 0    50   ~ 0
 RAM1_WAIT
 Text Label 6900 10250 0    50   ~ 0
 RAM1_CE
@@ -1115,15 +1085,15 @@ Text Label 10200 9300 0    50   ~ 0
 RAM1_ADV
 Text Label 10200 9400 0    50   ~ 0
 RAM1_WE
-Text Label 10200 9500 0    50   ~ 0
+Text Label 10200 10000 0    50   ~ 0
 RAM1_CLK
-Text Label 10200 9800 0    50   ~ 0
+Text Label 8200 10000 2    50   ~ 0
 RAM1_CRE
 Text Label 10200 9900 0    50   ~ 0
 RAM1_OE
 Text Label 8200 10100 2    50   ~ 0
 RAM0_WAIT
-Text Label 10200 10000 0    50   ~ 0
+Text Label 10200 9600 0    50   ~ 0
 RAM0_CE
 Text Label 10200 10200 0    50   ~ 0
 RAM0_LB
@@ -1133,7 +1103,7 @@ Text Label 8200 9600 2    50   ~ 0
 RAM0_ADV
 Text Label 8200 9700 2    50   ~ 0
 RAM0_WE
-Text Label 8200 10000 2    50   ~ 0
+Text Label 10200 9800 0    50   ~ 0
 RAM0_CLK
 Text Label 8200 10400 2    50   ~ 0
 RAM0_CRE
@@ -1276,8 +1246,367 @@ F 3 "" H 10200 9100 50  0001 C CNN
 $EndComp
 Text GLabel 8500 6100 2    50   Input ~ 0
 VIO
-Text GLabel 6150 4000 0    50   Input ~ 0
+Text GLabel 6050 4000 0    50   Input ~ 0
 VIO
 Wire Wire Line
 	4750 6900 4450 6900
+$Comp
+L power:+1V8 #PWR?
+U 1 1 5F8B378C
+P 12150 800
+AR Path="/5BC231CE/5F8B378C" Ref="#PWR?"  Part="1" 
+AR Path="/5BC231CB/5F8B378C" Ref="#PWR?"  Part="1" 
+AR Path="/5F8B378C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 12150 650 50  0001 C CNN
+F 1 "+1V8" H 12050 950 50  0000 L CNN
+F 2 "" H 12150 800 50  0001 C CNN
+F 3 "" H 12150 800 50  0001 C CNN
+	1    12150 800 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F8B5480
+P 12350 950
+F 0 "C?" H 12150 1000 50  0000 C CNN
+F 1 "0.1uF" H 12150 900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 12388 800 50  0001 C CNN
+F 3 "~" H 12350 950 50  0001 C CNN
+	1    12350 950 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F8B705D
+P 11950 950
+F 0 "C?" H 11750 1000 50  0000 C CNN
+F 1 "10uF" H 11750 900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 11988 800 50  0001 C CNN
+F 3 "~" H 11950 950 50  0001 C CNN
+	1    11950 950 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12350 800  12150 800 
+Connection ~ 12150 800 
+Wire Wire Line
+	12150 800  11950 800 
+$Comp
+L power:GND #PWR?
+U 1 1 5F8C060B
+P 12150 1100
+F 0 "#PWR?" H 12150 850 50  0001 C CNN
+F 1 "GND" H 12155 927 50  0000 C CNN
+F 2 "" H 12150 1100 50  0001 C CNN
+F 3 "" H 12150 1100 50  0001 C CNN
+	1    12150 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12350 1100 12150 1100
+Connection ~ 12150 1100
+Wire Wire Line
+	12150 1100 11950 1100
+$Comp
+L power:+1V8 #PWR?
+U 1 1 5F8C4449
+P 14800 800
+AR Path="/5BC231CE/5F8C4449" Ref="#PWR?"  Part="1" 
+AR Path="/5BC231CB/5F8C4449" Ref="#PWR?"  Part="1" 
+AR Path="/5F8C4449" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 14800 650 50  0001 C CNN
+F 1 "+1V8" H 14700 950 50  0000 L CNN
+F 2 "" H 14800 800 50  0001 C CNN
+F 3 "" H 14800 800 50  0001 C CNN
+	1    14800 800 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F8C444F
+P 15000 950
+F 0 "C?" H 14800 1000 50  0000 C CNN
+F 1 "0.1uF" H 14800 900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 15038 800 50  0001 C CNN
+F 3 "~" H 15000 950 50  0001 C CNN
+	1    15000 950 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F8C4455
+P 14600 950
+F 0 "C?" H 14400 1000 50  0000 C CNN
+F 1 "10uF" H 14400 900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 14638 800 50  0001 C CNN
+F 3 "~" H 14600 950 50  0001 C CNN
+	1    14600 950 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	15000 800  14800 800 
+Connection ~ 14800 800 
+Wire Wire Line
+	14800 800  14600 800 
+$Comp
+L power:GND #PWR?
+U 1 1 5F8C445E
+P 14800 1100
+F 0 "#PWR?" H 14800 850 50  0001 C CNN
+F 1 "GND" H 14805 927 50  0000 C CNN
+F 2 "" H 14800 1100 50  0001 C CNN
+F 3 "" H 14800 1100 50  0001 C CNN
+	1    14800 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15000 1100 14800 1100
+Connection ~ 14800 1100
+Wire Wire Line
+	14800 1100 14600 1100
+$Comp
+L power:+1V8 #PWR?
+U 1 1 5F8D2F63
+P 12150 1650
+AR Path="/5BC231CE/5F8D2F63" Ref="#PWR?"  Part="1" 
+AR Path="/5BC231CB/5F8D2F63" Ref="#PWR?"  Part="1" 
+AR Path="/5F8D2F63" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 12150 1500 50  0001 C CNN
+F 1 "+1V8" H 12050 1800 50  0000 L CNN
+F 2 "" H 12150 1650 50  0001 C CNN
+F 3 "" H 12150 1650 50  0001 C CNN
+	1    12150 1650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+1V8 #PWR?
+U 1 1 5F8D4631
+P 14800 1650
+AR Path="/5BC231CE/5F8D4631" Ref="#PWR?"  Part="1" 
+AR Path="/5BC231CB/5F8D4631" Ref="#PWR?"  Part="1" 
+AR Path="/5F8D4631" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 14800 1500 50  0001 C CNN
+F 1 "+1V8" H 14700 1800 50  0000 L CNN
+F 2 "" H 14800 1650 50  0001 C CNN
+F 3 "" H 14800 1650 50  0001 C CNN
+	1    14800 1650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	15100 1650 15000 1650
+Connection ~ 14600 1650
+Wire Wire Line
+	14600 1650 14500 1650
+Connection ~ 14700 1650
+Wire Wire Line
+	14700 1650 14600 1650
+Connection ~ 14800 1650
+Wire Wire Line
+	14800 1650 14700 1650
+Connection ~ 14900 1650
+Wire Wire Line
+	14900 1650 14800 1650
+Connection ~ 15000 1650
+Wire Wire Line
+	15000 1650 14900 1650
+Wire Wire Line
+	12450 1650 12350 1650
+Connection ~ 11950 1650
+Wire Wire Line
+	11950 1650 11850 1650
+Connection ~ 12050 1650
+Wire Wire Line
+	12050 1650 11950 1650
+Connection ~ 12150 1650
+Wire Wire Line
+	12150 1650 12050 1650
+Connection ~ 12250 1650
+Wire Wire Line
+	12250 1650 12150 1650
+Connection ~ 12350 1650
+Wire Wire Line
+	12350 1650 12250 1650
+$Comp
+L Device:R R?
+U 1 1 5F9173D4
+P 9000 4100
+F 0 "R?" V 8900 4100 50  0000 C CNN
+F 1 "4.7K" V 9000 4100 50  0000 C CNN
+F 2 "" V 8930 4100 50  0001 C CNN
+F 3 "~" H 9000 4100 50  0001 C CNN
+	1    9000 4100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8850 4100 8650 4100
+Text GLabel 9150 4100 2    50   Input ~ 0
+VIO
+NoConn ~ 8650 4000
+Wire Wire Line
+	6450 4000 6350 4000
+Text GLabel 8650 5100 2    50   BiDi ~ 0
+IO33
+$Comp
+L LFE5UM-25F-7MG285C:LFE5UM-25F-7MG285C U1
+U 10 1 5F968219
+P 3750 1700
+AR Path="/5BC231CE/5F968219" Ref="U1"  Part="10" 
+AR Path="/5BC231CB/5F968219" Ref="U?"  Part="10" 
+AR Path="/5F968219" Ref="U?"  Part="10" 
+F 0 "U1" H 3700 2250 50  0000 C CNN
+F 1 "LFE5UM-25F-7MG285C" H 3650 2100 50  0000 C CNN
+F 2 "footprints:BGA285N50P18X18_1000X1000X130N" H 3750 1700 50  0001 L BNN
+F 3 "1.3" H 3750 1700 50  0001 L BNN
+F 4 "18.0" H 3750 1700 50  0001 L BNN "Field4"
+F 5 "18.0" H 3750 1700 50  0001 L BNN "Field5"
+F 6 "1.0" H 3750 1700 50  0001 L BNN "Field6"
+F 7 "" H 3750 1700 50  0001 L BNN "Field7"
+F 8 "1.3" H 3750 1700 50  0001 L BNN "Field8"
+F 9 "" H 3750 1700 50  0001 L BNN "Field9"
+F 10 "" H 3750 1700 50  0001 L BNN "Field10"
+F 11 "10.0" H 3750 1700 50  0001 L BNN "Field11"
+F 12 "" H 3750 1700 50  0001 L BNN "Field12"
+F 13 "" H 3750 1700 50  0001 L BNN "Field13"
+F 14 "" H 3750 1700 50  0001 L BNN "Field14"
+F 15 "" H 3750 1700 50  0001 L BNN "Field15"
+F 16 "Lattice Semiconductor" H 3750 1700 50  0001 L BNN "Field16"
+F 17 "IPC 7351B" H 3750 1700 50  0001 L BNN "Field17"
+F 18 "10.0" H 3750 1700 50  0001 L BNN "Field18"
+F 19 "False" H 3750 1700 50  0001 L BNN "Field19"
+F 20 "" H 3750 1700 50  0001 L BNN "Field20"
+F 21 "1.3" H 3750 1700 50  0001 L BNN "Field21"
+F 22 "" H 3750 1700 50  0001 L BNN "Field22"
+F 23 "10.0" H 3750 1700 50  0001 L BNN "Field23"
+F 24 "10.0" H 3750 1700 50  0001 L BNN "Field24"
+F 25 "10.0" H 3750 1700 50  0001 L BNN "Field25"
+F 26 "" H 3750 1700 50  0001 L BNN "Field26"
+F 27 "0.5" H 3750 1700 50  0001 L BNN "Field27"
+F 28 "0.3" H 3750 1700 50  0001 L BNN "Field28"
+F 29 "True" H 3750 1700 50  0001 L BNN "Field29"
+F 30 "" H 3750 1700 50  0001 L BNN "Field30"
+F 31 "" H 3750 1700 50  0001 L BNN "Field31"
+F 32 "0.5" H 3750 1700 50  0001 L BNN "Field32"
+F 33 "" H 3750 1700 50  0001 L BNN "Field33"
+F 34 "" H 3750 1700 50  0001 L BNN "Field34"
+F 35 "10.0" H 3750 1700 50  0001 L BNN "Field35"
+F 36 "" H 3750 1700 50  0001 L BNN "Field36"
+	10   3750 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V1 #PWR?
+U 1 1 5F96821F
+P 4550 1150
+AR Path="/5BC231CB/5F96821F" Ref="#PWR?"  Part="1" 
+AR Path="/5F96821F" Ref="#PWR?"  Part="1" 
+AR Path="/5BC231CE/5F96821F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4550 1000 50  0001 C CNN
+F 1 "+1V1" V 4565 1278 50  0000 L CNN
+F 2 "" H 4550 1150 50  0001 C CNN
+F 3 "" H 4550 1150 50  0001 C CNN
+	1    4550 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+2V5 #PWR?
+U 1 1 5F968225
+P 4550 1450
+AR Path="/5BC231CB/5F968225" Ref="#PWR?"  Part="1" 
+AR Path="/5F968225" Ref="#PWR?"  Part="1" 
+AR Path="/5BC231CE/5F968225" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4550 1300 50  0001 C CNN
+F 1 "+2V5" V 4565 1578 50  0000 L CNN
+F 2 "" H 4550 1450 50  0001 C CNN
+F 3 "" H 4550 1450 50  0001 C CNN
+	1    4550 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+1V1 #PWR?
+U 1 1 5F96822B
+P 4550 1700
+AR Path="/5BC231CB/5F96822B" Ref="#PWR?"  Part="1" 
+AR Path="/5F96822B" Ref="#PWR?"  Part="1" 
+AR Path="/5BC231CE/5F96822B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4550 1550 50  0001 C CNN
+F 1 "+1V1" V 4565 1828 50  0000 L CNN
+F 2 "" H 4550 1700 50  0001 C CNN
+F 3 "" H 4550 1700 50  0001 C CNN
+	1    4550 1700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4550 1700 4550 1800
+Connection ~ 4550 1700
+Connection ~ 4550 1800
+Wire Wire Line
+	4550 1800 4550 1900
+Connection ~ 4550 1900
+Wire Wire Line
+	4550 1900 4550 2000
+$Comp
+L power:GND #PWR?
+U 1 1 5F968237
+P 4550 2300
+AR Path="/5BC231CB/5F968237" Ref="#PWR?"  Part="1" 
+AR Path="/5F968237" Ref="#PWR?"  Part="1" 
+AR Path="/5BC231CE/5F968237" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4550 2050 50  0001 C CNN
+F 1 "GND" V 4555 2172 50  0000 R CNN
+F 2 "" H 4550 2300 50  0001 C CNN
+F 3 "" H 4550 2300 50  0001 C CNN
+	1    4550 2300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4550 1100 4550 1150
+Connection ~ 4550 1150
+Wire Wire Line
+	4550 1150 4550 1200
+Wire Wire Line
+	4550 1400 4550 1450
+Connection ~ 4550 1450
+Wire Wire Line
+	4550 1450 4550 1500
+Text Notes 6500 800  0    50   ~ 0
+1V1 Reg
+Text Notes 7800 850  0    50   ~ 0
+1V8 Reg
+Text Notes 9150 850  0    50   ~ 0
+2V5 Reg
+$Comp
+L Regulator_Linear:TLV71211_SOT23-5 U?
+U 1 1 5F9A1612
+P 6700 1250
+F 0 "U?" H 6700 1592 50  0000 C CNN
+F 1 "TLV71211_SOT23-5" H 6700 1501 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 6700 1575 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/tlv712.pdf" H 6700 1300 50  0001 C CNN
+	1    6700 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:SPX3819M5-L-1-8 U?
+U 1 1 5F9A7D86
+P 8000 1250
+F 0 "U?" H 8000 1592 50  0000 C CNN
+F 1 "SPX3819M5-L-1-8" H 8000 1501 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 8000 1575 50  0001 C CNN
+F 3 "https://www.exar.com/content/document.ashx?id=22106&languageid=1033&type=Datasheet&partnumber=SPX3819&filename=SPX3819.pdf&part=SPX3819" H 8000 1250 50  0001 C CNN
+	1    8000 1250
+	1    0    0    -1  
+$EndComp
+Text GLabel 6150 1200 0    50   Input ~ 0
+VIO
+$Comp
+L Regulator_Linear:LD1117S25TR_SOT223 U?
+U 1 1 5F9B0BC9
+P 9350 1200
+F 0 "U?" H 9350 1442 50  0000 C CNN
+F 1 "LD1117S25TR_SOT223" H 9350 1351 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 9350 1400 50  0001 C CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf" H 9450 950 50  0001 C CNN
+	1    9350 1200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
