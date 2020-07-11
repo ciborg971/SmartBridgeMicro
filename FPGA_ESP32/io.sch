@@ -13,18 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 2550 3900 0    50   BiDi ~ 0
-SDIO1_CLK
-Text HLabel 2550 4000 0    50   BiDi ~ 0
-SDIO1_CMD
-Text HLabel 2550 4300 0    50   BiDi ~ 0
-SDIO1_DAT1
-Text HLabel 2550 4500 0    50   BiDi ~ 0
-SDIO1_DAT2
-Text HLabel 2550 4600 0    50   BiDi ~ 0
-SDIO1_DAT3
-Text HLabel 2550 4200 0    50   BiDi ~ 0
-SDIO1_DAT0
 $Comp
 L LFE5UM-25F-7MG285C:LFE5UM-25F-7MG285C U1
 U 1 1 5EE43217
@@ -302,11 +290,11 @@ NoConn ~ 850  2350
 Text GLabel 8650 3700 2    50   Input ~ 0
 VIO
 Text HLabel 8650 4500 2    50   BiDi ~ 0
-FLASH_MISO
+FPGA_MISO
 Text HLabel 8650 4600 2    50   BiDi ~ 0
-FLASH_MOSI
+FPGA_MOSI
 Text HLabel 8650 4200 2    50   BiDi ~ 0
-FLASH_SCK
+FPGA_SCK
 Text HLabel 8650 3900 2    50   BiDi ~ 0
 PROGRAMN
 $Comp
@@ -342,12 +330,6 @@ F 3 "" H 6450 4100 50  0001 C CNN
 	1    6450 4100
 	0    1    1    0   
 $EndComp
-Text GLabel 10200 10300 2    50   BiDi ~ 0
-IO28
-Text GLabel 10200 10400 2    50   BiDi ~ 0
-IO29
-Text GLabel 10200 10500 2    50   BiDi ~ 0
-IO30
 $Comp
 L ob:W956D6KBKX U?
 U 1 1 5EEA1F7D
@@ -777,17 +759,17 @@ Text Label 6450 4500 2    50   ~ 0
 VIN_D7
 Text Label 6450 4600 2    50   ~ 0
 VIN_D6
-Text Label 6450 4800 2    50   ~ 0
+Text Label 2550 3900 2    50   ~ 0
 VIN_D5
-Text Label 6450 4900 2    50   ~ 0
+Text Label 2550 4000 2    50   ~ 0
 VIN_D4
 Text Label 6450 5100 2    50   ~ 0
 VIN_D3
 Text Label 6450 5200 2    50   ~ 0
 VIN_D2
-Text Label 6450 5400 2    50   ~ 0
+Text Label 2550 4500 2    50   ~ 0
 VIN_D1
-Text Label 6450 5500 2    50   ~ 0
+Text Label 2550 4600 2    50   ~ 0
 VIN_D0
 Text Label 13350 7100 2    50   ~ 0
 nRESET
@@ -811,11 +793,9 @@ Text Label 6700 6600 2    50   ~ 0
 nRESET
 Text Label 6700 7000 2    50   ~ 0
 HSYNC
-Text Label 8650 4900 0    50   ~ 0
+Text Label 6450 4900 2    50   ~ 0
 VSYNC
-Text Label 4750 6900 0    50   ~ 0
-VIN_CLK
-Text Label 8650 4800 0    50   ~ 0
+Text Label 6450 4800 2    50   ~ 0
 MPOUT
 Text GLabel 4350 3700 2    50   Input ~ 0
 VIO
@@ -855,7 +835,7 @@ U 1 1 5F1070B2
 P 12700 6550
 F 0 "Y1" V 12200 6500 50  0000 L CNN
 F 1 "Crystal_GND23" V 12300 6300 50  0000 L CNN
-F 2 "" H 12700 6550 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm" H 12700 6550 50  0001 C CNN
 F 3 "~" H 12700 6550 50  0001 C CNN
 	1    12700 6550
 	0    1    1    0   
@@ -1206,33 +1186,29 @@ IO11
 Text GLabel 2450 7100 0    50   BiDi ~ 0
 IO12
 Text GLabel 2450 7200 0    50   BiDi ~ 0
-IO19
+IO13
 Text GLabel 4450 5700 2    50   BiDi ~ 0
-IO20
-Text GLabel 4450 5800 2    50   BiDi ~ 0
-IO21
-Text GLabel 4450 5900 2    50   BiDi ~ 0
-IO22
-Text GLabel 4450 6100 2    50   BiDi ~ 0
-IO23
-Text GLabel 4450 6200 2    50   BiDi ~ 0
-IO24
-Text GLabel 4450 6300 2    50   BiDi ~ 0
-IO25
-Text GLabel 4450 6400 2    50   BiDi ~ 0
-IO26
-Text GLabel 4450 7100 2    50   BiDi ~ 0
 IO15
-Text GLabel 4450 7200 2    50   BiDi ~ 0
+Text GLabel 4450 5800 2    50   BiDi ~ 0
 IO16
+Text GLabel 4450 5900 2    50   BiDi ~ 0
+IO17
+Text GLabel 4450 6100 2    50   BiDi ~ 0
+IO18
+Text GLabel 4450 6200 2    50   BiDi ~ 0
+IO19
+Text GLabel 4450 6300 2    50   BiDi ~ 0
+IO20
+Text GLabel 4450 6400 2    50   BiDi ~ 0
+IO21
 Text GLabel 4450 6700 2    50   BiDi ~ 0
-IO38
+IO23
 Text GLabel 4450 6600 2    50   BiDi ~ 0
-IO39
+IO22
 Text GLabel 4450 6800 2    50   BiDi ~ 0
-IO34
+IO24
 Text GLabel 4450 5600 2    50   BiDi ~ 0
-IO41
+IO14
 $Comp
 L power:+1V8 #PWR0145
 U 1 1 5F557827
@@ -1248,16 +1224,14 @@ Text GLabel 8500 6100 2    50   Input ~ 0
 VIO
 Text GLabel 6050 4000 0    50   Input ~ 0
 VIO
-Wire Wire Line
-	4750 6900 4450 6900
 $Comp
-L power:+1V8 #PWR?
+L power:+1V8 #PWR0101
 U 1 1 5F8B378C
 P 12150 800
-AR Path="/5BC231CE/5F8B378C" Ref="#PWR?"  Part="1" 
+AR Path="/5BC231CE/5F8B378C" Ref="#PWR0101"  Part="1" 
 AR Path="/5BC231CB/5F8B378C" Ref="#PWR?"  Part="1" 
 AR Path="/5F8B378C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 12150 650 50  0001 C CNN
+F 0 "#PWR0101" H 12150 650 50  0001 C CNN
 F 1 "+1V8" H 12050 950 50  0000 L CNN
 F 2 "" H 12150 800 50  0001 C CNN
 F 3 "" H 12150 800 50  0001 C CNN
@@ -1265,10 +1239,10 @@ F 3 "" H 12150 800 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C5
 U 1 1 5F8B5480
 P 12350 950
-F 0 "C?" H 12150 1000 50  0000 C CNN
+F 0 "C5" H 12150 1000 50  0000 C CNN
 F 1 "0.1uF" H 12150 900 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 12388 800 50  0001 C CNN
 F 3 "~" H 12350 950 50  0001 C CNN
@@ -1276,10 +1250,10 @@ F 3 "~" H 12350 950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C1
 U 1 1 5F8B705D
 P 11950 950
-F 0 "C?" H 11750 1000 50  0000 C CNN
+F 0 "C1" H 11750 1000 50  0000 C CNN
 F 1 "10uF" H 11750 900 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 11988 800 50  0001 C CNN
 F 3 "~" H 11950 950 50  0001 C CNN
@@ -1292,10 +1266,10 @@ Connection ~ 12150 800
 Wire Wire Line
 	12150 800  11950 800 
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0102
 U 1 1 5F8C060B
 P 12150 1100
-F 0 "#PWR?" H 12150 850 50  0001 C CNN
+F 0 "#PWR0102" H 12150 850 50  0001 C CNN
 F 1 "GND" H 12155 927 50  0000 C CNN
 F 2 "" H 12150 1100 50  0001 C CNN
 F 3 "" H 12150 1100 50  0001 C CNN
@@ -1308,13 +1282,13 @@ Connection ~ 12150 1100
 Wire Wire Line
 	12150 1100 11950 1100
 $Comp
-L power:+1V8 #PWR?
+L power:+1V8 #PWR0103
 U 1 1 5F8C4449
 P 14800 800
-AR Path="/5BC231CE/5F8C4449" Ref="#PWR?"  Part="1" 
+AR Path="/5BC231CE/5F8C4449" Ref="#PWR0103"  Part="1" 
 AR Path="/5BC231CB/5F8C4449" Ref="#PWR?"  Part="1" 
 AR Path="/5F8C4449" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 14800 650 50  0001 C CNN
+F 0 "#PWR0103" H 14800 650 50  0001 C CNN
 F 1 "+1V8" H 14700 950 50  0000 L CNN
 F 2 "" H 14800 800 50  0001 C CNN
 F 3 "" H 14800 800 50  0001 C CNN
@@ -1322,10 +1296,10 @@ F 3 "" H 14800 800 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C11
 U 1 1 5F8C444F
 P 15000 950
-F 0 "C?" H 14800 1000 50  0000 C CNN
+F 0 "C11" H 14800 1000 50  0000 C CNN
 F 1 "0.1uF" H 14800 900 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 15038 800 50  0001 C CNN
 F 3 "~" H 15000 950 50  0001 C CNN
@@ -1333,10 +1307,10 @@ F 3 "~" H 15000 950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C6
 U 1 1 5F8C4455
 P 14600 950
-F 0 "C?" H 14400 1000 50  0000 C CNN
+F 0 "C6" H 14400 1000 50  0000 C CNN
 F 1 "10uF" H 14400 900 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 14638 800 50  0001 C CNN
 F 3 "~" H 14600 950 50  0001 C CNN
@@ -1349,10 +1323,10 @@ Connection ~ 14800 800
 Wire Wire Line
 	14800 800  14600 800 
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0104
 U 1 1 5F8C445E
 P 14800 1100
-F 0 "#PWR?" H 14800 850 50  0001 C CNN
+F 0 "#PWR0104" H 14800 850 50  0001 C CNN
 F 1 "GND" H 14805 927 50  0000 C CNN
 F 2 "" H 14800 1100 50  0001 C CNN
 F 3 "" H 14800 1100 50  0001 C CNN
@@ -1365,13 +1339,13 @@ Connection ~ 14800 1100
 Wire Wire Line
 	14800 1100 14600 1100
 $Comp
-L power:+1V8 #PWR?
+L power:+1V8 #PWR0110
 U 1 1 5F8D2F63
 P 12150 1650
-AR Path="/5BC231CE/5F8D2F63" Ref="#PWR?"  Part="1" 
+AR Path="/5BC231CE/5F8D2F63" Ref="#PWR0110"  Part="1" 
 AR Path="/5BC231CB/5F8D2F63" Ref="#PWR?"  Part="1" 
 AR Path="/5F8D2F63" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 12150 1500 50  0001 C CNN
+F 0 "#PWR0110" H 12150 1500 50  0001 C CNN
 F 1 "+1V8" H 12050 1800 50  0000 L CNN
 F 2 "" H 12150 1650 50  0001 C CNN
 F 3 "" H 12150 1650 50  0001 C CNN
@@ -1379,13 +1353,13 @@ F 3 "" H 12150 1650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:+1V8 #PWR?
+L power:+1V8 #PWR0122
 U 1 1 5F8D4631
 P 14800 1650
-AR Path="/5BC231CE/5F8D4631" Ref="#PWR?"  Part="1" 
+AR Path="/5BC231CE/5F8D4631" Ref="#PWR0122"  Part="1" 
 AR Path="/5BC231CB/5F8D4631" Ref="#PWR?"  Part="1" 
 AR Path="/5F8D4631" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 14800 1500 50  0001 C CNN
+F 0 "#PWR0122" H 14800 1500 50  0001 C CNN
 F 1 "+1V8" H 14700 1800 50  0000 L CNN
 F 2 "" H 14800 1650 50  0001 C CNN
 F 3 "" H 14800 1650 50  0001 C CNN
@@ -1427,12 +1401,12 @@ Connection ~ 12350 1650
 Wire Wire Line
 	12350 1650 12250 1650
 $Comp
-L Device:R R?
+L Device:R R7
 U 1 1 5F9173D4
 P 9000 4100
-F 0 "R?" V 8900 4100 50  0000 C CNN
+F 0 "R7" V 8900 4100 50  0000 C CNN
 F 1 "4.7K" V 9000 4100 50  0000 C CNN
-F 2 "" V 8930 4100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0201_0603Metric" V 8930 4100 50  0001 C CNN
 F 3 "~" H 9000 4100 50  0001 C CNN
 	1    9000 4100
 	0    1    1    0   
@@ -1441,11 +1415,8 @@ Wire Wire Line
 	8850 4100 8650 4100
 Text GLabel 9150 4100 2    50   Input ~ 0
 VIO
-NoConn ~ 8650 4000
 Wire Wire Line
 	6450 4000 6350 4000
-Text GLabel 8650 5100 2    50   BiDi ~ 0
-IO33
 $Comp
 L LFE5UM-25F-7MG285C:LFE5UM-25F-7MG285C U1
 U 10 1 5F968219
@@ -1499,8 +1470,8 @@ U 1 1 5F96821F
 P 4550 1150
 AR Path="/5BC231CB/5F96821F" Ref="#PWR?"  Part="1" 
 AR Path="/5F96821F" Ref="#PWR?"  Part="1" 
-AR Path="/5BC231CE/5F96821F" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4550 1000 50  0001 C CNN
+AR Path="/5BC231CE/5F96821F" Ref="#PWR0134"  Part="1" 
+F 0 "#PWR0134" H 4550 1000 50  0001 C CNN
 F 1 "+1V1" V 4565 1278 50  0000 L CNN
 F 2 "" H 4550 1150 50  0001 C CNN
 F 3 "" H 4550 1150 50  0001 C CNN
@@ -1513,8 +1484,8 @@ U 1 1 5F968225
 P 4550 1450
 AR Path="/5BC231CB/5F968225" Ref="#PWR?"  Part="1" 
 AR Path="/5F968225" Ref="#PWR?"  Part="1" 
-AR Path="/5BC231CE/5F968225" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4550 1300 50  0001 C CNN
+AR Path="/5BC231CE/5F968225" Ref="#PWR0135"  Part="1" 
+F 0 "#PWR0135" H 4550 1300 50  0001 C CNN
 F 1 "+2V5" V 4565 1578 50  0000 L CNN
 F 2 "" H 4550 1450 50  0001 C CNN
 F 3 "" H 4550 1450 50  0001 C CNN
@@ -1527,8 +1498,8 @@ U 1 1 5F96822B
 P 4550 1700
 AR Path="/5BC231CB/5F96822B" Ref="#PWR?"  Part="1" 
 AR Path="/5F96822B" Ref="#PWR?"  Part="1" 
-AR Path="/5BC231CE/5F96822B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4550 1550 50  0001 C CNN
+AR Path="/5BC231CE/5F96822B" Ref="#PWR0146"  Part="1" 
+F 0 "#PWR0146" H 4550 1550 50  0001 C CNN
 F 1 "+1V1" V 4565 1828 50  0000 L CNN
 F 2 "" H 4550 1700 50  0001 C CNN
 F 3 "" H 4550 1700 50  0001 C CNN
@@ -1550,8 +1521,8 @@ U 1 1 5F968237
 P 4550 2300
 AR Path="/5BC231CB/5F968237" Ref="#PWR?"  Part="1" 
 AR Path="/5F968237" Ref="#PWR?"  Part="1" 
-AR Path="/5BC231CE/5F968237" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4550 2050 50  0001 C CNN
+AR Path="/5BC231CE/5F968237" Ref="#PWR0147"  Part="1" 
+F 0 "#PWR0147" H 4550 2050 50  0001 C CNN
 F 1 "GND" V 4555 2172 50  0000 R CNN
 F 2 "" H 4550 2300 50  0001 C CNN
 F 3 "" H 4550 2300 50  0001 C CNN
@@ -1575,10 +1546,10 @@ Text Notes 7800 850  0    50   ~ 0
 Text Notes 9150 850  0    50   ~ 0
 2V5 Reg
 $Comp
-L Regulator_Linear:TLV71211_SOT23-5 U?
+L Regulator_Linear:TLV71211_SOT23-5 U3
 U 1 1 5F9A1612
 P 6700 1250
-F 0 "U?" H 6700 1592 50  0000 C CNN
+F 0 "U3" H 6700 1592 50  0000 C CNN
 F 1 "TLV71211_SOT23-5" H 6700 1501 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 6700 1575 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/tlv712.pdf" H 6700 1300 50  0001 C CNN
@@ -1586,10 +1557,10 @@ F 3 "http://www.ti.com/lit/ds/symlink/tlv712.pdf" H 6700 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:SPX3819M5-L-1-8 U?
+L Regulator_Linear:SPX3819M5-L-1-8 U8
 U 1 1 5F9A7D86
 P 8000 1250
-F 0 "U?" H 8000 1592 50  0000 C CNN
+F 0 "U8" H 8000 1592 50  0000 C CNN
 F 1 "SPX3819M5-L-1-8" H 8000 1501 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 8000 1575 50  0001 C CNN
 F 3 "https://www.exar.com/content/document.ashx?id=22106&languageid=1033&type=Datasheet&partnumber=SPX3819&filename=SPX3819.pdf&part=SPX3819" H 8000 1250 50  0001 C CNN
@@ -1598,15 +1569,38 @@ F 3 "https://www.exar.com/content/document.ashx?id=22106&languageid=1033&type=Da
 $EndComp
 Text GLabel 6150 1200 0    50   Input ~ 0
 VIO
+Text HLabel 8650 4800 2    50   BiDi ~ 0
+FPGA_CS
+NoConn ~ 6450 5500
+Text HLabel 6450 5400 0    50   BiDi ~ 0
+FPGA_HOLDN
+Text HLabel 8650 4000 2    50   BiDi ~ 0
+DONE
+Text HLabel 8650 4900 2    50   BiDi ~ 0
+FPGA_IO2
+Text HLabel 8650 5100 2    50   BiDi ~ 0
+FPGA_IO3
+Text Label 2550 4200 2    50   ~ 0
+VIN_CLK
+Text GLabel 10200 10400 2    50   BiDi ~ 0
+IO26
+Text GLabel 10200 10500 2    50   BiDi ~ 0
+IO27
+Text GLabel 10200 10300 2    50   BiDi ~ 0
+IO25
+NoConn ~ 4450 6900
+NoConn ~ 4450 7100
+NoConn ~ 4450 7200
+NoConn ~ 2550 4300
 $Comp
-L Regulator_Linear:LD1117S25TR_SOT223 U?
-U 1 1 5F9B0BC9
-P 9350 1200
-F 0 "U?" H 9350 1442 50  0000 C CNN
-F 1 "LD1117S25TR_SOT223" H 9350 1351 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 9350 1400 50  0001 C CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf" H 9450 950 50  0001 C CNN
-	1    9350 1200
+L Regulator_Linear:SPX3819M5-L-2-5 U9
+U 1 1 5FACFC03
+P 9350 1250
+F 0 "U9" H 9350 1592 50  0000 C CNN
+F 1 "SPX3819M5-L-2-5" H 9350 1501 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9350 1575 50  0001 C CNN
+F 3 "https://www.exar.com/content/document.ashx?id=22106&languageid=1033&type=Datasheet&partnumber=SPX3819&filename=SPX3819.pdf&part=SPX3819" H 9350 1250 50  0001 C CNN
+	1    9350 1250
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

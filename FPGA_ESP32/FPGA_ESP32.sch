@@ -27,84 +27,8 @@ F 3 "" H 5300 6150 50  0001 C CNN
 	1    5300 6150
 	0    -1   1    0   
 $EndComp
-Text GLabel 1300 6550 0    50   BiDi ~ 0
-IO0
-Text GLabel 1300 6650 0    50   BiDi ~ 0
-IO1
-Text GLabel 1300 6750 0    50   BiDi ~ 0
-IO2
-Text GLabel 1300 6850 0    50   BiDi ~ 0
-IO3
-Text GLabel 1300 6950 0    50   BiDi ~ 0
-IO4
-Text GLabel 1300 7050 0    50   BiDi ~ 0
-IO5
-Text GLabel 1300 7150 0    50   BiDi ~ 0
-IO6
-Text GLabel 1300 7250 0    50   BiDi ~ 0
-IO7
-Text GLabel 1300 7350 0    50   BiDi ~ 0
-IO8
-Text GLabel 2600 6250 0    50   BiDi ~ 0
-IO9
-Text GLabel 2600 6350 0    50   BiDi ~ 0
-IO10
-Text GLabel 2600 6450 0    50   BiDi ~ 0
-IO11
-Text GLabel 2600 6550 0    50   BiDi ~ 0
-IO12
-Text GLabel 2600 6650 0    50   BiDi ~ 0
-IO13
-Text GLabel 2600 6750 0    50   BiDi ~ 0
-IO14
-Text GLabel 2600 6850 0    50   BiDi ~ 0
-IO15
-Text GLabel 2600 6950 0    50   BiDi ~ 0
-IO16
-Text GLabel 2600 7050 0    50   BiDi ~ 0
-IO17
-Text GLabel 2600 7250 0    50   BiDi ~ 0
-IO19
-Text GLabel 2600 7350 0    50   BiDi ~ 0
-IO20
-Text GLabel 3900 6250 0    50   BiDi ~ 0
-IO21
 Text GLabel 2600 6050 0    50   Input ~ 0
 VIO
-Text GLabel 3900 6350 0    50   BiDi ~ 0
-IO22
-Text GLabel 3900 6450 0    50   BiDi ~ 0
-IO23
-Text GLabel 3900 6550 0    50   BiDi ~ 0
-IO24
-Text GLabel 3900 6650 0    50   BiDi ~ 0
-IO25
-Text GLabel 3900 6750 0    50   BiDi ~ 0
-IO26
-Text GLabel 3900 6950 0    50   BiDi ~ 0
-IO28
-Text GLabel 3900 7050 0    50   BiDi ~ 0
-IO29
-Text GLabel 3900 7150 0    50   BiDi ~ 0
-IO30
-Text GLabel 3900 7250 0    50   BiDi ~ 0
-IO31
-Text GLabel 3900 7350 0    50   BiDi ~ 0
-IO32
-Text GLabel 5300 6650 0    50   BiDi ~ 0
-IO34
-Text GLabel 5300 6750 0    50   BiDi ~ 0
-IO35
-Text GLabel 5300 6850 0    50   BiDi ~ 0
-IO36
-Text GLabel 5300 6950 0    50   BiDi ~ 0
-IO37
-Text GLabel 5300 7050 0    50   BiDi ~ 0
-IO38
-Text GLabel 5300 7150 0    50   BiDi ~ 0
-IO39
-Text GLabel 5300 7250 0    50   BiDi ~ 0
-IO40
 $Comp
 L power:GND #PWR0106
 U 1 1 5EFEC107
@@ -130,59 +54,37 @@ $EndComp
 Wire Wire Line
 	7550 1800 8550 1800
 Wire Wire Line
-	7550 2100 8550 2100
-Wire Wire Line
-	8550 2000 7550 2000
-Wire Wire Line
-	7550 1900 8550 1900
-Wire Wire Line
 	7550 3200 8550 3200
 $Sheet
 S 5700 1250 1850 2650
 U 5BC231CE
 F0 "FPGA" 50
 F1 "io.sch" 50
-F2 "SDIO1_CLK" B R 7550 2300 50 
-F3 "SDIO1_CMD" B R 7550 2400 50 
-F4 "SDIO1_DAT1" B R 7550 2600 50 
-F5 "SDIO1_DAT2" B R 7550 2700 50 
-F6 "SDIO1_DAT3" B R 7550 2800 50 
-F7 "SDIO1_DAT0" B R 7550 2500 50 
-F8 "FLASH_MISO" B R 7550 2100 50 
-F9 "FLASH_MOSI" B R 7550 2000 50 
-F10 "FLASH_SCK" B R 7550 1900 50 
-F11 "PROGRAMN" B R 7550 3200 50 
-F12 "FLASH_HOLD" I R 7550 1800 50 
+F2 "PROGRAMN" B R 7550 3200 50 
+F3 "FPGA_MISO" B R 7550 2100 50 
+F4 "FPGA_MOSI" B R 7550 2000 50 
+F5 "FPGA_SCK" B R 7550 1900 50 
+F6 "FPGA_CS" B R 7550 1800 50 
+F7 "FPGA_HOLDN" B R 7550 3000 50 
+F8 "DONE" B R 7550 3100 50 
+F9 "FPGA_IO2" B R 7550 1700 50 
+F10 "FPGA_IO3" B R 7550 1600 50 
 $EndSheet
 $Sheet
 S 8550 1250 2100 2600
 U 5C7A02C5
 F0 "WIFI, BT, RT" 50
 F1 "esp32.sch" 50
-F2 "SDIO1_CLK" B L 8550 2300 50 
-F3 "SDIO1_CMD" B L 8550 2400 50 
-F4 "SDIO1_DAT1" B L 8550 2600 50 
-F5 "SDIO1_DAT2" B L 8550 2700 50 
-F6 "SDIO1_DAT3" B L 8550 2800 50 
-F7 "SDIO1_DAT0" B L 8550 2500 50 
-F8 "FPGA_PROGRAMN" B L 8550 3200 50 
-F9 "FLASH_MISO" B L 8550 2100 50 
-F10 "FLASH_MOSI" B L 8550 2000 50 
-F11 "FLASH_CLK" B L 8550 1900 50 
-F12 "FLASH_HOLD" B L 8550 1800 50 
+F2 "FPGA_PROGRAMN" B L 8550 3200 50 
+F3 "SPI_MISO" B L 8550 2100 50 
+F4 "SPI_CLK" B L 8550 1900 50 
+F5 "SPI_MOSI" B L 8550 2000 50 
+F6 "FPGA_CS" B L 8550 1800 50 
+F7 "SPI_WP" B L 8550 1700 50 
+F8 "SPI_HD" B L 8550 1600 50 
+F9 "FPGA_DONE" B L 8550 3100 50 
+F10 "FPGA_HOLD" B L 8550 3000 50 
 $EndSheet
-Wire Wire Line
-	8550 2800 7550 2800
-Wire Wire Line
-	7550 2700 8550 2700
-Wire Wire Line
-	8550 2600 7550 2600
-Wire Wire Line
-	7550 2500 8550 2500
-Wire Wire Line
-	8550 2400 7550 2400
-Wire Wire Line
-	7550 2300 8550 2300
 $Comp
 L power:GND #PWR0112
 U 1 1 5F09BE4E
@@ -460,8 +362,6 @@ F 3 "" H 1300 6050 50  0001 C CNN
 	1    1300 6050
 	0    1    1    0   
 $EndComp
-Text GLabel 5300 7350 0    50   BiDi ~ 0
-IO41
 $Comp
 L power:GND #PWR0111
 U 1 1 5F8A4B20
@@ -506,12 +406,114 @@ F 3 "" H 1350 3150 50  0001 C CNN
 	1    1350 3150
 	1    0    0    -1  
 $EndComp
-Text GLabel 5300 6550 0    50   BiDi ~ 0
-IO33
-Text GLabel 3900 6850 0    50   BiDi ~ 0
-IO27
-Text GLabel 2600 7150 0    50   BiDi ~ 0
-IO18
 Text GLabel 5300 6450 0    50   Output ~ 0
 EN
+Wire Wire Line
+	8550 3100 7550 3100
+Wire Wire Line
+	8550 3000 7550 3000
+Text Label 8550 1600 2    50   ~ 0
+SPI_HD
+Text Label 8550 1700 2    50   ~ 0
+SPI_WP
+Text Label 8550 1900 2    50   ~ 0
+SPI_CLK
+Text Label 8550 2000 2    50   ~ 0
+SPI_MOSI
+Text Label 8550 2100 2    50   ~ 0
+SPI_MISO
+Text Label 7550 1900 0    50   ~ 0
+SPI_CLK
+Text Label 7550 2000 0    50   ~ 0
+SPI_MOSI
+Text Label 7550 2100 0    50   ~ 0
+SPI_MISO
+Text Label 7550 1600 0    50   ~ 0
+SPI_HD
+Text Label 7550 1700 0    50   ~ 0
+SPI_WP
+Text Label 5300 6750 2    50   ~ 0
+SPI_CLK
+Text Label 5300 6850 2    50   ~ 0
+SPI_MOSI
+Text Label 5300 6950 2    50   ~ 0
+SPI_MISO
+Text Label 5300 6550 2    50   ~ 0
+SPI_HD
+Text Label 5300 6650 2    50   ~ 0
+SPI_WP
+Text GLabel 1300 6550 0    50   BiDi ~ 0
+IO0
+Text GLabel 1300 6650 0    50   BiDi ~ 0
+IO1
+Text GLabel 1300 6750 0    50   BiDi ~ 0
+IO2
+Text GLabel 1300 6850 0    50   BiDi ~ 0
+IO3
+Text GLabel 1300 6950 0    50   BiDi ~ 0
+IO4
+Text GLabel 1300 7050 0    50   BiDi ~ 0
+IO5
+Text GLabel 1300 7150 0    50   BiDi ~ 0
+IO6
+Text GLabel 1300 7250 0    50   BiDi ~ 0
+IO7
+Text GLabel 1300 7350 0    50   BiDi ~ 0
+IO8
+Text GLabel 2600 6250 0    50   BiDi ~ 0
+IO9
+Text GLabel 2600 6350 0    50   BiDi ~ 0
+IO10
+Text GLabel 2600 6450 0    50   BiDi ~ 0
+IO11
+Text GLabel 2600 6550 0    50   BiDi ~ 0
+IO12
+Text GLabel 2600 6650 0    50   BiDi ~ 0
+IO13
+Text GLabel 2600 6850 0    50   BiDi ~ 0
+IO15
+Text GLabel 2600 6950 0    50   BiDi ~ 0
+IO16
+Text GLabel 2600 7050 0    50   BiDi ~ 0
+IO17
+Text GLabel 2600 7150 0    50   BiDi ~ 0
+IO18
+Text GLabel 2600 7250 0    50   BiDi ~ 0
+IO19
+Text GLabel 2600 7350 0    50   BiDi ~ 0
+IO20
+Text GLabel 3900 6250 0    50   BiDi ~ 0
+IO21
+Text GLabel 3900 6750 0    50   BiDi ~ 0
+IO26
+Text GLabel 3900 6850 0    50   BiDi ~ 0
+IO27
+Text GLabel 3900 6450 0    50   BiDi ~ 0
+IO23
+Text GLabel 3900 6350 0    50   BiDi ~ 0
+IO22
+Text GLabel 3900 6550 0    50   BiDi ~ 0
+IO24
+Text GLabel 2600 6750 0    50   BiDi ~ 0
+IO14
+Text GLabel 3900 6650 0    50   BiDi ~ 0
+IO25
+Text GLabel 3900 7250 0    50   BiDi ~ 0
+IO31
+Text GLabel 3900 7350 0    50   BiDi ~ 0
+IO32
+Text GLabel 5300 7050 0    50   BiDi ~ 0
+IO33
+Text GLabel 5300 7150 0    50   BiDi ~ 0
+IO34
+Text GLabel 5300 7250 0    50   BiDi ~ 0
+IO35
+Text GLabel 3900 6950 0    50   BiDi ~ 0
+IO28
+Text GLabel 3900 7050 0    50   BiDi ~ 0
+IO29
+Text GLabel 3900 7150 0    50   BiDi ~ 0
+IO30
+Text GLabel 5300 7350 0    50   BiDi ~ 0
+IO36
 $EndSCHEMATC
