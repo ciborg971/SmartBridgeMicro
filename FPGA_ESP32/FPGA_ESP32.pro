@@ -1,4 +1,4 @@
-update=25/11/2019 09:54:16
+update=2020 July 12, Sunday 16:54:17
 version=1
 last_client=kicad
 [general]
@@ -16,19 +16,19 @@ LibDir=
 version=1
 PageLayoutDescrFile=
 LastNetListRead=OB_ESP32.net
-CopperLayerCount=2
+CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
-MinTrackWidth=0.15
+MinTrackWidth=0.12
 MinViaDiameter=0.4
 MinViaDrill=0.3
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
-TrackWidth1=0.15
+TrackWidth1=0.12
 ViaDiameter1=0.8
 ViaDrill1=0.4
 dPairWidth1=0.2
@@ -64,12 +64,12 @@ Type=0
 Enabled=1
 [pcbnew/Layer.In1.Cu]
 Name=In1.Cu
-Type=0
-Enabled=0
+Type=2
+Enabled=1
 [pcbnew/Layer.In2.Cu]
 Name=In2.Cu
-Type=0
-Enabled=0
+Type=1
+Enabled=1
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu
 Type=0
@@ -227,8 +227,8 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.08
-TrackWidth=0.15
+Clearance=0.06
+TrackWidth=0.12
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3
