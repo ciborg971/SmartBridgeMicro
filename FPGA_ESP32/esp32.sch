@@ -24,17 +24,6 @@ F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-pico-d4_d
 	1    3350 3650
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:TestPoint ANT1
-U 1 1 5F0A52BA
-P 9350 2300
-F 0 "ANT1" V 9350 2850 50  0000 L CNN
-F 1 "Antenna" V 9350 2500 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9550 2300 50  0001 C CNN
-F 3 "~" H 9550 2300 50  0001 C CNN
-	1    9350 2300
-	0    1    1    0   
-$EndComp
 Text HLabel 4150 3550 2    50   BiDi ~ 0
 FPGA_PROGRAMN
 $Comp
@@ -90,17 +79,6 @@ F 5 "IPC 7351B" H 8750 4900 50  0001 L BNN "Field5"
 F 6 "0.5 mm" H 8750 4900 50  0001 L BNN "Field6"
 	1    8750 4900
 	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint ANT2
-U 1 1 5EF38F43
-P 9350 2400
-F 0 "ANT2" V 9350 2950 50  0000 L CNN
-F 1 "Antenna" V 9350 2600 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 9550 2400 50  0001 C CNN
-F 3 "~" H 9550 2400 50  0001 C CNN
-	1    9350 2400
-	0    1    1    0   
 $EndComp
 $Comp
 L ob:RFX2411 U7
@@ -408,7 +386,7 @@ L Device:C C13
 U 1 1 5F1236D9
 P 5150 2400
 F 0 "C13" H 5265 2446 50  0000 L CNN
-F 1 "C" H 5265 2355 50  0000 L CNN
+F 1 "2.4pF" H 5265 2355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 5188 2250 50  0001 C CNN
 F 3 "~" H 5150 2400 50  0001 C CNN
 	1    5150 2400
@@ -419,7 +397,7 @@ L Device:C C12
 U 1 1 5F124286
 P 4900 2250
 F 0 "C12" V 5050 2300 50  0000 L CNN
-F 1 "C" V 5050 2150 50  0000 L CNN
+F 1 "3.9pF" V 5050 2050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4938 2100 50  0001 C CNN
 F 3 "~" H 4900 2250 50  0001 C CNN
 	1    4900 2250
@@ -430,7 +408,7 @@ L Device:L L2
 U 1 1 5F126188
 P 4650 2400
 F 0 "L2" H 4703 2446 50  0000 L CNN
-F 1 "L" H 4703 2355 50  0000 L CNN
+F 1 "2.7N" H 4703 2355 50  0000 L CNN
 F 2 "Inductor_SMD:L_0402_1005Metric" H 4650 2400 50  0001 C CNN
 F 3 "~" H 4650 2400 50  0001 C CNN
 	1    4650 2400
@@ -459,8 +437,6 @@ Wire Wire Line
 	4900 2550 5150 2550
 Wire Wire Line
 	5050 2250 5150 2250
-Text GLabel 1850 1950 1    50   Input ~ 0
-VIO
 $Comp
 L Device:R R8
 U 1 1 5F9D48B3
@@ -483,10 +459,6 @@ F 3 "~" H 1850 2400 50  0001 C CNN
 	1    1850 2400
 	1    0    0    -1  
 $EndComp
-Text GLabel 1750 2250 0    50   Input ~ 0
-EN
-Wire Wire Line
-	1750 2250 1850 2250
 Connection ~ 1850 2250
 $Comp
 L power:GND #PWR0148
@@ -544,4 +516,78 @@ IO36
 NoConn ~ 2550 2450
 NoConn ~ 2550 2550
 NoConn ~ 2550 2650
+$Comp
+L dk_Coaxial-Connectors-RF:U_FL-R-SMT_10_ J2
+U 1 1 5F0ADC74
+P 10250 2250
+F 0 "J2" H 10162 2126 50  0000 R CNN
+F 1 "U_FL-R-SMT_10_" H 10162 2217 50  0000 R CNN
+F 2 "digikey-footprints:Coax_Conn_U.FL" H 10450 2450 60  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Hirose%20PDFs/UFL%20Series.pdf" H 10450 2550 60  0001 L CNN
+F 4 "H9161CT-ND" H 10450 2650 60  0001 L CNN "Digi-Key_PN"
+F 5 "U.FL-R-SMT(10)" H 10450 2750 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 10450 2850 60  0001 L CNN "Category"
+F 7 "Coaxial Connectors (RF)" H 10450 2950 60  0001 L CNN "Family"
+F 8 "https://media.digikey.com/pdf/Data%20Sheets/Hirose%20PDFs/UFL%20Series.pdf" H 10450 3050 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/hirose-electric-co-ltd/U.FL-R-SMT(10)/H9161CT-ND/2135256" H 10450 3150 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN U.FL RCPT STR 50 OHM SMD" H 10450 3250 60  0001 L CNN "Description"
+F 11 "Hirose Electric Co Ltd" H 10450 3350 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 10450 3450 60  0001 L CNN "Status"
+	1    10250 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L dk_Coaxial-Connectors-RF:U_FL-R-SMT_10_ J6
+U 1 1 5F0B067F
+P 10250 2400
+F 0 "J6" H 10162 2276 50  0000 R CNN
+F 1 "U_FL-R-SMT_10_" H 10162 2367 50  0000 R CNN
+F 2 "digikey-footprints:Coax_Conn_U.FL" H 10450 2600 60  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Hirose%20PDFs/UFL%20Series.pdf" H 10450 2700 60  0001 L CNN
+F 4 "H9161CT-ND" H 10450 2800 60  0001 L CNN "Digi-Key_PN"
+F 5 "U.FL-R-SMT(10)" H 10450 2900 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 10450 3000 60  0001 L CNN "Category"
+F 7 "Coaxial Connectors (RF)" H 10450 3100 60  0001 L CNN "Family"
+F 8 "https://media.digikey.com/pdf/Data%20Sheets/Hirose%20PDFs/UFL%20Series.pdf" H 10450 3200 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/hirose-electric-co-ltd/U.FL-R-SMT(10)/H9161CT-ND/2135256" H 10450 3300 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN U.FL RCPT STR 50 OHM SMD" H 10450 3400 60  0001 L CNN "Description"
+F 11 "Hirose Electric Co Ltd" H 10450 3500 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 10450 3600 60  0001 L CNN "Status"
+	1    10250 2400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 2300 10050 2300
+Wire Wire Line
+	10050 2300 10050 2250
+Wire Wire Line
+	9350 2400 10050 2400
+$Comp
+L power:GND #PWR0149
+U 1 1 5F0B811C
+P 10250 2050
+F 0 "#PWR0149" H 10250 1800 50  0001 C CNN
+F 1 "GND" H 10255 1877 50  0000 C CNN
+F 2 "" H 10250 2050 50  0001 C CNN
+F 3 "" H 10250 2050 50  0001 C CNN
+	1    10250 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0150
+U 1 1 5F0B8887
+P 10250 2600
+F 0 "#PWR0150" H 10250 2350 50  0001 C CNN
+F 1 "GND" H 10255 2427 50  0000 C CNN
+F 2 "" H 10250 2600 50  0001 C CNN
+F 3 "" H 10250 2600 50  0001 C CNN
+	1    10250 2600
+	1    0    0    -1  
+$EndComp
+Text GLabel 1750 2250 0    50   Input ~ 0
+EN
+Text GLabel 1850 1950 1    50   Input ~ 0
+VIO
+Wire Wire Line
+	1750 2250 1850 2250
 $EndSCHEMATC
